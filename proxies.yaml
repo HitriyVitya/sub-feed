@@ -67,17 +67,7 @@ proxies:
   uuid: 72239cbc-5a25-411c-b4f5-b9167a10f5e1
   tls: true
   servername: 77.110.127.105
-- name: 🥇 🇺🇸 15ms | VLESS (#6)
-  type: vless
-  server: 77.110.125.83
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: ea8eaf21-76f8-4ef2-8397-aa1d693487a3
-  tls: true
-  servername: 77.110.125.83
-- name: 🥇 🌐 17ms | TROJAN (#7)
+- name: 🥇 🌐 17ms | TROJAN (#6)
   type: trojan
   server: www.multiplydose.com
   port: 443
@@ -91,9 +81,19 @@ proxies:
     path: /
     headers:
       Host: www.multiplydose.com
-- name: 🥇 🇺🇸💻 32ms | TROJAN (#8)
+- name: 🥇 🇺🇸 18ms | VLESS (#7)
+  type: vless
+  server: 77.110.125.83
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: ea8eaf21-76f8-4ef2-8397-aa1d693487a3
+  tls: true
+  servername: 77.110.125.83
+- name: 🥇 🇺🇸💻 31ms | TROJAN (#8)
   type: trojan
-  server: 64.94.95.114
+  server: 64.94.95.118
   port: 57142
   udp: true
   skip-cert-verify: true
@@ -103,7 +103,7 @@ proxies:
   servername: static.rutube.ru
 - name: 🥇 🇺🇸💻 32ms | TROJAN (#9)
   type: trojan
-  server: 64.94.95.115
+  server: 64.94.95.114
   port: 57142
   udp: true
   skip-cert-verify: true
@@ -113,7 +113,7 @@ proxies:
   servername: static.rutube.ru
 - name: 🥇 🇺🇸💻 32ms | TROJAN (#10)
   type: trojan
-  server: 64.94.95.118
+  server: 64.94.95.115
   port: 57142
   udp: true
   skip-cert-verify: true
@@ -141,7 +141,7 @@ proxies:
   password: kkzh2prsyr2ik47as615
   tls: true
   servername: static.rutube.ru
-- name: 🥇 🇺🇸 36ms | VLESS (#13)
+- name: 🥇 🇺🇸 44ms | VLESS (#13)
   type: vless
   server: 81.85.77.249
   port: 443
@@ -151,7 +151,7 @@ proxies:
   uuid: 7e97efdf-8f46-44c4-b72b-787baab0bcc4
   tls: true
   servername: 81.85.77.249
-- name: 🥇 🇺🇸 36ms | VLESS (#14)
+- name: 🥇 🇺🇸 45ms | VLESS (#14)
   type: vless
   server: 81.85.77.249
   port: 443
@@ -201,16 +201,16 @@ proxies:
   uuid: f8ffc2f3-9d01-41f8-9b8a-833ea3176318
   tls: true
   servername: 79.133.180.45
-- name: 🥇 🇳🇱 89ms | VLESS (#19)
-  type: vless
-  server: 79.133.180.45
-  port: 443
+- name: 🥇 🇩🇪💻 89ms | TROJAN (#19)
+  type: trojan
+  server: 3.69.220.38
+  port: 22222
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: f8ffc2f3-9d01-41f8-9b8a-833ea3176318
+  password: telegram-id-privatevpns
   tls: true
-  servername: 79.133.180.45
+  servername: trojan.burgerip.co.uk
 - name: 🥇 🇩🇪💻 89ms | TROJAN (#20)
   type: trojan
   server: 3.69.220.38
@@ -221,17 +221,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: trojan.burgerip.co.uk
-- name: 🥇 🇩🇪💻 89ms | TROJAN (#21)
-  type: trojan
-  server: 3.69.220.38
-  port: 22222
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  password: telegram-id-privatevpns
-  tls: true
-  servername: trojan.burgerip.co.uk
-- name: 🥇 🇳🇱 91ms | VLESS (#22)
+- name: 🥇 🇳🇱 91ms | VLESS (#21)
   type: vless
   server: 72.56.71.152
   port: 8443
@@ -239,7 +229,7 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
-- name: 🥇 🌐 92ms | VLESS (#23)
+- name: 🥇 🌐 92ms | VLESS (#22)
   type: vless
   server: s2.plan-vpn.ru
   port: 443
@@ -249,7 +239,7 @@ proxies:
   uuid: 7d22cf6b-2d14-455c-bd9e-e0b24f286e8f
   tls: true
   servername: s2.plan-vpn.ru
-- name: 🥇 🇳🇱 92ms | VLESS (#24)
+- name: 🥇 🇳🇱 92ms | VLESS (#23)
   type: vless
   server: 72.56.71.152
   port: 8443
@@ -257,7 +247,17 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
-- name: 🥇 🇳🇱 92ms | VLESS (#25)
+- name: 🥇 🇳🇱 92ms | VLESS (#24)
+  type: vless
+  server: 79.133.180.45
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: f8ffc2f3-9d01-41f8-9b8a-833ea3176318
+  tls: true
+  servername: 79.133.180.45
+- name: 🥇 🇳🇱 93ms | VLESS (#25)
   type: vless
   server: 79.133.180.45
   port: 443
@@ -269,13 +269,23 @@ proxies:
   servername: 79.133.180.45
 - name: 🥇 🇩🇪 93ms | VLESS (#26)
   type: vless
+  server: 45.145.40.4
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: ed2fe66e-e2ce-4bc9-9284-a2b2b7c3cbea
+  tls: true
+  servername: 45.145.40.4
+- name: 🥇 🇩🇪 93ms | VLESS (#27)
+  type: vless
   server: 192.76.160.216
   port: 2280
   udp: true
   skip-cert-verify: true
   network: tcp
   uuid: 3fa2f5cd-0cbc-4e4f-bce1-a59ae090eef4
-- name: 🥇 🇳🇱 93ms | VLESS (#27)
+- name: 🥇 🇳🇱 93ms | VLESS (#28)
   type: vless
   server: 79.133.180.45
   port: 443
@@ -285,47 +295,7 @@ proxies:
   uuid: f8ffc2f3-9d01-41f8-9b8a-833ea3176318
   tls: true
   servername: 79.133.180.45
-- name: 🥇 🇺🇿 94ms | VLESS (#28)
-  type: vless
-  server: 45.134.217.212
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
-  tls: true
-  servername: 45.134.217.212
-- name: 🥇 🇩🇪 94ms | VLESS (#29)
-  type: vless
-  server: 45.157.232.144
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 18f72be7-0651-4037-928b-8a309d685796
-  tls: true
-  servername: 45.157.232.144
-- name: 🥇 🇳🇱 95ms | VLESS (#30)
-  type: vless
-  server: 144.31.100.120
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 4393f658-e04e-4e66-aa9d-df79bcc120cb
-  tls: true
-  servername: 144.31.100.120
-- name: 🥇 🇬🇧 96ms | VLESS (#31)
-  type: vless
-  server: 84.54.48.238
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: a25806c0-0e09-46a2-bd27-a94e92285ce9
-  tls: true
-  servername: 84.54.48.238
-- name: 🥇 🇺🇿 98ms | VLESS (#32)
+- name: 🥇 🇺🇿 94ms | VLESS (#29)
   type: vless
   server: 45.134.218.222
   port: 443
@@ -335,17 +305,37 @@ proxies:
   uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
   tls: true
   servername: 45.134.218.222
-- name: 🥇 🇩🇪 98ms | VLESS (#33)
+- name: 🥇 🇩🇪 94ms | VLESS (#30)
   type: vless
-  server: 45.145.40.4
+  server: 45.157.232.144
   port: 443
   udp: true
   skip-cert-verify: true
   network: tcp
-  uuid: ed2fe66e-e2ce-4bc9-9284-a2b2b7c3cbea
+  uuid: 18f72be7-0651-4037-928b-8a309d685796
   tls: true
-  servername: 45.145.40.4
-- name: 🥇 🇫🇷 98ms | TROJAN (#34)
+  servername: 45.157.232.144
+- name: 🥇 🇳🇱 95ms | VLESS (#31)
+  type: vless
+  server: 144.31.100.120
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 4393f658-e04e-4e66-aa9d-df79bcc120cb
+  tls: true
+  servername: 144.31.100.120
+- name: 🥇 🇬🇧 96ms | VLESS (#32)
+  type: vless
+  server: 84.54.48.238
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: a25806c0-0e09-46a2-bd27-a94e92285ce9
+  tls: true
+  servername: 84.54.48.238
+- name: 🥇 🇫🇷 98ms | TROJAN (#33)
   type: trojan
   server: 13.39.52.135
   port: 22222
@@ -355,17 +345,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 13.39.52.135
-- name: 🥇 🇩🇪 98ms | TROJAN (#35)
-  type: trojan
-  server: 35.156.151.126
-  port: 22222
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  password: telegram-id-privatevpns
-  tls: true
-  servername: 35.156.151.126
-- name: 🥇 🇩🇪 98ms | TROJAN (#36)
+- name: 🥇 🇩🇪 98ms | TROJAN (#34)
   type: trojan
   server: 3.69.220.38
   port: 22222
@@ -373,7 +353,7 @@ proxies:
   skip-cert-verify: true
   network: tcp
   password: telegram-id-privatevpns
-- name: 🥇 🇮🇹 99ms | VLESS (#37)
+- name: 🥇 🇮🇹 99ms | VLESS (#35)
   type: vless
   server: 217.12.219.53
   port: 443
@@ -383,7 +363,7 @@ proxies:
   uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   tls: true
   servername: 217.12.219.53
-- name: 🥇 🇺🇸💻 99ms | TROJAN (#38)
+- name: 🥇 🇺🇸💻 99ms | TROJAN (#36)
   type: trojan
   server: 64.94.95.118
   port: 57142
@@ -393,7 +373,7 @@ proxies:
   password: kkzh2prsyr2ik47as615
   tls: true
   servername: 64.94.95.118
-- name: 🥇 🇮🇹 101ms | VLESS (#39)
+- name: 🥇 🇮🇹 101ms | VLESS (#37)
   type: vless
   server: 217.12.219.51
   port: 443
@@ -403,7 +383,7 @@ proxies:
   uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   tls: true
   servername: 217.12.219.51
-- name: 🥇 🇫🇷 103ms | TROJAN (#40)
+- name: 🥇 🇫🇷 103ms | TROJAN (#38)
   type: trojan
   server: 35.181.219.11
   port: 22222
@@ -413,7 +393,21 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 35.181.219.11
-- name: 🥇 🇳🇱 106ms | VLESS (#41)
+- name: 🥇 🇫🇷💻 104ms | VLESS (#39)
+  type: vless
+  server: 157.173.127.227
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 7bda027c-cbc8-488f-864f-cfb415cd8d77
+  tls: true
+  servername: analytics.google.com
+  reality-opts:
+    public-key: q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg
+    short-id: 40e3350da285
+  client-fingerprint: chrome
+- name: 🥇 🇳🇱 106ms | VLESS (#40)
   type: vless
   server: 5.129.232.153
   port: 443
@@ -423,7 +417,7 @@ proxies:
   uuid: df339397-a631-4e68-a23f-05fa5d614243
   tls: true
   servername: 5.129.232.153
-- name: 🥇 🇳🇱 110ms | VLESS (#42)
+- name: 🥇 🇳🇱 110ms | VLESS (#41)
   type: vless
   server: 72.56.71.152
   port: 8443
@@ -431,6 +425,20 @@ proxies:
   skip-cert-verify: true
   network: tcp
   uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
+- name: 🥇 🇫🇷💻 113ms | VLESS (#42)
+  type: vless
+  server: 157.173.127.227
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 7bda027c-cbc8-488f-864f-cfb415cd8d77
+  tls: true
+  servername: analytics.google.com
+  reality-opts:
+    public-key: q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg
+    short-id: 40e3350da285
+  client-fingerprint: chrome
 - name: 🥇 🌐 114ms | VLESS (#43)
   type: vless
   server: ae.cdn.stun.su
@@ -451,145 +459,7 @@ proxies:
   password: qmBSKnAl6LYi9=z23Rs.Z
   tls: true
   servername: celestialcorset.crystalhamster.click
-- name: 🥇 🇫🇷💻 120ms | VLESS (#45)
-  type: vless
-  server: 157.173.127.227
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 7bda027c-cbc8-488f-864f-cfb415cd8d77
-  tls: true
-  servername: analytics.google.com
-  reality-opts:
-    public-key: q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg
-    short-id: 40e3350da285
-  client-fingerprint: chrome
-- name: 🥇 🇨🇿 121ms | VLESS (#46)
-  type: vless
-  server: 92.61.71.29
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 980ffb2e-23fb-420d-9ef8-b0b6930bfaf2
-  tls: true
-  servername: 92.61.71.29
-- name: 🥇 🇷🇺 125ms | VLESS (#47)
-  type: vless
-  server: 193.233.231.221
-  port: 9443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
-- name: 🥇 🇫🇮 126ms | VLESS (#48)
-  type: vless
-  server: 31.13.208.89
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
-  tls: true
-  servername: 31.13.208.89
-- name: 🥇 🇫🇮 126ms | VLESS (#49)
-  type: vless
-  server: 31.13.208.89
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
-  tls: true
-  servername: 31.13.208.89
-- name: 🥇 🇷🇺 126ms | VLESS (#50)
-  type: vless
-  server: 193.233.231.221
-  port: 9443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
-- name: 🥇 🇷🇺 127ms | VLESS (#51)
-  type: vless
-  server: 193.233.231.221
-  port: 9443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
-- name: 🥇 🇫🇮 127ms | VLESS (#52)
-  type: vless
-  server: 45.144.52.233
-  port: 8104
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: db27262a-4151-4c36-8e5f-2cf7fd387a0f
-- name: 🥇 🌐 127ms | VLESS (#53)
-  type: vless
-  server: s2.plansv.tech
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: e5ef4914-5a87-46c1-a62b-0b8dfb3dbcb8
-  tls: true
-  servername: s2.plansv.tech
-- name: 🥇 🌐💻 131ms | TROJAN (#54)
-  type: trojan
-  server: free-de-3.undef.network
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  password: yoi9VG3vimwIPZf4hoYwWJ8SW
-  tls: true
-  servername: free-de-3.undef.network
-  ws-opts:
-    path: /f2fc2a1f
-    headers:
-      Host: free-de-3.undef.network
-- name: 🥇 🇫🇷💻 138ms | VLESS (#55)
-  type: vless
-  server: 157.173.127.227
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 7bda027c-cbc8-488f-864f-cfb415cd8d77
-  tls: true
-  servername: analytics.google.com
-  reality-opts:
-    public-key: q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg
-    short-id: 40e3350da285
-  client-fingerprint: chrome
-- name: 🥇 🇫🇷💻 139ms | VLESS (#56)
-  type: vless
-  server: 157.173.127.227
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 7bda027c-cbc8-488f-864f-cfb415cd8d77
-  tls: true
-  servername: analytics.google.com
-  reality-opts:
-    public-key: q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg
-    short-id: 40e3350da285
-  client-fingerprint: chrome
-- name: 🥇 🇫🇮 140ms | VLESS (#57)
-  type: vless
-  server: 185.92.183.112
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: grpc
-  uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
-  tls: true
-  servername: 185.92.183.112
-- name: 🥇 🌐💻 146ms | VLESS (#58)
+- name: 🥇 🌐💻 120ms | VLESS (#45)
   type: vless
   server: unique.bitiboot.com
   port: 443
@@ -603,7 +473,147 @@ proxies:
     public-key: q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg
     short-id: 40e3350da285
   client-fingerprint: chrome
-- name: 🥇 🌐 152ms | VLESS (#59)
+- name: 🥇 🇫🇷💻 120ms | VLESS (#46)
+  type: vless
+  server: 157.173.127.227
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 7bda027c-cbc8-488f-864f-cfb415cd8d77
+  tls: true
+  servername: analytics.google.com
+  reality-opts:
+    public-key: q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg
+    short-id: 40e3350da285
+  client-fingerprint: chrome
+- name: 🥇 🇨🇿 121ms | VLESS (#47)
+  type: vless
+  server: 92.61.71.29
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 980ffb2e-23fb-420d-9ef8-b0b6930bfaf2
+  tls: true
+  servername: 92.61.71.29
+- name: 🥇 🇩🇪 122ms | TROJAN (#48)
+  type: trojan
+  server: 35.156.151.126
+  port: 22222
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  password: telegram-id-privatevpns
+  tls: true
+  servername: 35.156.151.126
+- name: 🥇 🇷🇺 125ms | VLESS (#49)
+  type: vless
+  server: 193.233.231.221
+  port: 9443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
+- name: 🥇 🇫🇮 126ms | VLESS (#50)
+  type: vless
+  server: 31.13.208.89
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
+  tls: true
+  servername: 31.13.208.89
+- name: 🥇 🇫🇮 126ms | VLESS (#51)
+  type: vless
+  server: 31.13.208.89
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
+  tls: true
+  servername: 31.13.208.89
+- name: 🥇 🇷🇺 126ms | VLESS (#52)
+  type: vless
+  server: 193.233.231.221
+  port: 9443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
+- name: 🥇 🇫🇮 127ms | VLESS (#53)
+  type: vless
+  server: 45.144.52.233
+  port: 8104
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: db27262a-4151-4c36-8e5f-2cf7fd387a0f
+- name: 🥇 🌐 127ms | VLESS (#54)
+  type: vless
+  server: s2.plansv.tech
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: e5ef4914-5a87-46c1-a62b-0b8dfb3dbcb8
+  tls: true
+  servername: s2.plansv.tech
+- name: 🥇 🇷🇺 129ms | VLESS (#55)
+  type: vless
+  server: 193.233.231.221
+  port: 9443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
+- name: 🥇 🇷🇺 130ms | VLESS (#56)
+  type: vless
+  server: 46.29.166.193
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 9fdd70da-b710-48b7-945a-642fe8937861
+  tls: true
+  servername: 46.29.166.193
+- name: 🥇 🌐💻 131ms | TROJAN (#57)
+  type: trojan
+  server: free-de-3.undef.network
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  password: yoi9VG3vimwIPZf4hoYwWJ8SW
+  tls: true
+  servername: free-de-3.undef.network
+  ws-opts:
+    path: /f2fc2a1f
+    headers:
+      Host: free-de-3.undef.network
+- name: 🥇 🇺🇿 134ms | VLESS (#58)
+  type: vless
+  server: 45.134.217.212
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
+  tls: true
+  servername: 45.134.217.212
+- name: 🥇 🇫🇮 140ms | VLESS (#59)
+  type: vless
+  server: 185.92.183.112
+  port: 443
+  udp: true
+  skip-cert-verify: true
+  network: grpc
+  uuid: 7a7aa0d2-5311-45fc-80b0-9f46f3546793
+  tls: true
+  servername: 185.92.183.112
+- name: 🥇 🌐 152ms | VLESS (#60)
   type: vless
   server: pl-modx.webedg.net
   port: 443
@@ -613,7 +623,7 @@ proxies:
   uuid: 3bf002f8-b951-4dd5-b372-8d46ccd5f24b
   tls: true
   servername: pl-modx.webedg.net
-- name: 🥇 🇩🇪 153ms | VLESS (#60)
+- name: 🥇 🇩🇪 153ms | VLESS (#61)
   type: vless
   server: 94.130.132.223
   port: 443
@@ -623,7 +633,7 @@ proxies:
   uuid: 0ecc93f5-f30d-47a2-a763-3efeb2a00cc8
   tls: true
   servername: 94.130.132.223
-- name: 🥇 🇳🇱 153ms | VLESS (#61)
+- name: 🥇 🇳🇱 153ms | VLESS (#62)
   type: vless
   server: 72.56.96.33
   port: 443
@@ -633,7 +643,7 @@ proxies:
   uuid: 32561144-434f-4752-a731-f35cd191ba4a
   tls: true
   servername: 72.56.96.33
-- name: 🥇 🇷🇺 156ms | VLESS (#62)
+- name: 🥇 🇷🇺 156ms | VLESS (#63)
   type: vless
   server: 46.29.166.193
   port: 443
@@ -643,7 +653,17 @@ proxies:
   uuid: 9fdd70da-b710-48b7-945a-642fe8937861
   tls: true
   servername: 46.29.166.193
-- name: 🥇 🇷🇺 157ms | VLESS (#63)
+- name: 🥇 🇳🇴💻 157ms | TROJAN (#64)
+  type: trojan
+  server: 80.173.231.254
+  port: 12420
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+  password: wp9IsiY82uQhcmgNC1eoBM
+  tls: true
+  servername: www.semanticstaplegun.click
+- name: 🥇 🇷🇺 157ms | VLESS (#65)
   type: vless
   server: 46.29.166.193
   port: 443
@@ -653,7 +673,7 @@ proxies:
   uuid: 9fdd70da-b710-48b7-945a-642fe8937861
   tls: true
   servername: 46.29.166.193
-- name: 🥇 🇷🇺 158ms | VLESS (#64)
+- name: 🥇 🇷🇺 158ms | VLESS (#66)
   type: vless
   server: 77.110.113.219
   port: 443
@@ -663,7 +683,7 @@ proxies:
   uuid: 9fdd70da-b710-48b7-945a-642fe8937861
   tls: true
   servername: 77.110.113.219
-- name: 🥇 🇳🇴💻 161ms | TROJAN (#65)
+- name: 🥇 🇳🇴💻 159ms | TROJAN (#67)
   type: trojan
   server: 80.173.231.254
   port: 12420
@@ -673,7 +693,7 @@ proxies:
   password: wp9IsiY82uQhcmgNC1eoBM
   tls: true
   servername: www.semanticstaplegun.click
-- name: 🥇 🌐 161ms | VLESS (#66)
+- name: 🥇 🌐 161ms | VLESS (#68)
   type: vless
   server: uk.connectv.net
   port: 443
@@ -683,7 +703,7 @@ proxies:
   uuid: 4191549c-9d71-4d30-b9dd-65ffa41b17e7
   tls: true
   servername: uk.connectv.net
-- name: 🥇 🇳🇴💻 162ms | TROJAN (#67)
+- name: 🥇 🇳🇴💻 162ms | TROJAN (#69)
   type: trojan
   server: 80.173.231.254
   port: 12420
@@ -693,7 +713,7 @@ proxies:
   password: wp9IsiY82uQhcmgNC1eoBM
   tls: true
   servername: www.semanticstaplegun.click
-- name: 🥇 🇳🇴💻 164ms | TROJAN (#68)
+- name: 🥇 🇳🇴💻 164ms | TROJAN (#70)
   type: trojan
   server: 80.173.231.254
   port: 12420
@@ -703,17 +723,7 @@ proxies:
   password: wp9IsiY82uQhcmgNC1eoBM
   tls: true
   servername: www.semanticstaplegun.click
-- name: 🥇 🇳🇴💻 164ms | TROJAN (#69)
-  type: trojan
-  server: 80.173.231.254
-  port: 12420
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  password: wp9IsiY82uQhcmgNC1eoBM
-  tls: true
-  servername: www.semanticstaplegun.click
-- name: 🥇 🇫🇷 166ms | TROJAN (#70)
+- name: 🥇 🇫🇷 166ms | TROJAN (#71)
   type: trojan
   server: 13.39.91.2
   port: 22222
@@ -723,7 +733,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 13.39.91.2
-- name: 🥇 🇯🇵💻 168ms | TROJAN (#71)
+- name: 🥇 🇯🇵💻 168ms | TROJAN (#72)
   type: trojan
   server: 160.16.236.32
   port: 1281
@@ -733,7 +743,7 @@ proxies:
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   tls: true
   servername: www.nintendogames.net
-- name: 🥇 🇫🇮 170ms | VLESS (#72)
+- name: 🥇 🇫🇮 170ms | VLESS (#73)
   type: vless
   server: 107.181.147.22
   port: 443
@@ -743,7 +753,7 @@ proxies:
   uuid: fdc622b6-985c-40a0-8bcb-b6497804769a
   tls: true
   servername: 107.181.147.22
-- name: 🥇 🌐 172ms | VLESS (#73)
+- name: 🥇 🌐 172ms | VLESS (#74)
   type: vless
   server: ie.cdn.stun.su
   port: 443
@@ -753,7 +763,7 @@ proxies:
   uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   tls: true
   servername: ie.cdn.stun.su
-- name: 🥇 🇩🇪 172ms | TROJAN (#74)
+- name: 🥇 🇩🇪 172ms | TROJAN (#75)
   type: trojan
   server: 3.69.220.38
   port: 22222
@@ -763,7 +773,7 @@ proxies:
   password: telegram-id-privatevpns
   tls: true
   servername: 3.69.220.38
-- name: 🥇 🇯🇵💻 173ms | TROJAN (#75)
+- name: 🥇 🇯🇵💻 173ms | TROJAN (#76)
   type: trojan
   server: 153.121.65.107
   port: 1281
@@ -773,7 +783,7 @@ proxies:
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   tls: true
   servername: www.nintendogames.net
-- name: 🥇 🇯🇵💻 173ms | TROJAN (#76)
+- name: 🥇 🇯🇵💻 173ms | TROJAN (#77)
   type: trojan
   server: 153.121.70.134
   port: 400
@@ -783,7 +793,7 @@ proxies:
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   tls: true
   servername: www.nintendogames.net
-- name: 🥇 🇮🇸💻 174ms | TROJAN (#77)
+- name: 🥇 🇮🇸💻 174ms | TROJAN (#78)
   type: trojan
   server: 37.235.49.209
   port: 28099
@@ -793,7 +803,7 @@ proxies:
   password: qmBSKnAl6LYi9=z23Rs.Z
   tls: true
   servername: celestialcorset.crystalhamster.click
-- name: 🥇 🇫🇮 176ms | VLESS (#78)
+- name: 🥇 🇫🇮 176ms | VLESS (#79)
   type: vless
   server: 144.31.90.119
   port: 443
@@ -803,7 +813,7 @@ proxies:
   uuid: 192f7c25-0c3a-4089-a67b-5138c5d5d561
   tls: true
   servername: 144.31.90.119
-- name: 🥇 🇯🇵💻 177ms | TROJAN (#79)
+- name: 🥇 🇯🇵💻 177ms | TROJAN (#80)
   type: trojan
   server: 153.121.65.107
   port: 1281
@@ -813,16 +823,6 @@ proxies:
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   tls: true
   servername: www.nintendogames.net
-- name: 🥇 🇷🇺 179ms | VLESS (#80)
-  type: vless
-  server: 46.29.166.193
-  port: 443
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-  uuid: 9fdd70da-b710-48b7-945a-642fe8937861
-  tls: true
-  servername: 46.29.166.193
 - name: 🥇 🇷🇺 184ms | VLESS (#81)
   type: vless
   server: 84.252.130.60
@@ -1830,12 +1830,12 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
   udp: true
-- name: 🥈 🌐💻 82ms | SS (#188)
+- name: 🥈 🇬🇧 81ms | SS (#188)
   type: ss
-  server: series-a1.samanehha.co
+  server: 149.102.132.184
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
+  cipher: aes-256-gcm
+  password: ldjmwoNqgQqqc43j
   udp: true
 - name: 🥈 🌐💻 82ms | SS (#189)
   type: ss
@@ -1844,7 +1844,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
   udp: true
-- name: 🥈 🇫🇷 82ms | VLESS (#190)
+- name: 🥈 🌐💻 82ms | SS (#190)
+  type: ss
+  server: series-a1.samanehha.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 🥈 🇫🇷 82ms | VLESS (#191)
   type: vless
   server: 13.39.52.135
   port: 22224
@@ -1856,19 +1863,12 @@ proxies:
     path: /
     headers:
       Host: 13.39.52.135
-- name: 🥈 🌐💻 83ms | SS (#191)
+- name: 🥈 🌐💻 83ms | SS (#192)
   type: ss
   server: series-a1.samanehha.co
   port: 443
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
-  udp: true
-- name: 🥈 🇬🇧 83ms | SS (#192)
-  type: ss
-  server: 149.102.132.184
-  port: 443
-  cipher: aes-256-gcm
-  password: ldjmwoNqgQqqc43j
   udp: true
 - name: 🥈 🌐💻 84ms | SS (#193)
   type: ss
@@ -1911,14 +1911,7 @@ proxies:
   uuid: 23734a61-2993-4e4e-bb3f-0dcefe84f86a
   tls: true
   servername: 45.85.119.231
-- name: 🥈 🇳🇱💻 87ms | SS (#198)
-  type: ss
-  server: 213.109.147.242
-  port: 62685
-  cipher: chacha20-ietf-poly1305
-  password: VpKABcOpNNA0l5G2AVOmw8
-  udp: true
-- name: 🥈 🇫🇷 87ms | VLESS (#199)
+- name: 🥈 🇫🇷 87ms | VLESS (#198)
   type: vless
   server: 13.39.91.2
   port: 22224
@@ -1930,26 +1923,33 @@ proxies:
     path: /
     headers:
       Host: 13.39.91.2
-- name: 🥈 🇳🇱💻 88ms | SS (#200)
+- name: 🥈 🇳🇱💻 88ms | SS (#199)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇳🇱💻 89ms | SS (#201)
+- name: 🥈 🇳🇱💻 89ms | SS (#200)
   type: ss
   server: 82.38.31.190
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇳🇱💻 89ms | SS (#202)
+- name: 🥈 🇳🇱💻 89ms | SS (#201)
   type: ss
   server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🌐💻 89ms | SS (#202)
+  type: ss
+  server: series-a1.samanehha.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
   udp: true
 - name: 🥈 🌐💻 89ms | SS (#203)
   type: ss
@@ -1958,42 +1958,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
   udp: true
-- name: 🥈 🌐💻 89ms | SS (#204)
-  type: ss
-  server: series-a1.samanehha.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- name: 🥈 🇳🇱💻 89ms | SS (#205)
+- name: 🥈 🇳🇱💻 89ms | SS (#204)
   type: ss
   server: 82.38.31.69
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🇺🇸💻 89ms | SS (#206)
+- name: 🥈 🇺🇸💻 89ms | SS (#205)
   type: ss
   server: 62.146.172.130
   port: 80
   cipher: aes-256-gcm
   password: LYXiIUJ0FutnTzBG
   udp: true
-- name: 🥈 🇩🇪 89ms | SS (#207)
-  type: ss
-  server: 62.133.60.60
-  port: 7048
-  cipher: chacha20-ietf-poly1305
-  password: fQVxdQ1VxDuyD5Ua6D7oDA
-  udp: true
-- name: 🥈 🇩🇪 89ms | SS (#208)
-  type: ss
-  server: 144.31.85.16
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: KC2bhnHNoQgfqcWznSmU0xEkthvyXks1
-  udp: true
-- name: 🥈 🇩🇪 89ms | VLESS (#209)
+- name: 🥈 🇩🇪 89ms | VLESS (#206)
   type: vless
   server: 35.156.151.126
   port: 22224
@@ -2005,145 +1984,166 @@ proxies:
     path: /
     headers:
       Host: 35.156.151.126
-- name: 🥈 🇫🇷 89ms | SS (#210)
+- name: 🥈 🇫🇷 89ms | SS (#207)
   type: ss
   server: 195.154.202.112
   port: 18292
   cipher: aes-128-gcm
   password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
   udp: true
-- name: 🥈 🌐💻 90ms | SS (#211)
+- name: 🥈 🌐💻 90ms | SS (#208)
   type: ss
   server: series-a2.samanehha.co
   port: 443
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
   udp: true
-- name: 🥈 🇳🇱💻 90ms | SS (#212)
+- name: 🥈 🇳🇱💻 90ms | SS (#209)
   type: ss
   server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇳🇱💻 90ms | SS (#213)
+- name: 🥈 🇳🇱💻 90ms | SS (#210)
   type: ss
   server: 82.38.31.199
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇳🇱💻 90ms | SS (#214)
+- name: 🥈 🇳🇱💻 90ms | SS (#211)
   type: ss
   server: 82.38.31.214
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇳🇱💻 90ms | SS (#215)
+- name: 🥈 🇳🇱💻 91ms | SS (#212)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥈 🇮🇹 91ms | SS (#216)
-  type: ss
-  server: 57.131.38.151
-  port: 8443
-  cipher: aes-256-gcm
-  password: +zFL0Y7sYQ6BRrYIJ7dXG8sUqbv2HzbRt1ZDcsvUZFs=
-  udp: true
-- name: 🥈 🇳🇱💻 92ms | SS (#217)
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇳🇱💻 92ms | SS (#218)
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🌐💻 92ms | SS (#219)
-  type: ss
-  server: series-a1.samanehha.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- name: 🥈 🇳🇱 92ms | SS (#220)
-  type: ss
-  server: 91.84.107.62
-  port: 29305
-  cipher: chacha20-ietf-poly1305
-  password: a5870dda-48fc-43d3-bfa6-f99cf4958690
-  udp: true
-- name: 🥈 🇳🇱💻 93ms | SS (#221)
+- name: 🥈 🇳🇱 91ms | SS (#213)
   type: ss
   server: 82.38.31.190
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🌐💻 93ms | SS (#222)
-  type: ss
-  server: series-a1.samanehha.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- name: 🥈 🇳🇱💻 93ms | SS (#223)
+- name: 🥈 🇳🇱💻 92ms | SS (#214)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇳🇱💻 93ms | SS (#224)
+- name: 🥈 🇳🇱💻 92ms | SS (#215)
+  type: ss
+  server: 82.38.31.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🌐💻 92ms | SS (#216)
+  type: ss
+  server: series-a1.samanehha.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 🥈 🇩🇪 92ms | SS (#217)
+  type: ss
+  server: 62.133.60.60
+  port: 7048
+  cipher: chacha20-ietf-poly1305
+  password: fQVxdQ1VxDuyD5Ua6D7oDA
+  udp: true
+- name: 🥈 🇳🇱💻 93ms | SS (#218)
+  type: ss
+  server: 82.38.31.190
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🌐💻 93ms | SS (#219)
+  type: ss
+  server: series-a1.samanehha.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 🥈 🇳🇱💻 93ms | SS (#220)
+  type: ss
+  server: 82.38.31.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🇳🇱💻 93ms | SS (#221)
   type: ss
   server: 82.38.31.99
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🇳🇱💻 93ms | SS (#225)
+- name: 🥈 🇳🇱💻 93ms | SS (#222)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇫🇷 93ms | SS (#226)
+- name: 🥈 🇳🇱💻 93ms | SS (#223)
+  type: ss
+  server: 213.109.147.242
+  port: 62685
+  cipher: chacha20-ietf-poly1305
+  password: VpKABcOpNNA0l5G2AVOmw8
+  udp: true
+- name: 🥈 🇩🇪 93ms | SS (#224)
+  type: ss
+  server: 144.31.85.16
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: KC2bhnHNoQgfqcWznSmU0xEkthvyXks1
+  udp: true
+- name: 🥈 🇫🇷 93ms | SS (#225)
   type: ss
   server: 37.60.250.243
   port: 20558
   cipher: chacha20-ietf-poly1305
   password: 455c15bc175b4d74
   udp: true
-- name: 🥈 🇳🇱 93ms | SS (#227)
-  type: ss
-  server: 82.38.31.190
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇳🇱💻 94ms | SS (#228)
+- name: 🥈 🇳🇱💻 94ms | SS (#226)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇳🇱💻 94ms | SS (#229)
+- name: 🥈 🇳🇱💻 94ms | SS (#227)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🌐💻 94ms | SS (#228)
+  type: ss
+  server: series-a1.samanehha.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 🥈 🌐💻 94ms | SS (#229)
+  type: ss
+  server: series-a1.samanehha.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
   udp: true
 - name: 🥈 🌐💻 94ms | SS (#230)
   type: ss
@@ -2152,28 +2152,21 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
   udp: true
-- name: 🥈 🌐💻 94ms | SS (#231)
-  type: ss
-  server: series-a1.samanehha.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- name: 🥈 🌐💻 94ms | SS (#232)
-  type: ss
-  server: series-a1.samanehha.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- name: 🥈 🇳🇱💻 94ms | SS (#233)
+- name: 🥈 🇳🇱💻 94ms | SS (#231)
   type: ss
   server: 82.38.31.184
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇩🇪 95ms | VLESS (#234)
+- name: 🥈 🇮🇹 95ms | SS (#232)
+  type: ss
+  server: 57.131.38.151
+  port: 8443
+  cipher: aes-256-gcm
+  password: +zFL0Y7sYQ6BRrYIJ7dXG8sUqbv2HzbRt1ZDcsvUZFs=
+  udp: true
+- name: 🥈 🇩🇪 95ms | VLESS (#233)
   type: vless
   server: 62.133.60.50
   port: 443
@@ -2183,19 +2176,26 @@ proxies:
   uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
   tls: true
   servername: 62.133.60.50
-- name: 🥈 🇳🇱💻 96ms | SS (#235)
+- name: 🥈 🇳🇱💻 96ms | SS (#234)
   type: ss
   server: 82.38.31.190
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🌐💻 96ms | SS (#236)
+- name: 🥈 🌐💻 96ms | SS (#235)
   type: ss
   server: series-a1.samanehha.co
   port: 443
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
+  udp: true
+- name: 🥈 🇳🇱💻 96ms | SS (#236)
+  type: ss
+  server: 213.109.147.242
+  port: 62685
+  cipher: chacha20-ietf-poly1305
+  password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
 - name: 🥈 🇳🇱💻 96ms | SS (#237)
   type: ss
@@ -2225,12 +2225,12 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥈 🇳🇱💻 96ms | SS (#241)
+- name: 🥈 🇳🇱 96ms | SS (#241)
   type: ss
-  server: 213.109.147.242
-  port: 62685
+  server: 91.84.107.62
+  port: 29305
   cipher: chacha20-ietf-poly1305
-  password: VpKABcOpNNA0l5G2AVOmw8
+  password: a5870dda-48fc-43d3-bfa6-f99cf4958690
   udp: true
 - name: 🥈 🌐 96ms | SS (#242)
   type: ss
@@ -4173,896 +4173,896 @@ proxies:
   udp: true
 - name: 🥈 🇻🇳💻 227ms | SS (#508)
   type: ss
-  server: 103.186.154.229
+  server: 103.186.154.201
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 228ms | SS (#509)
+- name: 🥈 🇻🇳💻 227ms | SS (#509)
   type: ss
-  server: 103.186.154.51
+  server: 103.186.154.229
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
 - name: 🥈 🇻🇳💻 228ms | SS (#510)
   type: ss
-  server: 103.186.154.233
+  server: 103.186.154.51
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
 - name: 🥈 🇻🇳💻 228ms | SS (#511)
   type: ss
-  server: 103.186.154.35
+  server: 103.186.154.233
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
 - name: 🥈 🇻🇳💻 228ms | SS (#512)
   type: ss
-  server: 103.186.154.240
+  server: 103.186.154.35
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
 - name: 🥈 🇻🇳💻 228ms | SS (#513)
   type: ss
-  server: 103.186.155.67
+  server: 103.186.154.240
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
 - name: 🥈 🇻🇳💻 228ms | SS (#514)
   type: ss
+  server: 103.186.155.67
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 228ms | SS (#515)
+  type: ss
   server: 103.186.154.172
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇰🇷💻 228ms | SS (#515)
+- name: 🥈 🇰🇷💻 228ms | SS (#516)
   type: ss
   server: 221.139.79.57
   port: 13979
   cipher: aes-256-cfb
   password: qwerREWQ@@
   udp: true
-- name: 🥈 🇸🇬💻 228ms | SS (#516)
+- name: 🥈 🇸🇬💻 228ms | SS (#517)
   type: ss
   server: 3.1.195.148
   port: 8316
   cipher: chacha20-ietf-poly1305
   password: ljqdalu13..
   udp: true
-- name: 🥈 🇻🇳💻 228ms | SS (#517)
+- name: 🥈 🇻🇳💻 228ms | SS (#518)
   type: ss
   server: 103.186.154.211
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#518)
+- name: 🥈 🇻🇳💻 229ms | SS (#519)
   type: ss
   server: 103.186.154.216
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#519)
+- name: 🥈 🇻🇳💻 229ms | SS (#520)
   type: ss
   server: 103.186.155.205
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#520)
+- name: 🥈 🇻🇳💻 229ms | SS (#521)
   type: ss
   server: 103.186.154.48
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#521)
+- name: 🥈 🇻🇳💻 229ms | SS (#522)
   type: ss
   server: 103.186.154.184
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#522)
+- name: 🥈 🇻🇳💻 229ms | SS (#523)
   type: ss
   server: 103.186.155.42
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#523)
+- name: 🥈 🇻🇳💻 229ms | SS (#524)
   type: ss
   server: 103.186.155.30
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#524)
+- name: 🥈 🇻🇳💻 229ms | SS (#525)
   type: ss
   server: 103.186.154.70
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#525)
+- name: 🥈 🇻🇳💻 229ms | SS (#526)
   type: ss
   server: 103.186.155.206
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#526)
+- name: 🥈 🇻🇳💻 229ms | SS (#527)
   type: ss
   server: 103.186.154.223
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#527)
+- name: 🥈 🇻🇳💻 229ms | SS (#528)
   type: ss
   server: 103.186.155.120
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#528)
-  type: ss
-  server: 103.186.155.109
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
 - name: 🥈 🇻🇳💻 229ms | SS (#529)
-  type: ss
-  server: 103.186.154.228
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#530)
-  type: ss
-  server: 103.186.154.222
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 229ms | SS (#531)
   type: ss
   server: 103.186.155.41
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#532)
+- name: 🥈 🇻🇳💻 230ms | SS (#530)
   type: ss
   server: 103.186.154.250
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#533)
+- name: 🥈 🇻🇳💻 230ms | SS (#531)
   type: ss
   server: 103.186.154.172
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#534)
+- name: 🥈 🇻🇳💻 230ms | SS (#532)
   type: ss
   server: 103.186.155.45
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#535)
-  type: ss
-  server: 103.186.154.36
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#536)
+- name: 🥈 🇻🇳💻 230ms | SS (#533)
   type: ss
   server: 103.186.154.16
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#537)
+- name: 🥈 🇻🇳💻 230ms | SS (#534)
   type: ss
   server: 103.186.154.19
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#538)
+- name: 🥈 🇻🇳💻 230ms | SS (#535)
   type: ss
   server: 103.186.154.179
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#539)
+- name: 🥈 🇻🇳💻 230ms | SS (#536)
   type: ss
   server: 103.186.155.220
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#540)
+- name: 🥈 🇻🇳💻 230ms | SS (#537)
   type: ss
   server: 103.186.154.202
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#541)
+- name: 🥈 🇻🇳💻 230ms | SS (#538)
   type: ss
   server: 103.186.155.16
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#542)
+- name: 🥈 🇻🇳💻 230ms | SS (#539)
   type: ss
   server: 103.186.155.222
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#543)
+- name: 🥈 🇻🇳💻 230ms | SS (#540)
   type: ss
   server: 103.186.155.209
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#544)
+- name: 🥈 🇻🇳💻 230ms | SS (#541)
   type: ss
   server: 103.186.154.185
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#545)
+- name: 🥈 🇻🇳💻 230ms | SS (#542)
   type: ss
   server: 103.186.154.226
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#546)
+- name: 🥈 🇻🇳💻 230ms | SS (#543)
   type: ss
   server: 103.186.154.220
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#547)
+- name: 🥈 🇻🇳💻 230ms | SS (#544)
   type: ss
   server: 103.186.154.248
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#548)
+- name: 🥈 🇻🇳💻 230ms | SS (#545)
   type: ss
   server: 103.186.155.28
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#549)
+- name: 🥈 🇻🇳💻 230ms | SS (#546)
   type: ss
   server: 103.186.154.165
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#550)
+- name: 🥈 🇻🇳💻 230ms | SS (#547)
   type: ss
   server: 103.186.154.169
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#551)
+- name: 🥈 🇻🇳💻 230ms | SS (#548)
   type: ss
   server: 103.186.154.164
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#552)
+- name: 🥈 🇻🇳💻 230ms | SS (#549)
   type: ss
   server: 103.186.154.43
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#553)
+- name: 🥈 🇻🇳💻 230ms | SS (#550)
   type: ss
   server: 103.186.154.193
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#554)
-  type: ss
-  server: 103.186.154.18
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#555)
+- name: 🥈 🇻🇳💻 230ms | SS (#551)
   type: ss
   server: 103.186.155.107
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#556)
+- name: 🥈 🇻🇳💻 230ms | SS (#552)
   type: ss
   server: 103.186.154.72
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#557)
+- name: 🥈 🇻🇳💻 230ms | SS (#553)
   type: ss
   server: 103.186.154.205
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 230ms | SS (#558)
+- name: 🥈 🇻🇳💻 230ms | SS (#554)
   type: ss
   server: 103.186.154.143
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#560)
+- name: 🥈 🇻🇳💻 231ms | SS (#556)
   type: ss
   server: 103.186.154.13
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#561)
+- name: 🥈 🇻🇳💻 231ms | SS (#557)
   type: ss
   server: 103.186.155.18
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#562)
-  type: ss
-  server: 103.186.154.188
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#563)
-  type: ss
-  server: 103.186.154.29
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#564)
-  type: ss
-  server: 103.186.154.234
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#565)
+- name: 🥈 🇻🇳💻 231ms | SS (#558)
   type: ss
   server: 103.186.155.236
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#566)
+- name: 🥈 🇻🇳💻 231ms | SS (#559)
   type: ss
   server: 103.186.155.107
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#567)
+- name: 🥈 🇻🇳💻 231ms | SS (#560)
   type: ss
   server: 103.186.155.221
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#568)
+- name: 🥈 🇻🇳💻 231ms | SS (#561)
   type: ss
   server: 103.186.154.228
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#569)
+- name: 🥈 🇻🇳💻 231ms | SS (#562)
   type: ss
   server: 103.186.155.58
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#570)
+- name: 🥈 🇻🇳💻 231ms | SS (#563)
   type: ss
   server: 103.186.155.134
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#571)
+- name: 🥈 🇻🇳💻 231ms | SS (#564)
   type: ss
   server: 103.186.154.24
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#572)
+- name: 🥈 🇻🇳💻 231ms | SS (#565)
   type: ss
   server: 103.186.155.183
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#573)
+- name: 🥈 🇻🇳💻 231ms | SS (#566)
   type: ss
   server: 103.186.155.204
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#574)
+- name: 🥈 🇻🇳💻 231ms | SS (#567)
   type: ss
   server: 103.186.155.59
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#575)
+- name: 🥈 🇻🇳💻 231ms | SS (#568)
   type: ss
   server: 103.186.155.24
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#576)
+- name: 🥈 🇻🇳💻 231ms | SS (#569)
   type: ss
   server: 103.186.154.18
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#577)
+- name: 🥈 🇻🇳💻 231ms | SS (#570)
   type: ss
   server: 103.186.154.231
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#578)
+- name: 🥈 🇻🇳💻 231ms | SS (#571)
   type: ss
   server: 103.186.155.131
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#579)
+- name: 🥈 🇻🇳💻 231ms | SS (#572)
   type: ss
   server: 103.186.154.46
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#580)
+- name: 🥈 🇻🇳💻 231ms | SS (#573)
   type: ss
   server: 103.186.154.182
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#581)
+- name: 🥈 🇻🇳💻 231ms | SS (#574)
   type: ss
   server: 103.186.155.114
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#582)
+- name: 🥈 🇻🇳💻 231ms | SS (#575)
   type: ss
   server: 103.186.155.28
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#583)
+- name: 🥈 🇻🇳💻 231ms | SS (#576)
   type: ss
   server: 103.186.155.117
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#584)
+- name: 🥈 🇻🇳💻 231ms | SS (#577)
   type: ss
   server: 103.186.154.80
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#585)
+- name: 🥈 🇻🇳💻 231ms | SS (#578)
   type: ss
   server: 103.186.154.18
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#586)
+- name: 🥈 🇻🇳💻 231ms | SS (#579)
   type: ss
   server: 103.186.155.225
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#587)
+- name: 🥈 🇻🇳💻 231ms | SS (#580)
   type: ss
   server: 103.186.155.150
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#588)
+- name: 🥈 🇻🇳💻 231ms | SS (#581)
   type: ss
   server: 103.186.155.39
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#589)
+- name: 🥈 🇻🇳💻 231ms | SS (#582)
   type: ss
   server: 103.186.154.238
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#590)
+- name: 🥈 🇻🇳💻 231ms | SS (#583)
   type: ss
   server: 103.186.155.127
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#591)
+- name: 🥈 🇻🇳💻 231ms | SS (#584)
   type: ss
   server: 103.186.154.185
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#592)
+- name: 🥈 🇻🇳💻 231ms | SS (#585)
   type: ss
   server: 103.186.154.12
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#593)
+- name: 🥈 🇻🇳💻 231ms | SS (#586)
   type: ss
   server: 103.186.154.54
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#594)
+- name: 🥈 🇻🇳💻 231ms | SS (#587)
   type: ss
   server: 103.186.154.140
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#595)
+- name: 🥈 🇻🇳💻 231ms | SS (#588)
   type: ss
   server: 103.186.154.219
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#596)
+- name: 🥈 🇻🇳💻 231ms | SS (#589)
   type: ss
   server: 103.186.155.64
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#597)
+- name: 🥈 🇻🇳💻 231ms | SS (#590)
   type: ss
   server: 103.186.155.13
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#598)
+- name: 🥈 🇻🇳💻 231ms | SS (#591)
   type: ss
   server: 103.186.154.36
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#599)
+- name: 🥈 🇻🇳💻 231ms | SS (#592)
   type: ss
   server: 103.186.154.231
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#600)
+- name: 🥈 🇻🇳💻 231ms | SS (#593)
   type: ss
   server: 103.186.154.180
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#601)
+- name: 🥈 🇻🇳💻 231ms | SS (#594)
   type: ss
   server: 103.186.155.69
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#602)
+- name: 🥈 🇻🇳💻 231ms | SS (#595)
   type: ss
   server: 103.186.154.27
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#603)
-  type: ss
-  server: 103.186.154.33
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#604)
-  type: ss
-  server: 103.186.154.40
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#605)
-  type: ss
-  server: 103.186.154.241
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#606)
-  type: ss
-  server: 103.186.154.185
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#607)
-  type: ss
-  server: 103.186.155.118
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#608)
-  type: ss
-  server: 103.186.154.153
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#609)
-  type: ss
-  server: 103.186.154.165
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 231ms | SS (#610)
-  type: ss
-  server: 103.186.154.157
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#611)
+- name: 🥈 🇻🇳💻 231ms | SS (#596)
   type: ss
   server: 103.186.154.173
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#612)
+- name: 🥈 🇻🇳💻 231ms | SS (#597)
   type: ss
-  server: 103.186.155.85
+  server: 103.186.154.243
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#613)
+- name: 🥈 🇻🇳💻 231ms | SS (#598)
   type: ss
-  server: 103.186.154.63
+  server: 103.186.154.65
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#614)
-  type: ss
-  server: 103.186.154.37
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#615)
-  type: ss
-  server: 103.186.155.223
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#616)
-  type: ss
-  server: 103.186.154.30
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#617)
-  type: ss
-  server: 103.186.155.44
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#618)
-  type: ss
-  server: 103.186.154.27
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#619)
-  type: ss
-  server: 103.186.154.195
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#620)
-  type: ss
-  server: 103.186.155.19
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#621)
-  type: ss
-  server: 103.186.154.28
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#622)
-  type: ss
-  server: 103.186.155.83
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#623)
-  type: ss
-  server: 103.186.155.139
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#624)
-  type: ss
-  server: 103.186.155.146
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#625)
+- name: 🥈 🇻🇳💻 231ms | SS (#599)
   type: ss
   server: 103.186.154.62
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#626)
+- name: 🥈 🇻🇳💻 231ms | SS (#600)
   type: ss
-  server: 103.186.154.254
+  server: 103.186.154.40
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#627)
+- name: 🥈 🇻🇳💻 231ms | SS (#601)
   type: ss
-  server: 103.186.154.251
+  server: 103.186.154.241
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#628)
-  type: ss
-  server: 103.186.154.13
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#629)
-  type: ss
-  server: 103.186.154.240
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#630)
+- name: 🥈 🇻🇳💻 231ms | SS (#602)
   type: ss
   server: 103.186.155.118
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#631)
+- name: 🥈 🇻🇳💻 231ms | SS (#603)
+  type: ss
+  server: 103.186.154.153
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 231ms | SS (#604)
+  type: ss
+  server: 103.186.154.165
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 231ms | SS (#605)
+  type: ss
+  server: 103.186.154.157
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#606)
+  type: ss
+  server: 103.186.154.173
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#607)
+  type: ss
+  server: 103.186.155.85
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#608)
+  type: ss
+  server: 103.186.154.63
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#609)
+  type: ss
+  server: 103.186.154.37
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#610)
+  type: ss
+  server: 103.186.155.223
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#611)
+  type: ss
+  server: 103.186.154.30
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#612)
+  type: ss
+  server: 103.186.155.132
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#613)
+  type: ss
+  server: 103.186.155.44
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#614)
+  type: ss
+  server: 103.186.154.27
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#615)
+  type: ss
+  server: 103.186.154.195
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#616)
+  type: ss
+  server: 103.186.155.19
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#617)
+  type: ss
+  server: 103.186.154.28
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#618)
+  type: ss
+  server: 103.186.155.83
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#619)
+  type: ss
+  server: 103.186.155.139
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#620)
+  type: ss
+  server: 103.186.155.146
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#621)
+  type: ss
+  server: 103.186.154.62
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#622)
+  type: ss
+  server: 103.186.154.254
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#623)
+  type: ss
+  server: 103.186.154.251
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#624)
+  type: ss
+  server: 103.186.154.13
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#625)
+  type: ss
+  server: 103.186.154.240
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#626)
+  type: ss
+  server: 103.186.155.118
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#627)
   type: ss
   server: 103.186.154.194
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#632)
+- name: 🥈 🇻🇳💻 232ms | SS (#628)
   type: ss
   server: 103.186.155.31
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#633)
+- name: 🥈 🇻🇳💻 232ms | SS (#629)
   type: ss
   server: 103.186.154.24
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#634)
+- name: 🥈 🇻🇳💻 232ms | SS (#630)
   type: ss
   server: 103.186.154.42
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#635)
+- name: 🥈 🇻🇳💻 232ms | SS (#631)
   type: ss
   server: 103.186.155.51
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥈 🇻🇳💻 232ms | SS (#636)
+- name: 🥈 🇻🇳💻 232ms | SS (#632)
   type: ss
   server: 103.186.154.139
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#633)
+  type: ss
+  server: 103.186.155.120
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#634)
+  type: ss
+  server: 103.186.155.46
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥈 🇯🇵💻 232ms | SS (#635)
+  type: ss
+  server: 3.112.130.53
+  port: 8319
+  cipher: chacha20-ietf-poly1305
+  password: ljqdalu13..
+  udp: true
+- name: 🥈 🇻🇳💻 232ms | SS (#636)
+  type: ss
+  server: 103.186.154.250
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -5080,81 +5080,81 @@ proxy-groups:
   - 🥇 🇺🇸 14ms | VLESS (#3)
   - 🥇 🇺🇸 14ms | VLESS (#4)
   - 🥇 🇺🇸 15ms | VLESS (#5)
-  - 🥇 🇺🇸 15ms | VLESS (#6)
-  - 🥇 🌐 17ms | TROJAN (#7)
-  - 🥇 🇺🇸💻 32ms | TROJAN (#8)
+  - 🥇 🌐 17ms | TROJAN (#6)
+  - 🥇 🇺🇸 18ms | VLESS (#7)
+  - 🥇 🇺🇸💻 31ms | TROJAN (#8)
   - 🥇 🇺🇸💻 32ms | TROJAN (#9)
   - 🥇 🇺🇸💻 32ms | TROJAN (#10)
   - 🥇 🇺🇸💻 33ms | TROJAN (#11)
   - 🥇 🇺🇸💻 33ms | TROJAN (#12)
-  - 🥇 🇺🇸 36ms | VLESS (#13)
-  - 🥇 🇺🇸 36ms | VLESS (#14)
+  - 🥇 🇺🇸 44ms | VLESS (#13)
+  - 🥇 🇺🇸 45ms | VLESS (#14)
   - 🥇 🇫🇷💻 80ms | TROJAN (#15)
   - 🥇 🇫🇷 80ms | TROJAN (#16)
   - 🥇 🇫🇷💻 82ms | TROJAN (#17)
   - 🥇 🇳🇱 88ms | VLESS (#18)
-  - 🥇 🇳🇱 89ms | VLESS (#19)
+  - 🥇 🇩🇪💻 89ms | TROJAN (#19)
   - 🥇 🇩🇪💻 89ms | TROJAN (#20)
-  - 🥇 🇩🇪💻 89ms | TROJAN (#21)
-  - 🥇 🇳🇱 91ms | VLESS (#22)
-  - 🥇 🌐 92ms | VLESS (#23)
+  - 🥇 🇳🇱 91ms | VLESS (#21)
+  - 🥇 🌐 92ms | VLESS (#22)
+  - 🥇 🇳🇱 92ms | VLESS (#23)
   - 🥇 🇳🇱 92ms | VLESS (#24)
-  - 🥇 🇳🇱 92ms | VLESS (#25)
+  - 🥇 🇳🇱 93ms | VLESS (#25)
   - 🥇 🇩🇪 93ms | VLESS (#26)
-  - 🥇 🇳🇱 93ms | VLESS (#27)
-  - 🥇 🇺🇿 94ms | VLESS (#28)
-  - 🥇 🇩🇪 94ms | VLESS (#29)
-  - 🥇 🇳🇱 95ms | VLESS (#30)
-  - 🥇 🇬🇧 96ms | VLESS (#31)
-  - 🥇 🇺🇿 98ms | VLESS (#32)
-  - 🥇 🇩🇪 98ms | VLESS (#33)
-  - 🥇 🇫🇷 98ms | TROJAN (#34)
-  - 🥇 🇩🇪 98ms | TROJAN (#35)
-  - 🥇 🇩🇪 98ms | TROJAN (#36)
-  - 🥇 🇮🇹 99ms | VLESS (#37)
-  - 🥇 🇺🇸💻 99ms | TROJAN (#38)
-  - 🥇 🇮🇹 101ms | VLESS (#39)
-  - 🥇 🇫🇷 103ms | TROJAN (#40)
-  - 🥇 🇳🇱 106ms | VLESS (#41)
-  - 🥇 🇳🇱 110ms | VLESS (#42)
+  - 🥇 🇩🇪 93ms | VLESS (#27)
+  - 🥇 🇳🇱 93ms | VLESS (#28)
+  - 🥇 🇺🇿 94ms | VLESS (#29)
+  - 🥇 🇩🇪 94ms | VLESS (#30)
+  - 🥇 🇳🇱 95ms | VLESS (#31)
+  - 🥇 🇬🇧 96ms | VLESS (#32)
+  - 🥇 🇫🇷 98ms | TROJAN (#33)
+  - 🥇 🇩🇪 98ms | TROJAN (#34)
+  - 🥇 🇮🇹 99ms | VLESS (#35)
+  - 🥇 🇺🇸💻 99ms | TROJAN (#36)
+  - 🥇 🇮🇹 101ms | VLESS (#37)
+  - 🥇 🇫🇷 103ms | TROJAN (#38)
+  - 🥇 🇫🇷💻 104ms | VLESS (#39)
+  - 🥇 🇳🇱 106ms | VLESS (#40)
+  - 🥇 🇳🇱 110ms | VLESS (#41)
+  - 🥇 🇫🇷💻 113ms | VLESS (#42)
   - 🥇 🌐 114ms | VLESS (#43)
   - 🥇 🇮🇸💻 116ms | TROJAN (#44)
-  - 🥇 🇫🇷💻 120ms | VLESS (#45)
-  - 🥇 🇨🇿 121ms | VLESS (#46)
-  - 🥇 🇷🇺 125ms | VLESS (#47)
-  - 🥇 🇫🇮 126ms | VLESS (#48)
-  - 🥇 🇫🇮 126ms | VLESS (#49)
-  - 🥇 🇷🇺 126ms | VLESS (#50)
-  - 🥇 🇷🇺 127ms | VLESS (#51)
-  - 🥇 🇫🇮 127ms | VLESS (#52)
-  - 🥇 🌐 127ms | VLESS (#53)
-  - 🥇 🌐💻 131ms | TROJAN (#54)
-  - 🥇 🇫🇷💻 138ms | VLESS (#55)
-  - 🥇 🇫🇷💻 139ms | VLESS (#56)
-  - 🥇 🇫🇮 140ms | VLESS (#57)
-  - 🥇 🌐💻 146ms | VLESS (#58)
-  - 🥇 🌐 152ms | VLESS (#59)
-  - 🥇 🇩🇪 153ms | VLESS (#60)
-  - 🥇 🇳🇱 153ms | VLESS (#61)
-  - 🥇 🇷🇺 156ms | VLESS (#62)
-  - 🥇 🇷🇺 157ms | VLESS (#63)
-  - 🥇 🇷🇺 158ms | VLESS (#64)
-  - 🥇 🇳🇴💻 161ms | TROJAN (#65)
-  - 🥇 🌐 161ms | VLESS (#66)
-  - 🥇 🇳🇴💻 162ms | TROJAN (#67)
-  - 🥇 🇳🇴💻 164ms | TROJAN (#68)
-  - 🥇 🇳🇴💻 164ms | TROJAN (#69)
-  - 🥇 🇫🇷 166ms | TROJAN (#70)
-  - 🥇 🇯🇵💻 168ms | TROJAN (#71)
-  - 🥇 🇫🇮 170ms | VLESS (#72)
-  - 🥇 🌐 172ms | VLESS (#73)
-  - 🥇 🇩🇪 172ms | TROJAN (#74)
-  - 🥇 🇯🇵💻 173ms | TROJAN (#75)
+  - 🥇 🌐💻 120ms | VLESS (#45)
+  - 🥇 🇫🇷💻 120ms | VLESS (#46)
+  - 🥇 🇨🇿 121ms | VLESS (#47)
+  - 🥇 🇩🇪 122ms | TROJAN (#48)
+  - 🥇 🇷🇺 125ms | VLESS (#49)
+  - 🥇 🇫🇮 126ms | VLESS (#50)
+  - 🥇 🇫🇮 126ms | VLESS (#51)
+  - 🥇 🇷🇺 126ms | VLESS (#52)
+  - 🥇 🇫🇮 127ms | VLESS (#53)
+  - 🥇 🌐 127ms | VLESS (#54)
+  - 🥇 🇷🇺 129ms | VLESS (#55)
+  - 🥇 🇷🇺 130ms | VLESS (#56)
+  - 🥇 🌐💻 131ms | TROJAN (#57)
+  - 🥇 🇺🇿 134ms | VLESS (#58)
+  - 🥇 🇫🇮 140ms | VLESS (#59)
+  - 🥇 🌐 152ms | VLESS (#60)
+  - 🥇 🇩🇪 153ms | VLESS (#61)
+  - 🥇 🇳🇱 153ms | VLESS (#62)
+  - 🥇 🇷🇺 156ms | VLESS (#63)
+  - 🥇 🇳🇴💻 157ms | TROJAN (#64)
+  - 🥇 🇷🇺 157ms | VLESS (#65)
+  - 🥇 🇷🇺 158ms | VLESS (#66)
+  - 🥇 🇳🇴💻 159ms | TROJAN (#67)
+  - 🥇 🌐 161ms | VLESS (#68)
+  - 🥇 🇳🇴💻 162ms | TROJAN (#69)
+  - 🥇 🇳🇴💻 164ms | TROJAN (#70)
+  - 🥇 🇫🇷 166ms | TROJAN (#71)
+  - 🥇 🇯🇵💻 168ms | TROJAN (#72)
+  - 🥇 🇫🇮 170ms | VLESS (#73)
+  - 🥇 🌐 172ms | VLESS (#74)
+  - 🥇 🇩🇪 172ms | TROJAN (#75)
   - 🥇 🇯🇵💻 173ms | TROJAN (#76)
-  - 🥇 🇮🇸💻 174ms | TROJAN (#77)
-  - 🥇 🇫🇮 176ms | VLESS (#78)
-  - 🥇 🇯🇵💻 177ms | TROJAN (#79)
-  - 🥇 🇷🇺 179ms | VLESS (#80)
+  - 🥇 🇯🇵💻 173ms | TROJAN (#77)
+  - 🥇 🇮🇸💻 174ms | TROJAN (#78)
+  - 🥇 🇫🇮 176ms | VLESS (#79)
+  - 🥇 🇯🇵💻 177ms | TROJAN (#80)
   - 🥇 🇷🇺 184ms | VLESS (#81)
   - 🥇 🇫🇮 184ms | VLESS (#82)
   - 🥇 🇷🇺 185ms | VLESS (#83)
@@ -5261,60 +5261,60 @@ proxy-groups:
   - 🥈 🇫🇷💻 81ms | SS (#185)
   - 🥈 🌐💻 81ms | SS (#186)
   - 🥈 🌐💻 81ms | SS (#187)
-  - 🥈 🌐💻 82ms | SS (#188)
+  - 🥈 🇬🇧 81ms | SS (#188)
   - 🥈 🌐💻 82ms | SS (#189)
-  - 🥈 🇫🇷 82ms | VLESS (#190)
-  - 🥈 🌐💻 83ms | SS (#191)
-  - 🥈 🇬🇧 83ms | SS (#192)
+  - 🥈 🌐💻 82ms | SS (#190)
+  - 🥈 🇫🇷 82ms | VLESS (#191)
+  - 🥈 🌐💻 83ms | SS (#192)
   - 🥈 🌐💻 84ms | SS (#193)
   - 🥈 🇬🇧 84ms | VLESS (#194)
   - 🥈 🌐💻 85ms | SS (#195)
   - 🥈 🌐💻 85ms | SS (#196)
   - 🥈 🇬🇧 85ms | VLESS (#197)
-  - 🥈 🇳🇱💻 87ms | SS (#198)
-  - 🥈 🇫🇷 87ms | VLESS (#199)
-  - 🥈 🇳🇱💻 88ms | SS (#200)
+  - 🥈 🇫🇷 87ms | VLESS (#198)
+  - 🥈 🇳🇱💻 88ms | SS (#199)
+  - 🥈 🇳🇱💻 89ms | SS (#200)
   - 🥈 🇳🇱💻 89ms | SS (#201)
-  - 🥈 🇳🇱💻 89ms | SS (#202)
+  - 🥈 🌐💻 89ms | SS (#202)
   - 🥈 🌐💻 89ms | SS (#203)
-  - 🥈 🌐💻 89ms | SS (#204)
-  - 🥈 🇳🇱💻 89ms | SS (#205)
-  - 🥈 🇺🇸💻 89ms | SS (#206)
-  - 🥈 🇩🇪 89ms | SS (#207)
-  - 🥈 🇩🇪 89ms | SS (#208)
-  - 🥈 🇩🇪 89ms | VLESS (#209)
-  - 🥈 🇫🇷 89ms | SS (#210)
-  - 🥈 🌐💻 90ms | SS (#211)
-  - 🥈 🇳🇱💻 90ms | SS (#212)
-  - 🥈 🇳🇱💻 90ms | SS (#213)
-  - 🥈 🇳🇱💻 90ms | SS (#214)
-  - 🥈 🇳🇱💻 90ms | SS (#215)
-  - 🥈 🇮🇹 91ms | SS (#216)
-  - 🥈 🇳🇱💻 92ms | SS (#217)
-  - 🥈 🇳🇱💻 92ms | SS (#218)
-  - 🥈 🌐💻 92ms | SS (#219)
-  - 🥈 🇳🇱 92ms | SS (#220)
+  - 🥈 🇳🇱💻 89ms | SS (#204)
+  - 🥈 🇺🇸💻 89ms | SS (#205)
+  - 🥈 🇩🇪 89ms | VLESS (#206)
+  - 🥈 🇫🇷 89ms | SS (#207)
+  - 🥈 🌐💻 90ms | SS (#208)
+  - 🥈 🇳🇱💻 90ms | SS (#209)
+  - 🥈 🇳🇱💻 90ms | SS (#210)
+  - 🥈 🇳🇱💻 90ms | SS (#211)
+  - 🥈 🇳🇱💻 91ms | SS (#212)
+  - 🥈 🇳🇱 91ms | SS (#213)
+  - 🥈 🇳🇱💻 92ms | SS (#214)
+  - 🥈 🇳🇱💻 92ms | SS (#215)
+  - 🥈 🌐💻 92ms | SS (#216)
+  - 🥈 🇩🇪 92ms | SS (#217)
+  - 🥈 🇳🇱💻 93ms | SS (#218)
+  - 🥈 🌐💻 93ms | SS (#219)
+  - 🥈 🇳🇱💻 93ms | SS (#220)
   - 🥈 🇳🇱💻 93ms | SS (#221)
-  - 🥈 🌐💻 93ms | SS (#222)
+  - 🥈 🇳🇱💻 93ms | SS (#222)
   - 🥈 🇳🇱💻 93ms | SS (#223)
-  - 🥈 🇳🇱💻 93ms | SS (#224)
-  - 🥈 🇳🇱💻 93ms | SS (#225)
-  - 🥈 🇫🇷 93ms | SS (#226)
-  - 🥈 🇳🇱 93ms | SS (#227)
-  - 🥈 🇳🇱💻 94ms | SS (#228)
-  - 🥈 🇳🇱💻 94ms | SS (#229)
+  - 🥈 🇩🇪 93ms | SS (#224)
+  - 🥈 🇫🇷 93ms | SS (#225)
+  - 🥈 🇳🇱💻 94ms | SS (#226)
+  - 🥈 🇳🇱💻 94ms | SS (#227)
+  - 🥈 🌐💻 94ms | SS (#228)
+  - 🥈 🌐💻 94ms | SS (#229)
   - 🥈 🌐💻 94ms | SS (#230)
-  - 🥈 🌐💻 94ms | SS (#231)
-  - 🥈 🌐💻 94ms | SS (#232)
-  - 🥈 🇳🇱💻 94ms | SS (#233)
-  - 🥈 🇩🇪 95ms | VLESS (#234)
-  - 🥈 🇳🇱💻 96ms | SS (#235)
-  - 🥈 🌐💻 96ms | SS (#236)
+  - 🥈 🇳🇱💻 94ms | SS (#231)
+  - 🥈 🇮🇹 95ms | SS (#232)
+  - 🥈 🇩🇪 95ms | VLESS (#233)
+  - 🥈 🇳🇱💻 96ms | SS (#234)
+  - 🥈 🌐💻 96ms | SS (#235)
+  - 🥈 🇳🇱💻 96ms | SS (#236)
   - 🥈 🇳🇱💻 96ms | SS (#237)
   - 🥈 🇳🇱💻 96ms | SS (#238)
   - 🥈 🇳🇱💻 96ms | SS (#239)
   - 🥈 🇳🇱💻 96ms | SS (#240)
-  - 🥈 🇳🇱💻 96ms | SS (#241)
+  - 🥈 🇳🇱 96ms | SS (#241)
   - 🥈 🌐 96ms | SS (#242)
   - 🥈 🌐 96ms | SS (#243)
   - 🥈 🌐 96ms | SS (#244)
@@ -5582,16 +5582,16 @@ proxy-groups:
   - 🥈 🇻🇳💻 227ms | SS (#506)
   - 🥈 🇻🇳💻 227ms | SS (#507)
   - 🥈 🇻🇳💻 227ms | SS (#508)
-  - 🥈 🇻🇳💻 228ms | SS (#509)
+  - 🥈 🇻🇳💻 227ms | SS (#509)
   - 🥈 🇻🇳💻 228ms | SS (#510)
   - 🥈 🇻🇳💻 228ms | SS (#511)
   - 🥈 🇻🇳💻 228ms | SS (#512)
   - 🥈 🇻🇳💻 228ms | SS (#513)
   - 🥈 🇻🇳💻 228ms | SS (#514)
-  - 🥈 🇰🇷💻 228ms | SS (#515)
-  - 🥈 🇸🇬💻 228ms | SS (#516)
-  - 🥈 🇻🇳💻 228ms | SS (#517)
-  - 🥈 🇻🇳💻 229ms | SS (#518)
+  - 🥈 🇻🇳💻 228ms | SS (#515)
+  - 🥈 🇰🇷💻 228ms | SS (#516)
+  - 🥈 🇸🇬💻 228ms | SS (#517)
+  - 🥈 🇻🇳💻 228ms | SS (#518)
   - 🥈 🇻🇳💻 229ms | SS (#519)
   - 🥈 🇻🇳💻 229ms | SS (#520)
   - 🥈 🇻🇳💻 229ms | SS (#521)
@@ -5603,8 +5603,8 @@ proxy-groups:
   - 🥈 🇻🇳💻 229ms | SS (#527)
   - 🥈 🇻🇳💻 229ms | SS (#528)
   - 🥈 🇻🇳💻 229ms | SS (#529)
-  - 🥈 🇻🇳💻 229ms | SS (#530)
-  - 🥈 🇻🇳💻 229ms | SS (#531)
+  - 🥈 🇻🇳💻 230ms | SS (#530)
+  - 🥈 🇻🇳💻 230ms | SS (#531)
   - 🥈 🇻🇳💻 230ms | SS (#532)
   - 🥈 🇻🇳💻 230ms | SS (#533)
   - 🥈 🇻🇳💻 230ms | SS (#534)
@@ -5628,10 +5628,10 @@ proxy-groups:
   - 🥈 🇻🇳💻 230ms | SS (#552)
   - 🥈 🇻🇳💻 230ms | SS (#553)
   - 🥈 🇻🇳💻 230ms | SS (#554)
-  - 🥈 🇻🇳💻 230ms | SS (#555)
-  - 🥈 🇻🇳💻 230ms | SS (#556)
-  - 🥈 🇻🇳💻 230ms | SS (#557)
-  - 🥈 🇻🇳💻 230ms | SS (#558)
+  - 🥈 🇻🇳💻 231ms | SS (#556)
+  - 🥈 🇻🇳💻 231ms | SS (#557)
+  - 🥈 🇻🇳💻 231ms | SS (#558)
+  - 🥈 🇻🇳💻 231ms | SS (#559)
   - 🥈 🇻🇳💻 231ms | SS (#560)
   - 🥈 🇻🇳💻 231ms | SS (#561)
   - 🥈 🇻🇳💻 231ms | SS (#562)
@@ -5678,11 +5678,11 @@ proxy-groups:
   - 🥈 🇻🇳💻 231ms | SS (#603)
   - 🥈 🇻🇳💻 231ms | SS (#604)
   - 🥈 🇻🇳💻 231ms | SS (#605)
-  - 🥈 🇻🇳💻 231ms | SS (#606)
-  - 🥈 🇻🇳💻 231ms | SS (#607)
-  - 🥈 🇻🇳💻 231ms | SS (#608)
-  - 🥈 🇻🇳💻 231ms | SS (#609)
-  - 🥈 🇻🇳💻 231ms | SS (#610)
+  - 🥈 🇻🇳💻 232ms | SS (#606)
+  - 🥈 🇻🇳💻 232ms | SS (#607)
+  - 🥈 🇻🇳💻 232ms | SS (#608)
+  - 🥈 🇻🇳💻 232ms | SS (#609)
+  - 🥈 🇻🇳💻 232ms | SS (#610)
   - 🥈 🇻🇳💻 232ms | SS (#611)
   - 🥈 🇻🇳💻 232ms | SS (#612)
   - 🥈 🇻🇳💻 232ms | SS (#613)
@@ -5707,7 +5707,7 @@ proxy-groups:
   - 🥈 🇻🇳💻 232ms | SS (#632)
   - 🥈 🇻🇳💻 232ms | SS (#633)
   - 🥈 🇻🇳💻 232ms | SS (#634)
-  - 🥈 🇻🇳💻 232ms | SS (#635)
+  - 🥈 🇯🇵💻 232ms | SS (#635)
   - 🥈 🇻🇳💻 232ms | SS (#636)
 - name: 🥇 Tier 1
   type: select
@@ -5718,81 +5718,81 @@ proxy-groups:
   - 🥇 🇺🇸 14ms | VLESS (#3)
   - 🥇 🇺🇸 14ms | VLESS (#4)
   - 🥇 🇺🇸 15ms | VLESS (#5)
-  - 🥇 🇺🇸 15ms | VLESS (#6)
-  - 🥇 🌐 17ms | TROJAN (#7)
-  - 🥇 🇺🇸💻 32ms | TROJAN (#8)
+  - 🥇 🌐 17ms | TROJAN (#6)
+  - 🥇 🇺🇸 18ms | VLESS (#7)
+  - 🥇 🇺🇸💻 31ms | TROJAN (#8)
   - 🥇 🇺🇸💻 32ms | TROJAN (#9)
   - 🥇 🇺🇸💻 32ms | TROJAN (#10)
   - 🥇 🇺🇸💻 33ms | TROJAN (#11)
   - 🥇 🇺🇸💻 33ms | TROJAN (#12)
-  - 🥇 🇺🇸 36ms | VLESS (#13)
-  - 🥇 🇺🇸 36ms | VLESS (#14)
+  - 🥇 🇺🇸 44ms | VLESS (#13)
+  - 🥇 🇺🇸 45ms | VLESS (#14)
   - 🥇 🇫🇷💻 80ms | TROJAN (#15)
   - 🥇 🇫🇷 80ms | TROJAN (#16)
   - 🥇 🇫🇷💻 82ms | TROJAN (#17)
   - 🥇 🇳🇱 88ms | VLESS (#18)
-  - 🥇 🇳🇱 89ms | VLESS (#19)
+  - 🥇 🇩🇪💻 89ms | TROJAN (#19)
   - 🥇 🇩🇪💻 89ms | TROJAN (#20)
-  - 🥇 🇩🇪💻 89ms | TROJAN (#21)
-  - 🥇 🇳🇱 91ms | VLESS (#22)
-  - 🥇 🌐 92ms | VLESS (#23)
+  - 🥇 🇳🇱 91ms | VLESS (#21)
+  - 🥇 🌐 92ms | VLESS (#22)
+  - 🥇 🇳🇱 92ms | VLESS (#23)
   - 🥇 🇳🇱 92ms | VLESS (#24)
-  - 🥇 🇳🇱 92ms | VLESS (#25)
+  - 🥇 🇳🇱 93ms | VLESS (#25)
   - 🥇 🇩🇪 93ms | VLESS (#26)
-  - 🥇 🇳🇱 93ms | VLESS (#27)
-  - 🥇 🇺🇿 94ms | VLESS (#28)
-  - 🥇 🇩🇪 94ms | VLESS (#29)
-  - 🥇 🇳🇱 95ms | VLESS (#30)
-  - 🥇 🇬🇧 96ms | VLESS (#31)
-  - 🥇 🇺🇿 98ms | VLESS (#32)
-  - 🥇 🇩🇪 98ms | VLESS (#33)
-  - 🥇 🇫🇷 98ms | TROJAN (#34)
-  - 🥇 🇩🇪 98ms | TROJAN (#35)
-  - 🥇 🇩🇪 98ms | TROJAN (#36)
-  - 🥇 🇮🇹 99ms | VLESS (#37)
-  - 🥇 🇺🇸💻 99ms | TROJAN (#38)
-  - 🥇 🇮🇹 101ms | VLESS (#39)
-  - 🥇 🇫🇷 103ms | TROJAN (#40)
-  - 🥇 🇳🇱 106ms | VLESS (#41)
-  - 🥇 🇳🇱 110ms | VLESS (#42)
+  - 🥇 🇩🇪 93ms | VLESS (#27)
+  - 🥇 🇳🇱 93ms | VLESS (#28)
+  - 🥇 🇺🇿 94ms | VLESS (#29)
+  - 🥇 🇩🇪 94ms | VLESS (#30)
+  - 🥇 🇳🇱 95ms | VLESS (#31)
+  - 🥇 🇬🇧 96ms | VLESS (#32)
+  - 🥇 🇫🇷 98ms | TROJAN (#33)
+  - 🥇 🇩🇪 98ms | TROJAN (#34)
+  - 🥇 🇮🇹 99ms | VLESS (#35)
+  - 🥇 🇺🇸💻 99ms | TROJAN (#36)
+  - 🥇 🇮🇹 101ms | VLESS (#37)
+  - 🥇 🇫🇷 103ms | TROJAN (#38)
+  - 🥇 🇫🇷💻 104ms | VLESS (#39)
+  - 🥇 🇳🇱 106ms | VLESS (#40)
+  - 🥇 🇳🇱 110ms | VLESS (#41)
+  - 🥇 🇫🇷💻 113ms | VLESS (#42)
   - 🥇 🌐 114ms | VLESS (#43)
   - 🥇 🇮🇸💻 116ms | TROJAN (#44)
-  - 🥇 🇫🇷💻 120ms | VLESS (#45)
-  - 🥇 🇨🇿 121ms | VLESS (#46)
-  - 🥇 🇷🇺 125ms | VLESS (#47)
-  - 🥇 🇫🇮 126ms | VLESS (#48)
-  - 🥇 🇫🇮 126ms | VLESS (#49)
-  - 🥇 🇷🇺 126ms | VLESS (#50)
-  - 🥇 🇷🇺 127ms | VLESS (#51)
-  - 🥇 🇫🇮 127ms | VLESS (#52)
-  - 🥇 🌐 127ms | VLESS (#53)
-  - 🥇 🌐💻 131ms | TROJAN (#54)
-  - 🥇 🇫🇷💻 138ms | VLESS (#55)
-  - 🥇 🇫🇷💻 139ms | VLESS (#56)
-  - 🥇 🇫🇮 140ms | VLESS (#57)
-  - 🥇 🌐💻 146ms | VLESS (#58)
-  - 🥇 🌐 152ms | VLESS (#59)
-  - 🥇 🇩🇪 153ms | VLESS (#60)
-  - 🥇 🇳🇱 153ms | VLESS (#61)
-  - 🥇 🇷🇺 156ms | VLESS (#62)
-  - 🥇 🇷🇺 157ms | VLESS (#63)
-  - 🥇 🇷🇺 158ms | VLESS (#64)
-  - 🥇 🇳🇴💻 161ms | TROJAN (#65)
-  - 🥇 🌐 161ms | VLESS (#66)
-  - 🥇 🇳🇴💻 162ms | TROJAN (#67)
-  - 🥇 🇳🇴💻 164ms | TROJAN (#68)
-  - 🥇 🇳🇴💻 164ms | TROJAN (#69)
-  - 🥇 🇫🇷 166ms | TROJAN (#70)
-  - 🥇 🇯🇵💻 168ms | TROJAN (#71)
-  - 🥇 🇫🇮 170ms | VLESS (#72)
-  - 🥇 🌐 172ms | VLESS (#73)
-  - 🥇 🇩🇪 172ms | TROJAN (#74)
-  - 🥇 🇯🇵💻 173ms | TROJAN (#75)
+  - 🥇 🌐💻 120ms | VLESS (#45)
+  - 🥇 🇫🇷💻 120ms | VLESS (#46)
+  - 🥇 🇨🇿 121ms | VLESS (#47)
+  - 🥇 🇩🇪 122ms | TROJAN (#48)
+  - 🥇 🇷🇺 125ms | VLESS (#49)
+  - 🥇 🇫🇮 126ms | VLESS (#50)
+  - 🥇 🇫🇮 126ms | VLESS (#51)
+  - 🥇 🇷🇺 126ms | VLESS (#52)
+  - 🥇 🇫🇮 127ms | VLESS (#53)
+  - 🥇 🌐 127ms | VLESS (#54)
+  - 🥇 🇷🇺 129ms | VLESS (#55)
+  - 🥇 🇷🇺 130ms | VLESS (#56)
+  - 🥇 🌐💻 131ms | TROJAN (#57)
+  - 🥇 🇺🇿 134ms | VLESS (#58)
+  - 🥇 🇫🇮 140ms | VLESS (#59)
+  - 🥇 🌐 152ms | VLESS (#60)
+  - 🥇 🇩🇪 153ms | VLESS (#61)
+  - 🥇 🇳🇱 153ms | VLESS (#62)
+  - 🥇 🇷🇺 156ms | VLESS (#63)
+  - 🥇 🇳🇴💻 157ms | TROJAN (#64)
+  - 🥇 🇷🇺 157ms | VLESS (#65)
+  - 🥇 🇷🇺 158ms | VLESS (#66)
+  - 🥇 🇳🇴💻 159ms | TROJAN (#67)
+  - 🥇 🌐 161ms | VLESS (#68)
+  - 🥇 🇳🇴💻 162ms | TROJAN (#69)
+  - 🥇 🇳🇴💻 164ms | TROJAN (#70)
+  - 🥇 🇫🇷 166ms | TROJAN (#71)
+  - 🥇 🇯🇵💻 168ms | TROJAN (#72)
+  - 🥇 🇫🇮 170ms | VLESS (#73)
+  - 🥇 🌐 172ms | VLESS (#74)
+  - 🥇 🇩🇪 172ms | TROJAN (#75)
   - 🥇 🇯🇵💻 173ms | TROJAN (#76)
-  - 🥇 🇮🇸💻 174ms | TROJAN (#77)
-  - 🥇 🇫🇮 176ms | VLESS (#78)
-  - 🥇 🇯🇵💻 177ms | TROJAN (#79)
-  - 🥇 🇷🇺 179ms | VLESS (#80)
+  - 🥇 🇯🇵💻 173ms | TROJAN (#77)
+  - 🥇 🇮🇸💻 174ms | TROJAN (#78)
+  - 🥇 🇫🇮 176ms | VLESS (#79)
+  - 🥇 🇯🇵💻 177ms | TROJAN (#80)
   - 🥇 🇷🇺 184ms | VLESS (#81)
   - 🥇 🇫🇮 184ms | VLESS (#82)
   - 🥇 🇷🇺 185ms | VLESS (#83)
@@ -5902,60 +5902,60 @@ proxy-groups:
   - 🥈 🇫🇷💻 81ms | SS (#185)
   - 🥈 🌐💻 81ms | SS (#186)
   - 🥈 🌐💻 81ms | SS (#187)
-  - 🥈 🌐💻 82ms | SS (#188)
+  - 🥈 🇬🇧 81ms | SS (#188)
   - 🥈 🌐💻 82ms | SS (#189)
-  - 🥈 🇫🇷 82ms | VLESS (#190)
-  - 🥈 🌐💻 83ms | SS (#191)
-  - 🥈 🇬🇧 83ms | SS (#192)
+  - 🥈 🌐💻 82ms | SS (#190)
+  - 🥈 🇫🇷 82ms | VLESS (#191)
+  - 🥈 🌐💻 83ms | SS (#192)
   - 🥈 🌐💻 84ms | SS (#193)
   - 🥈 🇬🇧 84ms | VLESS (#194)
   - 🥈 🌐💻 85ms | SS (#195)
   - 🥈 🌐💻 85ms | SS (#196)
   - 🥈 🇬🇧 85ms | VLESS (#197)
-  - 🥈 🇳🇱💻 87ms | SS (#198)
-  - 🥈 🇫🇷 87ms | VLESS (#199)
-  - 🥈 🇳🇱💻 88ms | SS (#200)
+  - 🥈 🇫🇷 87ms | VLESS (#198)
+  - 🥈 🇳🇱💻 88ms | SS (#199)
+  - 🥈 🇳🇱💻 89ms | SS (#200)
   - 🥈 🇳🇱💻 89ms | SS (#201)
-  - 🥈 🇳🇱💻 89ms | SS (#202)
+  - 🥈 🌐💻 89ms | SS (#202)
   - 🥈 🌐💻 89ms | SS (#203)
-  - 🥈 🌐💻 89ms | SS (#204)
-  - 🥈 🇳🇱💻 89ms | SS (#205)
-  - 🥈 🇺🇸💻 89ms | SS (#206)
-  - 🥈 🇩🇪 89ms | SS (#207)
-  - 🥈 🇩🇪 89ms | SS (#208)
-  - 🥈 🇩🇪 89ms | VLESS (#209)
-  - 🥈 🇫🇷 89ms | SS (#210)
-  - 🥈 🌐💻 90ms | SS (#211)
-  - 🥈 🇳🇱💻 90ms | SS (#212)
-  - 🥈 🇳🇱💻 90ms | SS (#213)
-  - 🥈 🇳🇱💻 90ms | SS (#214)
-  - 🥈 🇳🇱💻 90ms | SS (#215)
-  - 🥈 🇮🇹 91ms | SS (#216)
-  - 🥈 🇳🇱💻 92ms | SS (#217)
-  - 🥈 🇳🇱💻 92ms | SS (#218)
-  - 🥈 🌐💻 92ms | SS (#219)
-  - 🥈 🇳🇱 92ms | SS (#220)
+  - 🥈 🇳🇱💻 89ms | SS (#204)
+  - 🥈 🇺🇸💻 89ms | SS (#205)
+  - 🥈 🇩🇪 89ms | VLESS (#206)
+  - 🥈 🇫🇷 89ms | SS (#207)
+  - 🥈 🌐💻 90ms | SS (#208)
+  - 🥈 🇳🇱💻 90ms | SS (#209)
+  - 🥈 🇳🇱💻 90ms | SS (#210)
+  - 🥈 🇳🇱💻 90ms | SS (#211)
+  - 🥈 🇳🇱💻 91ms | SS (#212)
+  - 🥈 🇳🇱 91ms | SS (#213)
+  - 🥈 🇳🇱💻 92ms | SS (#214)
+  - 🥈 🇳🇱💻 92ms | SS (#215)
+  - 🥈 🌐💻 92ms | SS (#216)
+  - 🥈 🇩🇪 92ms | SS (#217)
+  - 🥈 🇳🇱💻 93ms | SS (#218)
+  - 🥈 🌐💻 93ms | SS (#219)
+  - 🥈 🇳🇱💻 93ms | SS (#220)
   - 🥈 🇳🇱💻 93ms | SS (#221)
-  - 🥈 🌐💻 93ms | SS (#222)
+  - 🥈 🇳🇱💻 93ms | SS (#222)
   - 🥈 🇳🇱💻 93ms | SS (#223)
-  - 🥈 🇳🇱💻 93ms | SS (#224)
-  - 🥈 🇳🇱💻 93ms | SS (#225)
-  - 🥈 🇫🇷 93ms | SS (#226)
-  - 🥈 🇳🇱 93ms | SS (#227)
-  - 🥈 🇳🇱💻 94ms | SS (#228)
-  - 🥈 🇳🇱💻 94ms | SS (#229)
+  - 🥈 🇩🇪 93ms | SS (#224)
+  - 🥈 🇫🇷 93ms | SS (#225)
+  - 🥈 🇳🇱💻 94ms | SS (#226)
+  - 🥈 🇳🇱💻 94ms | SS (#227)
+  - 🥈 🌐💻 94ms | SS (#228)
+  - 🥈 🌐💻 94ms | SS (#229)
   - 🥈 🌐💻 94ms | SS (#230)
-  - 🥈 🌐💻 94ms | SS (#231)
-  - 🥈 🌐💻 94ms | SS (#232)
-  - 🥈 🇳🇱💻 94ms | SS (#233)
-  - 🥈 🇩🇪 95ms | VLESS (#234)
-  - 🥈 🇳🇱💻 96ms | SS (#235)
-  - 🥈 🌐💻 96ms | SS (#236)
+  - 🥈 🇳🇱💻 94ms | SS (#231)
+  - 🥈 🇮🇹 95ms | SS (#232)
+  - 🥈 🇩🇪 95ms | VLESS (#233)
+  - 🥈 🇳🇱💻 96ms | SS (#234)
+  - 🥈 🌐💻 96ms | SS (#235)
+  - 🥈 🇳🇱💻 96ms | SS (#236)
   - 🥈 🇳🇱💻 96ms | SS (#237)
   - 🥈 🇳🇱💻 96ms | SS (#238)
   - 🥈 🇳🇱💻 96ms | SS (#239)
   - 🥈 🇳🇱💻 96ms | SS (#240)
-  - 🥈 🇳🇱💻 96ms | SS (#241)
+  - 🥈 🇳🇱 96ms | SS (#241)
   - 🥈 🌐 96ms | SS (#242)
   - 🥈 🌐 96ms | SS (#243)
   - 🥈 🌐 96ms | SS (#244)
@@ -6223,16 +6223,16 @@ proxy-groups:
   - 🥈 🇻🇳💻 227ms | SS (#506)
   - 🥈 🇻🇳💻 227ms | SS (#507)
   - 🥈 🇻🇳💻 227ms | SS (#508)
-  - 🥈 🇻🇳💻 228ms | SS (#509)
+  - 🥈 🇻🇳💻 227ms | SS (#509)
   - 🥈 🇻🇳💻 228ms | SS (#510)
   - 🥈 🇻🇳💻 228ms | SS (#511)
   - 🥈 🇻🇳💻 228ms | SS (#512)
   - 🥈 🇻🇳💻 228ms | SS (#513)
   - 🥈 🇻🇳💻 228ms | SS (#514)
-  - 🥈 🇰🇷💻 228ms | SS (#515)
-  - 🥈 🇸🇬💻 228ms | SS (#516)
-  - 🥈 🇻🇳💻 228ms | SS (#517)
-  - 🥈 🇻🇳💻 229ms | SS (#518)
+  - 🥈 🇻🇳💻 228ms | SS (#515)
+  - 🥈 🇰🇷💻 228ms | SS (#516)
+  - 🥈 🇸🇬💻 228ms | SS (#517)
+  - 🥈 🇻🇳💻 228ms | SS (#518)
   - 🥈 🇻🇳💻 229ms | SS (#519)
   - 🥈 🇻🇳💻 229ms | SS (#520)
   - 🥈 🇻🇳💻 229ms | SS (#521)
@@ -6244,8 +6244,8 @@ proxy-groups:
   - 🥈 🇻🇳💻 229ms | SS (#527)
   - 🥈 🇻🇳💻 229ms | SS (#528)
   - 🥈 🇻🇳💻 229ms | SS (#529)
-  - 🥈 🇻🇳💻 229ms | SS (#530)
-  - 🥈 🇻🇳💻 229ms | SS (#531)
+  - 🥈 🇻🇳💻 230ms | SS (#530)
+  - 🥈 🇻🇳💻 230ms | SS (#531)
   - 🥈 🇻🇳💻 230ms | SS (#532)
   - 🥈 🇻🇳💻 230ms | SS (#533)
   - 🥈 🇻🇳💻 230ms | SS (#534)
@@ -6269,10 +6269,10 @@ proxy-groups:
   - 🥈 🇻🇳💻 230ms | SS (#552)
   - 🥈 🇻🇳💻 230ms | SS (#553)
   - 🥈 🇻🇳💻 230ms | SS (#554)
-  - 🥈 🇻🇳💻 230ms | SS (#555)
-  - 🥈 🇻🇳💻 230ms | SS (#556)
-  - 🥈 🇻🇳💻 230ms | SS (#557)
-  - 🥈 🇻🇳💻 230ms | SS (#558)
+  - 🥈 🇻🇳💻 231ms | SS (#556)
+  - 🥈 🇻🇳💻 231ms | SS (#557)
+  - 🥈 🇻🇳💻 231ms | SS (#558)
+  - 🥈 🇻🇳💻 231ms | SS (#559)
   - 🥈 🇻🇳💻 231ms | SS (#560)
   - 🥈 🇻🇳💻 231ms | SS (#561)
   - 🥈 🇻🇳💻 231ms | SS (#562)
@@ -6319,11 +6319,11 @@ proxy-groups:
   - 🥈 🇻🇳💻 231ms | SS (#603)
   - 🥈 🇻🇳💻 231ms | SS (#604)
   - 🥈 🇻🇳💻 231ms | SS (#605)
-  - 🥈 🇻🇳💻 231ms | SS (#606)
-  - 🥈 🇻🇳💻 231ms | SS (#607)
-  - 🥈 🇻🇳💻 231ms | SS (#608)
-  - 🥈 🇻🇳💻 231ms | SS (#609)
-  - 🥈 🇻🇳💻 231ms | SS (#610)
+  - 🥈 🇻🇳💻 232ms | SS (#606)
+  - 🥈 🇻🇳💻 232ms | SS (#607)
+  - 🥈 🇻🇳💻 232ms | SS (#608)
+  - 🥈 🇻🇳💻 232ms | SS (#609)
+  - 🥈 🇻🇳💻 232ms | SS (#610)
   - 🥈 🇻🇳💻 232ms | SS (#611)
   - 🥈 🇻🇳💻 232ms | SS (#612)
   - 🥈 🇻🇳💻 232ms | SS (#613)
@@ -6348,7 +6348,7 @@ proxy-groups:
   - 🥈 🇻🇳💻 232ms | SS (#632)
   - 🥈 🇻🇳💻 232ms | SS (#633)
   - 🥈 🇻🇳💻 232ms | SS (#634)
-  - 🥈 🇻🇳💻 232ms | SS (#635)
+  - 🥈 🇯🇵💻 232ms | SS (#635)
   - 🥈 🇻🇳💻 232ms | SS (#636)
 - name: 🌍 GLOBAL
   type: select
@@ -6362,81 +6362,81 @@ proxy-groups:
   - 🥇 🇺🇸 14ms | VLESS (#3)
   - 🥇 🇺🇸 14ms | VLESS (#4)
   - 🥇 🇺🇸 15ms | VLESS (#5)
-  - 🥇 🇺🇸 15ms | VLESS (#6)
-  - 🥇 🌐 17ms | TROJAN (#7)
-  - 🥇 🇺🇸💻 32ms | TROJAN (#8)
+  - 🥇 🌐 17ms | TROJAN (#6)
+  - 🥇 🇺🇸 18ms | VLESS (#7)
+  - 🥇 🇺🇸💻 31ms | TROJAN (#8)
   - 🥇 🇺🇸💻 32ms | TROJAN (#9)
   - 🥇 🇺🇸💻 32ms | TROJAN (#10)
   - 🥇 🇺🇸💻 33ms | TROJAN (#11)
   - 🥇 🇺🇸💻 33ms | TROJAN (#12)
-  - 🥇 🇺🇸 36ms | VLESS (#13)
-  - 🥇 🇺🇸 36ms | VLESS (#14)
+  - 🥇 🇺🇸 44ms | VLESS (#13)
+  - 🥇 🇺🇸 45ms | VLESS (#14)
   - 🥇 🇫🇷💻 80ms | TROJAN (#15)
   - 🥇 🇫🇷 80ms | TROJAN (#16)
   - 🥇 🇫🇷💻 82ms | TROJAN (#17)
   - 🥇 🇳🇱 88ms | VLESS (#18)
-  - 🥇 🇳🇱 89ms | VLESS (#19)
+  - 🥇 🇩🇪💻 89ms | TROJAN (#19)
   - 🥇 🇩🇪💻 89ms | TROJAN (#20)
-  - 🥇 🇩🇪💻 89ms | TROJAN (#21)
-  - 🥇 🇳🇱 91ms | VLESS (#22)
-  - 🥇 🌐 92ms | VLESS (#23)
+  - 🥇 🇳🇱 91ms | VLESS (#21)
+  - 🥇 🌐 92ms | VLESS (#22)
+  - 🥇 🇳🇱 92ms | VLESS (#23)
   - 🥇 🇳🇱 92ms | VLESS (#24)
-  - 🥇 🇳🇱 92ms | VLESS (#25)
+  - 🥇 🇳🇱 93ms | VLESS (#25)
   - 🥇 🇩🇪 93ms | VLESS (#26)
-  - 🥇 🇳🇱 93ms | VLESS (#27)
-  - 🥇 🇺🇿 94ms | VLESS (#28)
-  - 🥇 🇩🇪 94ms | VLESS (#29)
-  - 🥇 🇳🇱 95ms | VLESS (#30)
-  - 🥇 🇬🇧 96ms | VLESS (#31)
-  - 🥇 🇺🇿 98ms | VLESS (#32)
-  - 🥇 🇩🇪 98ms | VLESS (#33)
-  - 🥇 🇫🇷 98ms | TROJAN (#34)
-  - 🥇 🇩🇪 98ms | TROJAN (#35)
-  - 🥇 🇩🇪 98ms | TROJAN (#36)
-  - 🥇 🇮🇹 99ms | VLESS (#37)
-  - 🥇 🇺🇸💻 99ms | TROJAN (#38)
-  - 🥇 🇮🇹 101ms | VLESS (#39)
-  - 🥇 🇫🇷 103ms | TROJAN (#40)
-  - 🥇 🇳🇱 106ms | VLESS (#41)
-  - 🥇 🇳🇱 110ms | VLESS (#42)
+  - 🥇 🇩🇪 93ms | VLESS (#27)
+  - 🥇 🇳🇱 93ms | VLESS (#28)
+  - 🥇 🇺🇿 94ms | VLESS (#29)
+  - 🥇 🇩🇪 94ms | VLESS (#30)
+  - 🥇 🇳🇱 95ms | VLESS (#31)
+  - 🥇 🇬🇧 96ms | VLESS (#32)
+  - 🥇 🇫🇷 98ms | TROJAN (#33)
+  - 🥇 🇩🇪 98ms | TROJAN (#34)
+  - 🥇 🇮🇹 99ms | VLESS (#35)
+  - 🥇 🇺🇸💻 99ms | TROJAN (#36)
+  - 🥇 🇮🇹 101ms | VLESS (#37)
+  - 🥇 🇫🇷 103ms | TROJAN (#38)
+  - 🥇 🇫🇷💻 104ms | VLESS (#39)
+  - 🥇 🇳🇱 106ms | VLESS (#40)
+  - 🥇 🇳🇱 110ms | VLESS (#41)
+  - 🥇 🇫🇷💻 113ms | VLESS (#42)
   - 🥇 🌐 114ms | VLESS (#43)
   - 🥇 🇮🇸💻 116ms | TROJAN (#44)
-  - 🥇 🇫🇷💻 120ms | VLESS (#45)
-  - 🥇 🇨🇿 121ms | VLESS (#46)
-  - 🥇 🇷🇺 125ms | VLESS (#47)
-  - 🥇 🇫🇮 126ms | VLESS (#48)
-  - 🥇 🇫🇮 126ms | VLESS (#49)
-  - 🥇 🇷🇺 126ms | VLESS (#50)
-  - 🥇 🇷🇺 127ms | VLESS (#51)
-  - 🥇 🇫🇮 127ms | VLESS (#52)
-  - 🥇 🌐 127ms | VLESS (#53)
-  - 🥇 🌐💻 131ms | TROJAN (#54)
-  - 🥇 🇫🇷💻 138ms | VLESS (#55)
-  - 🥇 🇫🇷💻 139ms | VLESS (#56)
-  - 🥇 🇫🇮 140ms | VLESS (#57)
-  - 🥇 🌐💻 146ms | VLESS (#58)
-  - 🥇 🌐 152ms | VLESS (#59)
-  - 🥇 🇩🇪 153ms | VLESS (#60)
-  - 🥇 🇳🇱 153ms | VLESS (#61)
-  - 🥇 🇷🇺 156ms | VLESS (#62)
-  - 🥇 🇷🇺 157ms | VLESS (#63)
-  - 🥇 🇷🇺 158ms | VLESS (#64)
-  - 🥇 🇳🇴💻 161ms | TROJAN (#65)
-  - 🥇 🌐 161ms | VLESS (#66)
-  - 🥇 🇳🇴💻 162ms | TROJAN (#67)
-  - 🥇 🇳🇴💻 164ms | TROJAN (#68)
-  - 🥇 🇳🇴💻 164ms | TROJAN (#69)
-  - 🥇 🇫🇷 166ms | TROJAN (#70)
-  - 🥇 🇯🇵💻 168ms | TROJAN (#71)
-  - 🥇 🇫🇮 170ms | VLESS (#72)
-  - 🥇 🌐 172ms | VLESS (#73)
-  - 🥇 🇩🇪 172ms | TROJAN (#74)
-  - 🥇 🇯🇵💻 173ms | TROJAN (#75)
+  - 🥇 🌐💻 120ms | VLESS (#45)
+  - 🥇 🇫🇷💻 120ms | VLESS (#46)
+  - 🥇 🇨🇿 121ms | VLESS (#47)
+  - 🥇 🇩🇪 122ms | TROJAN (#48)
+  - 🥇 🇷🇺 125ms | VLESS (#49)
+  - 🥇 🇫🇮 126ms | VLESS (#50)
+  - 🥇 🇫🇮 126ms | VLESS (#51)
+  - 🥇 🇷🇺 126ms | VLESS (#52)
+  - 🥇 🇫🇮 127ms | VLESS (#53)
+  - 🥇 🌐 127ms | VLESS (#54)
+  - 🥇 🇷🇺 129ms | VLESS (#55)
+  - 🥇 🇷🇺 130ms | VLESS (#56)
+  - 🥇 🌐💻 131ms | TROJAN (#57)
+  - 🥇 🇺🇿 134ms | VLESS (#58)
+  - 🥇 🇫🇮 140ms | VLESS (#59)
+  - 🥇 🌐 152ms | VLESS (#60)
+  - 🥇 🇩🇪 153ms | VLESS (#61)
+  - 🥇 🇳🇱 153ms | VLESS (#62)
+  - 🥇 🇷🇺 156ms | VLESS (#63)
+  - 🥇 🇳🇴💻 157ms | TROJAN (#64)
+  - 🥇 🇷🇺 157ms | VLESS (#65)
+  - 🥇 🇷🇺 158ms | VLESS (#66)
+  - 🥇 🇳🇴💻 159ms | TROJAN (#67)
+  - 🥇 🌐 161ms | VLESS (#68)
+  - 🥇 🇳🇴💻 162ms | TROJAN (#69)
+  - 🥇 🇳🇴💻 164ms | TROJAN (#70)
+  - 🥇 🇫🇷 166ms | TROJAN (#71)
+  - 🥇 🇯🇵💻 168ms | TROJAN (#72)
+  - 🥇 🇫🇮 170ms | VLESS (#73)
+  - 🥇 🌐 172ms | VLESS (#74)
+  - 🥇 🇩🇪 172ms | TROJAN (#75)
   - 🥇 🇯🇵💻 173ms | TROJAN (#76)
-  - 🥇 🇮🇸💻 174ms | TROJAN (#77)
-  - 🥇 🇫🇮 176ms | VLESS (#78)
-  - 🥇 🇯🇵💻 177ms | TROJAN (#79)
-  - 🥇 🇷🇺 179ms | VLESS (#80)
+  - 🥇 🇯🇵💻 173ms | TROJAN (#77)
+  - 🥇 🇮🇸💻 174ms | TROJAN (#78)
+  - 🥇 🇫🇮 176ms | VLESS (#79)
+  - 🥇 🇯🇵💻 177ms | TROJAN (#80)
   - 🥇 🇷🇺 184ms | VLESS (#81)
   - 🥇 🇫🇮 184ms | VLESS (#82)
   - 🥇 🇷🇺 185ms | VLESS (#83)
@@ -6543,60 +6543,60 @@ proxy-groups:
   - 🥈 🇫🇷💻 81ms | SS (#185)
   - 🥈 🌐💻 81ms | SS (#186)
   - 🥈 🌐💻 81ms | SS (#187)
-  - 🥈 🌐💻 82ms | SS (#188)
+  - 🥈 🇬🇧 81ms | SS (#188)
   - 🥈 🌐💻 82ms | SS (#189)
-  - 🥈 🇫🇷 82ms | VLESS (#190)
-  - 🥈 🌐💻 83ms | SS (#191)
-  - 🥈 🇬🇧 83ms | SS (#192)
+  - 🥈 🌐💻 82ms | SS (#190)
+  - 🥈 🇫🇷 82ms | VLESS (#191)
+  - 🥈 🌐💻 83ms | SS (#192)
   - 🥈 🌐💻 84ms | SS (#193)
   - 🥈 🇬🇧 84ms | VLESS (#194)
   - 🥈 🌐💻 85ms | SS (#195)
   - 🥈 🌐💻 85ms | SS (#196)
   - 🥈 🇬🇧 85ms | VLESS (#197)
-  - 🥈 🇳🇱💻 87ms | SS (#198)
-  - 🥈 🇫🇷 87ms | VLESS (#199)
-  - 🥈 🇳🇱💻 88ms | SS (#200)
+  - 🥈 🇫🇷 87ms | VLESS (#198)
+  - 🥈 🇳🇱💻 88ms | SS (#199)
+  - 🥈 🇳🇱💻 89ms | SS (#200)
   - 🥈 🇳🇱💻 89ms | SS (#201)
-  - 🥈 🇳🇱💻 89ms | SS (#202)
+  - 🥈 🌐💻 89ms | SS (#202)
   - 🥈 🌐💻 89ms | SS (#203)
-  - 🥈 🌐💻 89ms | SS (#204)
-  - 🥈 🇳🇱💻 89ms | SS (#205)
-  - 🥈 🇺🇸💻 89ms | SS (#206)
-  - 🥈 🇩🇪 89ms | SS (#207)
-  - 🥈 🇩🇪 89ms | SS (#208)
-  - 🥈 🇩🇪 89ms | VLESS (#209)
-  - 🥈 🇫🇷 89ms | SS (#210)
-  - 🥈 🌐💻 90ms | SS (#211)
-  - 🥈 🇳🇱💻 90ms | SS (#212)
-  - 🥈 🇳🇱💻 90ms | SS (#213)
-  - 🥈 🇳🇱💻 90ms | SS (#214)
-  - 🥈 🇳🇱💻 90ms | SS (#215)
-  - 🥈 🇮🇹 91ms | SS (#216)
-  - 🥈 🇳🇱💻 92ms | SS (#217)
-  - 🥈 🇳🇱💻 92ms | SS (#218)
-  - 🥈 🌐💻 92ms | SS (#219)
-  - 🥈 🇳🇱 92ms | SS (#220)
+  - 🥈 🇳🇱💻 89ms | SS (#204)
+  - 🥈 🇺🇸💻 89ms | SS (#205)
+  - 🥈 🇩🇪 89ms | VLESS (#206)
+  - 🥈 🇫🇷 89ms | SS (#207)
+  - 🥈 🌐💻 90ms | SS (#208)
+  - 🥈 🇳🇱💻 90ms | SS (#209)
+  - 🥈 🇳🇱💻 90ms | SS (#210)
+  - 🥈 🇳🇱💻 90ms | SS (#211)
+  - 🥈 🇳🇱💻 91ms | SS (#212)
+  - 🥈 🇳🇱 91ms | SS (#213)
+  - 🥈 🇳🇱💻 92ms | SS (#214)
+  - 🥈 🇳🇱💻 92ms | SS (#215)
+  - 🥈 🌐💻 92ms | SS (#216)
+  - 🥈 🇩🇪 92ms | SS (#217)
+  - 🥈 🇳🇱💻 93ms | SS (#218)
+  - 🥈 🌐💻 93ms | SS (#219)
+  - 🥈 🇳🇱💻 93ms | SS (#220)
   - 🥈 🇳🇱💻 93ms | SS (#221)
-  - 🥈 🌐💻 93ms | SS (#222)
+  - 🥈 🇳🇱💻 93ms | SS (#222)
   - 🥈 🇳🇱💻 93ms | SS (#223)
-  - 🥈 🇳🇱💻 93ms | SS (#224)
-  - 🥈 🇳🇱💻 93ms | SS (#225)
-  - 🥈 🇫🇷 93ms | SS (#226)
-  - 🥈 🇳🇱 93ms | SS (#227)
-  - 🥈 🇳🇱💻 94ms | SS (#228)
-  - 🥈 🇳🇱💻 94ms | SS (#229)
+  - 🥈 🇩🇪 93ms | SS (#224)
+  - 🥈 🇫🇷 93ms | SS (#225)
+  - 🥈 🇳🇱💻 94ms | SS (#226)
+  - 🥈 🇳🇱💻 94ms | SS (#227)
+  - 🥈 🌐💻 94ms | SS (#228)
+  - 🥈 🌐💻 94ms | SS (#229)
   - 🥈 🌐💻 94ms | SS (#230)
-  - 🥈 🌐💻 94ms | SS (#231)
-  - 🥈 🌐💻 94ms | SS (#232)
-  - 🥈 🇳🇱💻 94ms | SS (#233)
-  - 🥈 🇩🇪 95ms | VLESS (#234)
-  - 🥈 🇳🇱💻 96ms | SS (#235)
-  - 🥈 🌐💻 96ms | SS (#236)
+  - 🥈 🇳🇱💻 94ms | SS (#231)
+  - 🥈 🇮🇹 95ms | SS (#232)
+  - 🥈 🇩🇪 95ms | VLESS (#233)
+  - 🥈 🇳🇱💻 96ms | SS (#234)
+  - 🥈 🌐💻 96ms | SS (#235)
+  - 🥈 🇳🇱💻 96ms | SS (#236)
   - 🥈 🇳🇱💻 96ms | SS (#237)
   - 🥈 🇳🇱💻 96ms | SS (#238)
   - 🥈 🇳🇱💻 96ms | SS (#239)
   - 🥈 🇳🇱💻 96ms | SS (#240)
-  - 🥈 🇳🇱💻 96ms | SS (#241)
+  - 🥈 🇳🇱 96ms | SS (#241)
   - 🥈 🌐 96ms | SS (#242)
   - 🥈 🌐 96ms | SS (#243)
   - 🥈 🌐 96ms | SS (#244)
@@ -6864,16 +6864,16 @@ proxy-groups:
   - 🥈 🇻🇳💻 227ms | SS (#506)
   - 🥈 🇻🇳💻 227ms | SS (#507)
   - 🥈 🇻🇳💻 227ms | SS (#508)
-  - 🥈 🇻🇳💻 228ms | SS (#509)
+  - 🥈 🇻🇳💻 227ms | SS (#509)
   - 🥈 🇻🇳💻 228ms | SS (#510)
   - 🥈 🇻🇳💻 228ms | SS (#511)
   - 🥈 🇻🇳💻 228ms | SS (#512)
   - 🥈 🇻🇳💻 228ms | SS (#513)
   - 🥈 🇻🇳💻 228ms | SS (#514)
-  - 🥈 🇰🇷💻 228ms | SS (#515)
-  - 🥈 🇸🇬💻 228ms | SS (#516)
-  - 🥈 🇻🇳💻 228ms | SS (#517)
-  - 🥈 🇻🇳💻 229ms | SS (#518)
+  - 🥈 🇻🇳💻 228ms | SS (#515)
+  - 🥈 🇰🇷💻 228ms | SS (#516)
+  - 🥈 🇸🇬💻 228ms | SS (#517)
+  - 🥈 🇻🇳💻 228ms | SS (#518)
   - 🥈 🇻🇳💻 229ms | SS (#519)
   - 🥈 🇻🇳💻 229ms | SS (#520)
   - 🥈 🇻🇳💻 229ms | SS (#521)
@@ -6885,8 +6885,8 @@ proxy-groups:
   - 🥈 🇻🇳💻 229ms | SS (#527)
   - 🥈 🇻🇳💻 229ms | SS (#528)
   - 🥈 🇻🇳💻 229ms | SS (#529)
-  - 🥈 🇻🇳💻 229ms | SS (#530)
-  - 🥈 🇻🇳💻 229ms | SS (#531)
+  - 🥈 🇻🇳💻 230ms | SS (#530)
+  - 🥈 🇻🇳💻 230ms | SS (#531)
   - 🥈 🇻🇳💻 230ms | SS (#532)
   - 🥈 🇻🇳💻 230ms | SS (#533)
   - 🥈 🇻🇳💻 230ms | SS (#534)
@@ -6910,10 +6910,10 @@ proxy-groups:
   - 🥈 🇻🇳💻 230ms | SS (#552)
   - 🥈 🇻🇳💻 230ms | SS (#553)
   - 🥈 🇻🇳💻 230ms | SS (#554)
-  - 🥈 🇻🇳💻 230ms | SS (#555)
-  - 🥈 🇻🇳💻 230ms | SS (#556)
-  - 🥈 🇻🇳💻 230ms | SS (#557)
-  - 🥈 🇻🇳💻 230ms | SS (#558)
+  - 🥈 🇻🇳💻 231ms | SS (#556)
+  - 🥈 🇻🇳💻 231ms | SS (#557)
+  - 🥈 🇻🇳💻 231ms | SS (#558)
+  - 🥈 🇻🇳💻 231ms | SS (#559)
   - 🥈 🇻🇳💻 231ms | SS (#560)
   - 🥈 🇻🇳💻 231ms | SS (#561)
   - 🥈 🇻🇳💻 231ms | SS (#562)
@@ -6960,11 +6960,11 @@ proxy-groups:
   - 🥈 🇻🇳💻 231ms | SS (#603)
   - 🥈 🇻🇳💻 231ms | SS (#604)
   - 🥈 🇻🇳💻 231ms | SS (#605)
-  - 🥈 🇻🇳💻 231ms | SS (#606)
-  - 🥈 🇻🇳💻 231ms | SS (#607)
-  - 🥈 🇻🇳💻 231ms | SS (#608)
-  - 🥈 🇻🇳💻 231ms | SS (#609)
-  - 🥈 🇻🇳💻 231ms | SS (#610)
+  - 🥈 🇻🇳💻 232ms | SS (#606)
+  - 🥈 🇻🇳💻 232ms | SS (#607)
+  - 🥈 🇻🇳💻 232ms | SS (#608)
+  - 🥈 🇻🇳💻 232ms | SS (#609)
+  - 🥈 🇻🇳💻 232ms | SS (#610)
   - 🥈 🇻🇳💻 232ms | SS (#611)
   - 🥈 🇻🇳💻 232ms | SS (#612)
   - 🥈 🇻🇳💻 232ms | SS (#613)
@@ -6989,7 +6989,7 @@ proxy-groups:
   - 🥈 🇻🇳💻 232ms | SS (#632)
   - 🥈 🇻🇳💻 232ms | SS (#633)
   - 🥈 🇻🇳💻 232ms | SS (#634)
-  - 🥈 🇻🇳💻 232ms | SS (#635)
+  - 🥈 🇯🇵💻 232ms | SS (#635)
   - 🥈 🇻🇳💻 232ms | SS (#636)
 rules:
 - MATCH,🌍 GLOBAL
