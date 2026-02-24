@@ -5,6 +5,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: pYIoKUPGpWeTYXEx3HjR7s97B
   tls: true
   servername: free-de-2.undef.network
@@ -14,6 +15,7 @@ proxies:
   port: 4920
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -23,6 +25,7 @@ proxies:
   port: 3423
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -32,6 +35,7 @@ proxies:
   port: 3423
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -41,6 +45,7 @@ proxies:
   port: 3423
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -50,6 +55,7 @@ proxies:
   port: 193
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -59,6 +65,7 @@ proxies:
   port: 3423
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -68,6 +75,7 @@ proxies:
   port: 3423
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -77,6 +85,7 @@ proxies:
   port: 1281
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -86,6 +95,7 @@ proxies:
   port: 1281
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -95,6 +105,7 @@ proxies:
   port: 193
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -104,6 +115,7 @@ proxies:
   port: 1281
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -113,6 +125,7 @@ proxies:
   port: 12420
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: wp9IsiY82uQhcmgNC1eoBM
   tls: true
   servername: www.semanticstaplegun.click
@@ -122,6 +135,7 @@ proxies:
   port: 28099
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: qmBSKnAl6LYi9=z23Rs.Z
   tls: true
   servername: celestialcorset.crystalhamster.click
@@ -131,6 +145,7 @@ proxies:
   port: 1281
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -140,6 +155,7 @@ proxies:
   port: 1281
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -149,6 +165,7 @@ proxies:
   port: 3419
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -158,6 +175,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b3d27d09-77fe-431d-9829-6eba7dce20b0
   tls: true
   servername: 5.earths.team
@@ -167,6 +185,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b3d27d09-77fe-431d-9829-6eba7dce20b0
   tls: true
   servername: 6.earths.team
@@ -176,6 +195,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae
   tls: true
   servername: 14.earths.team
@@ -185,6 +205,7 @@ proxies:
   port: 12004
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: dd04c158-1bac-47cd-99c1-5c4f64796dd5
   tls: true
   servername: supersouth.xn--mesv7f5toqlp.club
@@ -194,33 +215,49 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: ws
   password: 3e974f9e
   tls: true
   servername: 63.hhhhh.eu.org
+  ws-opts:
+    path: /8.220.134.136:443
+    headers:
+      Host: 8.220.134.136
 - name: 🥇 🌐 999ms | TROJAN (#22)
   type: trojan
   server: 61.245.10.200
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: ws
   password: 3e974f9e
   tls: true
   servername: 63.hhhhh.eu.org
+  ws-opts:
+    path: /61.245.10.200:8443
+    headers:
+      Host: 61.245.10.200
 - name: 🥇 🌐 999ms | TROJAN (#23)
   type: trojan
   server: 38.54.81.111
   port: 443
   udp: true
   skip-cert-verify: true
+  network: ws
   password: 3e974f9e
   tls: true
   servername: 63.hhhhh.eu.org
+  ws-opts:
+    path: /38.54.81.111:443
+    headers:
+      Host: 38.54.81.111
 - name: 🥇 🌐 999ms | TROJAN (#24)
   type: trojan
   server: 36.156.102.115
   port: 26876
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: 36.156.102.115
@@ -230,6 +267,7 @@ proxies:
   port: 40375
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: e2afc128-ca51-39b6-897c-eb2649825df9
   tls: true
   servername: yn-zf.jiashumao.net
@@ -239,6 +277,7 @@ proxies:
   port: 25888
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: e2afc128-ca51-39b6-897c-eb2649825df9
   tls: true
   servername: twb-zf.jiashumao.net
@@ -248,6 +287,7 @@ proxies:
   port: 35501
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: a1a00c82-5356-4a49-8944-1cd0f94168bb
   tls: true
   servername: 220.130.58.136
@@ -257,6 +297,7 @@ proxies:
   port: 10889
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   tls: true
   servername: ozon.ru
@@ -266,6 +307,7 @@ proxies:
   port: 3462
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   tls: true
   servername: 45.32.28.232
@@ -275,6 +317,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
   tls: true
   servername: 168.138.44.176
@@ -284,6 +327,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 9c822f05-cfdc-479a-9534-60f3d4127435
   tls: true
   servername: 138.2.113.248
@@ -293,6 +337,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
   tls: true
   servername: stutter.freetrade.link
@@ -302,6 +347,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   tls: true
   servername: 129.146.190.42
@@ -311,6 +357,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: e23f408a-012e-4030-8b31-02022031cb50
   tls: true
   servername: 129.146.135.157
@@ -320,6 +367,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 54080134-2cba-4535-8599-95650bd9aa54
   tls: true
   servername: 152.67.160.174
@@ -329,6 +377,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   tls: true
   servername: 129.146.242.130
@@ -338,6 +387,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: origin
   tls: true
   servername: 176.31.83.90
@@ -347,6 +397,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: TestingServer@@
   tls: true
   servername: 94.102.53.19
@@ -356,6 +407,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: HdsUZmsHQW
   tls: true
   servername: 148.113.141.99
@@ -365,6 +417,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: Sp3eDVp
   tls: true
   servername: 185.212.200.75
@@ -374,6 +427,7 @@ proxies:
   port: 22223
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trojan.burgerip.co.uk
@@ -383,6 +437,7 @@ proxies:
   port: 4856
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -392,6 +447,7 @@ proxies:
   port: 1491
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -401,6 +457,7 @@ proxies:
   port: 2399
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -410,6 +467,7 @@ proxies:
   port: 26378
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me%2Fripaojiedian
@@ -419,6 +477,7 @@ proxies:
   port: 3901
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -428,6 +487,7 @@ proxies:
   port: 3901
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -437,6 +497,7 @@ proxies:
   port: 381
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me%2Fripaojiedian
@@ -446,6 +507,7 @@ proxies:
   port: 4920
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -455,6 +517,7 @@ proxies:
   port: 23287
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -464,6 +527,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   tls: true
   servername: 45.32.28.232
@@ -473,24 +537,35 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: ws
   password: 8r%3C%5B9%27l6hAO%238ZQi
   tls: true
   servername: Koma-YT.PAGeS.Dev
+  ws-opts:
+    path: /tro8sFW1S91B6sZrM1?ed=2560
+    headers:
+      Host: 172.66.44.230
 - name: 🥇 🌐 999ms | TROJAN (#53)
   type: trojan
   server: 216.24.57.250
   port: 443
   udp: true
   skip-cert-verify: true
+  network: ws
   password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
   tls: true
   servername: afrcloud1.mmv.kr
+  ws-opts:
+    path: /5.223.47.32=443
+    headers:
+      Host: 216.24.57.250
 - name: 🥇 🌐 999ms | TROJAN (#54)
   type: trojan
   server: 120.236.197.205
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ba4fedf8c217c146
   tls: true
   servername: n2.gladns.com
@@ -500,6 +575,7 @@ proxies:
   port: 19215
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -509,6 +585,7 @@ proxies:
   port: 18634
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
   tls: true
   servername: avas04.xiaohouzi.club
@@ -518,6 +595,7 @@ proxies:
   port: 19243
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -527,6 +605,7 @@ proxies:
   port: 18831
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
   tls: true
   servername: avas01.xiaohouzi.club
@@ -536,6 +615,7 @@ proxies:
   port: 27094
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
   tls: true
   servername: siga01.xiaohouzi.club
@@ -545,6 +625,7 @@ proxies:
   port: 17107
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hnm.xiaohouzi.club
@@ -554,6 +635,7 @@ proxies:
   port: 16082
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
   tls: true
   servername: nh-hinet06.xiaohouzi.club
@@ -563,6 +645,7 @@ proxies:
   port: 18433
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hn.xiaohouzi.club
@@ -572,6 +655,7 @@ proxies:
   port: 16015
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hn.xiaohouzi.club
@@ -581,6 +665,7 @@ proxies:
   port: 19201
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -590,6 +675,7 @@ proxies:
   port: 19240
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -599,6 +685,7 @@ proxies:
   port: 18459
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hn.xiaohouzi.club
@@ -608,6 +695,7 @@ proxies:
   port: 18432
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hn.xiaohouzi.club
@@ -617,6 +705,7 @@ proxies:
   port: 49363
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hnm.xiaohouzi.club
@@ -626,6 +715,7 @@ proxies:
   port: 47651
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
   tls: true
   servername: $hnm.xiaohouzi.club
@@ -635,6 +725,7 @@ proxies:
   port: 44301
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
   tls: true
   servername: lav002.jd0001.top
@@ -644,6 +735,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
@@ -653,6 +745,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b8808043-6566-4923-9195-e66bfb553d57
   tls: true
   servername: ba24.ir
@@ -662,6 +755,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cd27884b-c5af-34ec-b75f-8248077818fe
   tls: true
   servername: 2.hg.kr.cat77.cloud
@@ -671,6 +765,7 @@ proxies:
   port: 19241
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -680,6 +775,7 @@ proxies:
   port: 19232
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -689,6 +785,7 @@ proxies:
   port: 19233
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -698,6 +795,7 @@ proxies:
   port: 19239
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -707,6 +805,7 @@ proxies:
   port: 19248
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -716,6 +815,7 @@ proxies:
   port: 19245
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -725,6 +825,7 @@ proxies:
   port: 19225
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
   tls: true
   servername: 120.226.39.25
@@ -734,6 +835,7 @@ proxies:
   port: 14185
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hn.xiaohouzi.club
@@ -743,6 +845,7 @@ proxies:
   port: 20091
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: gz01.xiaohouzi.club
@@ -752,6 +855,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-privatevpns
   tls: true
   servername: trj.rollingnext.co.uk
@@ -761,6 +865,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
@@ -770,6 +875,7 @@ proxies:
   port: 17106
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hnm.xiaohouzi.club
@@ -779,6 +885,7 @@ proxies:
   port: 18435
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hn.xiaohouzi.club
@@ -788,6 +895,7 @@ proxies:
   port: 19023
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
   tls: true
   servername: hn.xiaohouzi.club
@@ -797,6 +905,7 @@ proxies:
   port: 46014
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hn.xiaohouzi.club
@@ -806,6 +915,7 @@ proxies:
   port: 31853
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: jKRJgS7uvI
   tls: true
   servername: 155.248.193.254
@@ -815,6 +925,7 @@ proxies:
   port: 49361
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: hnm.xiaohouzi.club
@@ -824,6 +935,7 @@ proxies:
   port: 18835
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
   tls: true
   servername: $$feilvbin.xiaohouzi.club
@@ -833,6 +945,7 @@ proxies:
   port: 48464
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$vuus04.xiaohouzi.club
@@ -842,6 +955,7 @@ proxies:
   port: 48431
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: hn.xiaohouzi.club
@@ -851,6 +965,7 @@ proxies:
   port: 20018
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $iplc.xiaohouzi.club
@@ -860,6 +975,7 @@ proxies:
   port: 18733
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
   tls: true
   servername: $$ajpn03.xiaohouzi.club
@@ -869,6 +985,7 @@ proxies:
   port: 17108
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: hnm.xiaohouzi.club
@@ -878,6 +995,7 @@ proxies:
   port: 36304
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: szf02.xiaohouzi.club
@@ -887,6 +1005,7 @@ proxies:
   port: 20011
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: iplc011.xiaohouzi.club
@@ -896,6 +1015,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
@@ -905,6 +1025,7 @@ proxies:
   port: 49438
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: hn.xiaohouzi.club
@@ -914,6 +1035,7 @@ proxies:
   port: 47552
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: hnm.xiaohouzi.club
@@ -923,6 +1045,7 @@ proxies:
   port: 44301
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
   tls: true
   servername: osav101.jd0001.top
@@ -932,6 +1055,7 @@ proxies:
   port: 44302
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 4d111af8-5078-37e0-a583-34155f60b32c
   tls: true
   servername: 152.70.143.228
@@ -941,6 +1065,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-privatevpns
   tls: true
   servername: trj.rollingnext.co.uk
@@ -950,6 +1075,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
@@ -959,6 +1085,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
@@ -968,6 +1095,7 @@ proxies:
   port: 48434
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $ajpn04.xiaohouzi.club
@@ -977,6 +1105,7 @@ proxies:
   port: 13328
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: siga01.xiaohouzi.club
@@ -986,6 +1115,7 @@ proxies:
   port: 17115
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$hn.xiaohouzi.club
@@ -995,6 +1125,7 @@ proxies:
   port: 19362
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: aws-hk03.xiaohouzi.club
@@ -1004,6 +1135,7 @@ proxies:
   port: 47555
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$$au02.xiaohouzi.club
@@ -1013,6 +1145,7 @@ proxies:
   port: 51054
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: hn.xiaohouzi.club
@@ -1022,6 +1155,7 @@ proxies:
   port: 61005
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$aru05.xiaohouzi.club
@@ -1031,6 +1165,7 @@ proxies:
   port: 17112
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$supaz012.xiaohouzi.club
@@ -1040,6 +1175,7 @@ proxies:
   port: 14705
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $$$$$$$vusig01.xiaohouzi.club
@@ -1049,6 +1185,7 @@ proxies:
   port: 18581
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 21e10785-99c6-316e-a184-a03384ee06e5
   tls: true
   servername: $$vutnkr01.xiaohouzi.club
@@ -1058,6 +1195,7 @@ proxies:
   port: 16011
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$azhk095.xiaohouzi.club
@@ -1067,6 +1205,7 @@ proxies:
   port: 48461
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$$$hn.xiaohouzi.club
@@ -1076,6 +1215,7 @@ proxies:
   port: 16012
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: supsig.xiaohouzi.club
@@ -1085,6 +1225,7 @@ proxies:
   port: 19359
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$$$$hn.xiaohouzi.club
@@ -1094,6 +1235,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: paydiu.com
@@ -1103,6 +1245,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: paydiu.com
@@ -1112,6 +1255,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-privatevpns
   tls: true
   servername: trj.rollingnext.co.uk
@@ -1121,6 +1265,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
@@ -1130,6 +1275,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: paydiu.com
@@ -1139,6 +1285,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 4d048fc6-d944-41dd-b327-10856adcc82d
   tls: true
   servername: zi.you.usdtvfk.top
@@ -1148,6 +1295,7 @@ proxies:
   port: 20015
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $$$supaz05.xiaohouzi.club
@@ -1157,6 +1305,7 @@ proxies:
   port: 16081
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: hn01.xiaohouzi.club
@@ -1166,6 +1315,7 @@ proxies:
   port: 18436
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$avas01.xiaohouzi.club
@@ -1175,6 +1325,7 @@ proxies:
   port: 51052
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: hnm.xiaohouzi.club
@@ -1184,6 +1335,7 @@ proxies:
   port: 42541
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: hn.xiaohouzi.club
@@ -1193,6 +1345,7 @@ proxies:
   port: 17103
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$canada01.xiaohouzi.club
@@ -1202,6 +1355,7 @@ proxies:
   port: 20037
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $$$$iplc.xiaohouzi.club
@@ -1211,6 +1365,7 @@ proxies:
   port: 20036
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$nazhk03.xiaohouzi.club
@@ -1220,6 +1375,7 @@ proxies:
   port: 19362
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $$$$$$$$aws-hk03.xiaohouzi.club
@@ -1229,6 +1385,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: paydiu.com
@@ -1238,6 +1395,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: paydiu.com
@@ -1247,6 +1405,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-privatevpns
   tls: true
   servername: trj.rollingnext.co.uk
@@ -1256,6 +1415,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-privatevpns
   tls: true
   servername: trj.rollingnext.co.uk
@@ -1265,6 +1425,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
@@ -1274,6 +1435,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
@@ -1283,6 +1445,7 @@ proxies:
   port: 19365
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$supaz041.xiaohouzi.club
@@ -1292,6 +1455,7 @@ proxies:
   port: 36305
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $$hnm.xiaohouzi.club
@@ -1301,6 +1465,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: 159.65.147.91
@@ -1310,6 +1475,7 @@ proxies:
   port: 20032
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $$hk-azure02.xiaohouzi.club
@@ -1319,6 +1485,7 @@ proxies:
   port: 60047
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$supaz05.xiaohouzi.club
@@ -1328,6 +1495,7 @@ proxies:
   port: 51058
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$aru01.xiaohouzi.club
@@ -1337,6 +1505,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: bs6KJkPBW9MP74uHEa
   tls: true
   servername: 45.80.190.66
@@ -1346,6 +1515,7 @@ proxies:
   port: 48465
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$vuus05.xiaohouzi.club
@@ -1355,6 +1525,7 @@ proxies:
   port: 17113
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: a3278882-3614-39cf-a3d6-faefa8c910ab
   tls: true
   servername: $$hnm.xiaohouzi.club
@@ -1364,6 +1535,7 @@ proxies:
   port: 20514
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: a3278882-3614-39cf-a3d6-faefa8c910ab
   tls: true
   servername: $$$$supaz041.xiaohouzi.club
@@ -1373,6 +1545,7 @@ proxies:
   port: 17109
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $$$$$hnm.xiaohouzi.club
@@ -1382,6 +1555,7 @@ proxies:
   port: 8461
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: shenmegui
   tls: true
   servername: $jp.swiftfalcon.app
@@ -1391,6 +1565,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: paydiu.com
@@ -1400,6 +1575,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: 23.145.24.30
@@ -1409,6 +1585,7 @@ proxies:
   port: 889
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: JeSDlzqBCKqUCmDskZDSIvgscdvOYWbd
   tls: true
   servername: o-two.bond
@@ -1418,6 +1595,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: 103.135.103.229
@@ -1427,6 +1605,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: paydiu.com
@@ -1436,6 +1615,7 @@ proxies:
   port: 27482
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $$$hnm.xiaohouzi.club
@@ -1445,6 +1625,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: bs6KJkPBW9MP74uHEa
   tls: true
   servername: 45.80.190.64
@@ -1454,6 +1635,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 39386ab3-db28-468f-b87b-471f4ab7ca1c
   tls: true
   servername: $trxn.ballistics.top
@@ -1463,6 +1645,7 @@ proxies:
   port: 12468
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$sh.xiaohouzi.club
@@ -1472,6 +1655,7 @@ proxies:
   port: 61003
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: $$hn.xiaohouzi.club
@@ -1481,6 +1665,7 @@ proxies:
   port: 18463
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$hn.xiaohouzi.club
@@ -1490,6 +1675,7 @@ proxies:
   port: 48462
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
   tls: true
   servername: $$hn.xiaohouzi.club
@@ -1499,6 +1685,7 @@ proxies:
   port: 10102
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   tls: true
   servername: 43.154.172.79
@@ -1508,6 +1695,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: $paydiu.com
@@ -1517,6 +1705,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0c6a3341e8d5ab17
   tls: true
   servername: f5465c4.pg.gladns.com
@@ -1526,6 +1715,7 @@ proxies:
   port: 889
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: giosZwLNqAUWxczWJDYqXQDgNLMYwbKI
   tls: true
   servername: o-two.bond
@@ -1535,6 +1725,7 @@ proxies:
   port: 44302
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 4d111af8-5078-37e0-a583-34155f60b32c
   tls: true
   servername: phxv001.jd0001.top
@@ -1544,6 +1735,7 @@ proxies:
   port: 50418
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: a70b39d1-62ea-4d9e-b681-9c5408352234
   tls: true
   servername: 103.103.245.125
@@ -1553,6 +1745,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   tls: true
   servername: paydiu.com
@@ -1562,6 +1755,7 @@ proxies:
   port: 20220
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b57f94c6-7385-47f7-9c8a-55de6098bd2b
   tls: true
   servername: zzjp01.fuqiangren.com
@@ -1571,6 +1765,7 @@ proxies:
   port: 31102
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 54952640-8e23-4faa-96ae-061e431a9913
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1580,6 +1775,7 @@ proxies:
   port: 31102
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 92953fc6-f497-43af-9d6d-f3b5589df318
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1589,6 +1785,7 @@ proxies:
   port: 31102
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 5f6ded93-4ab8-4a99-9c84-b19b9993f27c
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1598,6 +1795,7 @@ proxies:
   port: 35502
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6f038cee-6ba1-4941-bce5-de1969f37405
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1607,6 +1805,7 @@ proxies:
   port: 31101
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1616,6 +1815,7 @@ proxies:
   port: 31101
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 26635779-8ce6-4c07-ae5d-f3769ec95ddd
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1625,6 +1825,7 @@ proxies:
   port: 31103
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0a169d7d-a30f-4d90-af1b-55f6ef6afcb7
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1634,6 +1835,7 @@ proxies:
   port: 31103
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 20a3d819-ca7f-48a6-ba20-f7021e8dbbbe
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1643,6 +1845,7 @@ proxies:
   port: 31103
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1652,6 +1855,7 @@ proxies:
   port: 35501
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: fe040a20-827e-42eb-994f-ec16d4ae5aa4
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1661,6 +1865,7 @@ proxies:
   port: 35501
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ba222255-00e9-434d-88f0-e0c22ac529f4
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1670,6 +1875,7 @@ proxies:
   port: 31101
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 987525bc-99a3-461e-a50f-a0a667d06ed7
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1679,6 +1885,7 @@ proxies:
   port: 35502
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 26635779-8ce6-4c07-ae5d-f3769ec95ddd
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1688,6 +1895,7 @@ proxies:
   port: 35502
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 415e1712-0170-42dd-a4cd-5e95bef256db
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1697,6 +1905,7 @@ proxies:
   port: 22231
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 83a4a140-c2d0-4b9a-9ed4-55594ce65709
   tls: true
   servername: cdnfire.xiaomispeed.com
@@ -1706,6 +1915,7 @@ proxies:
   port: 21115
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 83a4a140-c2d0-4b9a-9ed4-55594ce65709
   tls: true
   servername: cdnfire.xiaomispeed.com
@@ -1715,6 +1925,7 @@ proxies:
   port: 21103
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 83a4a140-c2d0-4b9a-9ed4-55594ce65709
   tls: true
   servername: cdnfire.xiaomispeed.com
@@ -1724,6 +1935,7 @@ proxies:
   port: 35501
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 92953fc6-f497-43af-9d6d-f3b5589df318
   tls: true
   servername: 220.130.58.136
@@ -1733,6 +1945,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   tls: true
   servername: blackshadow.dpdns.org
@@ -1742,6 +1955,7 @@ proxies:
   port: 31103
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: fdeb5068-b9c7-486c-8ccf-8d2b744bd839
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1751,6 +1965,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: humanity
   tls: true
   servername: www.calmlunch.com
@@ -1760,6 +1975,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: humanity
   tls: true
   servername: www.creationlong.org
@@ -1769,6 +1985,7 @@ proxies:
   port: 35501
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6b7745ef-30c1-40d7-b0fd-c2d8a171c450
   tls: true
   servername: green2.cdntencentmusic.com
@@ -1778,6 +1995,7 @@ proxies:
   port: 4856
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -1787,6 +2005,7 @@ proxies:
   port: 54548
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -1796,6 +2015,7 @@ proxies:
   port: 504
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -1805,6 +2025,7 @@ proxies:
   port: 2595
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me%2Fripaojiedian
@@ -1814,6 +2035,7 @@ proxies:
   port: 3423
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -1823,6 +2045,7 @@ proxies:
   port: 3901
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -1832,6 +2055,7 @@ proxies:
   port: 15363
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me%2Fripaojiedian
@@ -1841,6 +2065,7 @@ proxies:
   port: 1281
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   tls: true
   servername: www.nintendogames.net
@@ -1850,6 +2075,7 @@ proxies:
   port: 50446
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -1859,6 +2085,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -1868,6 +2095,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: ������+[By+DukeMehdi]+trojan-HK+
@@ -1877,6 +2105,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: '������ [By DukeMehdi] trojan-HK '
@@ -1886,6 +2115,7 @@ proxies:
   port: 32002
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cfbabf31-2cf6-40ca-9688-abbb682370aa
   tls: true
   servername: jp-bgp.speedaccelerate.com
@@ -1895,6 +2125,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: grpc
   password: qj1Dz1CJmFQRhWr1SP80aA
   tls: true
   servername: cdn-21.gsmxreality.com
@@ -1904,6 +2135,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 27876_t7d7f4e3f
   tls: true
   servername: 23.142.200.175
@@ -1913,6 +2145,7 @@ proxies:
   port: 4603
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: TNDSJfNv
   tls: true
   servername: 36.151.195.48
@@ -1922,6 +2155,7 @@ proxies:
   port: 4787
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: TNDSJfNv
   tls: true
   servername: 36.151.195.48
@@ -1931,6 +2165,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   tls: true
   servername: ca-trojan.bonds.id
@@ -1940,6 +2175,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: xxoo
   tls: true
   servername: 138.124.183.222
@@ -1949,6 +2185,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: d1478689-439c-4590-b7ce-36e786a02dc3
   tls: true
   servername: 107.181.161.163
@@ -1958,6 +2195,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
   tls: true
   servername: 103.168.56.77
@@ -1967,6 +2205,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0c6a3341e8d5ab17
   tls: true
   servername: 103.172.116.196
@@ -1976,6 +2215,7 @@ proxies:
   port: 54527
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 2a9ba60d-10ce-4f79-97e7-817334456195
   tls: true
   servername: tr7.tgcunzhang.xyz
@@ -1985,6 +2225,7 @@ proxies:
   port: 1145
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
   tls: true
   servername: 141.95.61.209
@@ -1994,6 +2235,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b09d2aaa443af97a
   tls: true
   servername: 211.72.35.155
@@ -2003,6 +2245,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
   tls: true
   servername: 212.90.123.133
@@ -2012,6 +2255,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   tls: true
   servername: 168.138.189.17
@@ -2021,6 +2265,7 @@ proxies:
   port: 18818
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   tls: true
   servername: fra13.yukiss.eu.org
@@ -2030,6 +2275,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b874173c-dfc6-40f4-9542-d973997f9659
   tls: true
   servername: 103.81.85.238
@@ -2039,6 +2285,7 @@ proxies:
   port: 18818
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   tls: true
   servername: london11.yukiss.eu.org
@@ -2048,6 +2295,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7a566d21dfcd0f12490275fd3dd3cfc4
   tls: true
   servername: trs09.bolab.net
@@ -2057,6 +2305,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: c60fbf90-4b55-11ed-b935-225401db9d57
   tls: true
   servername: 51.75.76.22
@@ -2066,6 +2315,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
   tls: true
   servername: sbank.ir
@@ -2075,6 +2325,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 3febb05ea76a940f
   tls: true
   servername: 60.249.3.125
@@ -2084,6 +2335,7 @@ proxies:
   port: 18818
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   tls: true
   servername: ch12.yukiss.eu.org
@@ -2093,6 +2345,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: c19d1432-8b3e-4818-8837-3d160cf65908
   tls: true
   servername: 138.2.45.243
@@ -2102,6 +2355,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 5623be5f-c9da-4511-81a9-b4b39b16edae
   tls: true
   servername: 103.195.236.24
@@ -2111,6 +2365,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.seoulcitygovernment.com.ua
@@ -2120,6 +2375,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8b475d9e868e43e0
   tls: true
   servername: 211.72.35.157
@@ -2129,6 +2385,7 @@ proxies:
   port: 10102
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
   tls: true
   servername: supsig.xiaohouzi.club
@@ -2138,6 +2395,7 @@ proxies:
   port: 18818
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   tls: true
   servername: syd14.yukiss.eu.org
@@ -2147,6 +2405,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b84d16a244460e09
   tls: true
   servername: 211.72.35.152
@@ -2156,6 +2415,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.tokyometropolis.odesa.ua
@@ -2165,6 +2425,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.co.ua
@@ -2174,6 +2435,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: 49.212.221.47
@@ -2183,6 +2445,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: xxoo
   tls: true
   servername: 138.124.183.216
@@ -2192,6 +2455,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   tls: true
   servername: 155.248.172.87
@@ -2201,6 +2465,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cd41b9d7-df15-46ad-a778-257b0851525a
   tls: true
   servername: us01.trojanyyds.xyz
@@ -2210,6 +2475,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b291d129-ee55-4801-a9b8-b5316e5c37b7
   tls: true
   servername: 138.2.113.84
@@ -2219,6 +2485,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   tls: true
   servername: 138.2.115.240
@@ -2228,6 +2495,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
   tls: true
   servername: 141.94.76.177
@@ -2237,6 +2505,7 @@ proxies:
   port: 22
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 40c89b10235c40321e7a3cef82b53a03
   tls: true
   servername: trs16.bolab.net
@@ -2246,6 +2515,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7b06d22a8a7c764f
   tls: true
   servername: 211.72.35.158
@@ -2255,6 +2525,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: f39bd244-f5fe-415c-8b98-a1e5250bf178
   tls: true
   servername: 129.146.255.158
@@ -2264,6 +2535,7 @@ proxies:
   port: 22
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 40c89b10235c40321e7a3cef82b53a03
   tls: true
   servername: trs17.bolab.net
@@ -2273,6 +2545,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   tls: true
   servername: 168.138.43.89
@@ -2282,6 +2555,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7ac49a893e0bd10c
   tls: true
   servername: 60.249.3.227
@@ -2291,6 +2565,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: xxoo
   tls: true
   servername: 146.19.230.241
@@ -2300,6 +2575,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: xxoo
   tls: true
   servername: 194.156.99.39
@@ -2309,6 +2585,7 @@ proxies:
   port: 18818
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   tls: true
   servername: mel12.yukiss.eu.org
@@ -2318,6 +2595,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   tls: true
   servername: 152.67.98.30
@@ -2327,6 +2605,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0cc6b4268dea0ba8
   tls: true
   servername: 60.249.3.231
@@ -2336,6 +2615,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.kiev.ua
@@ -2345,6 +2625,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: xxoo
   tls: true
   servername: 138.124.183.226
@@ -2354,6 +2635,7 @@ proxies:
   port: 23443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: Gl123qwe
   tls: true
   servername: los2.playstone.info
@@ -2363,6 +2645,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 3gLlCYBipVwr6Y5F
   tls: true
   servername: 92.118.149.85
@@ -2372,6 +2655,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.if.ua
@@ -2381,6 +2665,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 61605c66-6d41-4b9d-a496-b9898f3f95d0
   tls: true
   servername: jp-h1.sshub.xyz
@@ -2390,6 +2675,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.tokyometropolis.kherson.ua
@@ -2399,6 +2685,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   tls: true
   servername: 89.163.220.99
@@ -2408,6 +2695,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: 133.167.100.203
@@ -2417,6 +2705,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.tokyometropolis.kharkov.ua
@@ -2426,6 +2715,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.org.ua
@@ -2435,6 +2725,7 @@ proxies:
   port: 2035
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: q9870219
   tls: true
   servername: ht.lljllj.buzz
@@ -2444,6 +2735,7 @@ proxies:
   port: 65011
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: jp01a.roc-taiwan.net.ua
@@ -2453,6 +2745,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 182228812d1e0f23
   tls: true
   servername: 60.249.3.230
@@ -2462,6 +2755,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   tls: true
   servername: 149.56.141.11
@@ -2471,6 +2765,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7b06d22a8a7c764f
   tls: true
   servername: 211.72.35.154
@@ -2480,6 +2775,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: d4e41ff772c7fd45
   tls: true
   servername: sbank.ir
@@ -2489,6 +2785,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: 160.16.145.107
@@ -2498,6 +2795,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cd41b9d7-df15-46ad-a778-257b0851525a
   tls: true
   servername: de01.trojanyyds.xyz
@@ -2507,6 +2805,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7ac49a893e0bd10c
   tls: true
   servername: 60.249.3.226
@@ -2516,6 +2815,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7ac49a893e0bd10c
   tls: true
   servername: 60.249.3.228
@@ -2525,6 +2825,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.seoulcityhall.com.ua
@@ -2534,6 +2835,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.kyiv.ua
@@ -2543,6 +2845,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: c09eb137-bf68-4658-84e0-102d94b74168
   tls: true
   servername: 150.230.217.213
@@ -2552,6 +2855,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.dp.ua
@@ -2561,6 +2865,7 @@ proxies:
   port: 65012
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: jp02a.roc-taiwan.net.ua
@@ -2570,6 +2875,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   tls: true
   servername: 132.145.51.172
@@ -2579,6 +2885,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.tokyometropolis.ivano-frankivsk.ua
@@ -2588,6 +2895,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 182228812d1e0f23
   tls: true
   servername: 60.249.3.229
@@ -2597,6 +2905,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   tls: true
   servername: 212.90.123.130
@@ -2606,6 +2915,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   tls: true
   servername: 144.24.72.126
@@ -2615,6 +2925,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: origin
   tls: true
   servername: 188.40.251.19
@@ -2624,6 +2935,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.ivano-frankivsk.ua
@@ -2633,6 +2945,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7b06d22a8a7c764f
   tls: true
   servername: 211.72.35.153
@@ -2642,6 +2955,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 5623be5f-c9da-4511-81a9-b4b39b16edae
   tls: true
   servername: 103.173.255.234
@@ -2651,6 +2965,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.tokyometropolis.kyiv.ua
@@ -2660,6 +2975,7 @@ proxies:
   port: 65015
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: jp05a.roc-taiwan.org.ua
@@ -2669,6 +2985,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7b06d22a8a7c764f
   tls: true
   servername: 211.72.35.156
@@ -2678,6 +2995,7 @@ proxies:
   port: 60006
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: QkxJPTkWg3
   tls: true
   servername: lqoo.xyz
@@ -2687,6 +3005,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 555034c8-6420-45d0-893c-905c02342150
   tls: true
   servername: pl1.trojanvh.xyz
@@ -2696,6 +3015,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.tokyometropolis.chernigov.ua
@@ -2705,6 +3025,7 @@ proxies:
   port: 65014
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: jp04a.roc-taiwan.net.ua
@@ -2714,6 +3035,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b09d2aaa443af97a
   tls: true
   servername: 211.72.35.152
@@ -2723,6 +3045,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   tls: true
   servername: 210.0.158.220
@@ -2732,6 +3055,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.seoulcityhall.com.ua
@@ -2741,6 +3065,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: da777aae-defb-41d0-a183-2c27da2b4677
   tls: true
   servername: 150.230.96.103
@@ -2750,6 +3075,7 @@ proxies:
   port: 23443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: Gl123qwe
   tls: true
   servername: us.playstone.info
@@ -2759,6 +3085,7 @@ proxies:
   port: 65018
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: jp08a.roc-taiwan.org.ua
@@ -2768,6 +3095,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cd41b9d7-df15-46ad-a778-257b0851525a
   tls: true
   servername: sg02.trojanyyds.xyz
@@ -2777,6 +3105,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 5623be5f-c9da-4511-81a9-b4b39b16edae
   tls: true
   servername: sbank.ir
@@ -2786,6 +3115,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.biz.ua
@@ -2795,6 +3125,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cd41b9d7-df15-46ad-a778-257b0851525a
   tls: true
   servername: in01.trojanyyds.xyz
@@ -2804,6 +3135,7 @@ proxies:
   port: 65017
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: jp07a.roc-taiwan.org.ua
@@ -2813,6 +3145,7 @@ proxies:
   port: 22
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 40c89b10235c40321e7a3cef82b53a03
   tls: true
   servername: trs12.bolab.net
@@ -2822,6 +3155,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.tokyometropolis.odessa.ua
@@ -2831,6 +3165,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   tls: true
   servername: 62.210.254.72
@@ -2840,6 +3175,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.cn.ua
@@ -2849,6 +3185,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: c2b0a060-44b0-11ed-ad2e-1239d0255272
   tls: true
   servername: 51.81.82.15
@@ -2858,6 +3195,7 @@ proxies:
   port: 65016
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: jp06a.roc-taiwan.org.ua
@@ -2867,6 +3205,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.chernovtsy.ua
@@ -2876,6 +3215,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.tokyometropolis.kiev.ua
@@ -2885,6 +3225,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.net.ua
@@ -2894,6 +3235,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cd41b9d7-df15-46ad-a778-257b0851525a
   tls: true
   servername: sg01.trojanyyds.xyz
@@ -2903,6 +3245,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
   tls: true
   servername: 152.67.162.166
@@ -2912,6 +3255,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: 219.94.250.108
@@ -2921,6 +3265,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   tls: true
   servername: 45.82.253.234
@@ -2930,6 +3275,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 4f9ca636-5195-406a-b48c-0388689dd9a7
   tls: true
   servername: 212.24.103.3
@@ -2939,6 +3285,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cd41b9d7-df15-46ad-a778-257b0851525a
   tls: true
   servername: uk01.trojanyyds.xyz
@@ -2948,6 +3295,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   tls: true
   servername: 146.56.189.146
@@ -2957,6 +3305,7 @@ proxies:
   port: 8443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: official.taipeicitygovernment.com.ua
@@ -2966,6 +3315,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 5623be5f-c9da-4511-81a9-b4b39b16edae
   tls: true
   servername: sbank.ir
@@ -2975,6 +3325,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   tls: true
   servername: 45.88.148.234
@@ -2984,6 +3335,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
   tls: true
   servername: 45.82.253.237
@@ -2993,6 +3345,7 @@ proxies:
   port: 65013
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: jp03a.roc-taiwan.net.ua
@@ -3002,6 +3355,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   tls: true
   servername: 153.121.74.146
@@ -3011,6 +3365,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   tls: true
   servername: 141.147.191.85
@@ -3020,6 +3375,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: d4e41ff772c7fd45
   tls: true
   servername: 23.247.137.70
@@ -3029,6 +3385,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cd41b9d7-df15-46ad-a778-257b0851525a
   tls: true
   servername: jp01.trojanyyds.xyz
@@ -3038,6 +3395,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: FLpONjB2Lb
   tls: true
   servername: 139.162.45.139
@@ -3047,6 +3405,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
   tls: true
   servername: 168.138.44.176
@@ -3056,6 +3415,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   tls: true
   servername: 146.56.189.146
@@ -3065,6 +3425,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   tls: true
   servername: 149.56.141.11
@@ -3074,6 +3435,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b84d16a244460e09
   tls: true
   servername: 211.72.35.152
@@ -3083,6 +3445,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8b475d9e868e43e0
   tls: true
   servername: 211.72.35.157
@@ -3092,6 +3455,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8078dd51-d4d9-4024-89df-50e358a00a54
   tls: true
   servername: 103.195.236.24
@@ -3101,6 +3465,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 52171d41-9367-429f-baa6-43660a6c84e4
   tls: true
   servername: 103.81.85.238
@@ -3110,6 +3475,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
   tls: true
   servername: jp.mjt001.com
@@ -3119,6 +3485,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: xxoo
   tls: true
   servername: 3.34.6.217
@@ -3128,6 +3495,7 @@ proxies:
   port: 80
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 555034c8-6420-45d0-893c-905c02342150
   tls: true
   servername: pl1.trojanvh.xyz
@@ -3137,6 +3505,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 973ed2e0-c4d8-4737-a093-71629148086d
   tls: true
   servername: frt2.sshocean.net
@@ -3146,6 +3515,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: vvip-periantara
   tls: true
   servername: id3tr.jagoan.vip
@@ -3155,6 +3525,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: Sp3eDVp
   tls: true
   servername: 51.77.71.131
@@ -3164,6 +3535,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: origin
   tls: true
   servername: 51.77.71.134
@@ -3173,6 +3545,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 2dab5d78-5c56-4252-850d-c037753a40db
   tls: true
   servername: 51.81.211.171
@@ -3182,6 +3555,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 14bdba6dede262387ebdebaa706e1c90
   tls: true
   servername: trs12.bolab.net
@@ -3191,6 +3565,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8800c518-e68a-4441-a45c-cd67855784c8
   tls: true
   servername: hk1.sanfen001.pics
@@ -3200,6 +3575,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8800c518-e68a-4441-a45c-cd67855784c8
   tls: true
   servername: hk2.sanfen001.pics
@@ -3209,6 +3585,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8800c518-e68a-4441-a45c-cd67855784c8
   tls: true
   servername: jp1.sanfen001.pics
@@ -3218,6 +3595,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8800c518-e68a-4441-a45c-cd67855784c8
   tls: true
   servername: kr1.sanfen001.pics
@@ -3227,6 +3605,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8800c518-e68a-4441-a45c-cd67855784c8
   tls: true
   servername: kr1.sanfen001.pics
@@ -3236,6 +3615,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ukMzuFSmIXDvgW0h
   tls: true
   servername: cd.rutracker-cn.com
@@ -3245,6 +3625,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b26e31e5-eac1-45b0-9069-83830bd69521
   tls: true
   servername: hkt.iamnotagoodman.com
@@ -3254,6 +3635,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ceaea123-1b4b-469b-8358-bcd5f5529305
   tls: true
   servername: uk.liangyuandian.top
@@ -3263,6 +3645,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 28d98f761aca9d636f44db62544628eb
   tls: true
   servername: 45.66.134.219
@@ -3272,6 +3655,7 @@ proxies:
   port: 1443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7x42LetRa0
   tls: true
   servername: 106.180.225.69
@@ -3281,6 +3665,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 4f7dc540-d244-4e64-af21-4b5bb300add3
   tls: true
   servername: www.tokyo2023.ga
@@ -3290,6 +3675,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
   tls: true
   servername: 2.58.242.43
@@ -3299,6 +3685,7 @@ proxies:
   port: 36306
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
   tls: true
   servername: sunmoon02.abzoones.xyz
@@ -3308,6 +3695,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: f42e1a2e-e650-44f4-8d17-bcb68663da18
   tls: true
   servername: www.seetheworldjp.ga
@@ -3317,6 +3705,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b5fc9fa9-796d-4185-a316-395ecac04a85
   tls: true
   servername: www.gomacau.gq
@@ -3326,6 +3715,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: c51d3975-a40c-4a5b-929b-c8595ed87850
   tls: true
   servername: wel-usgt.optage.moe
@@ -3335,6 +3725,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: WpfQAbO2wg
   tls: true
   servername: 45.9.10.103
@@ -3344,6 +3735,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: idc117okt
   tls: true
   servername: 103.176.78.153
@@ -3353,6 +3745,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4
   tls: true
   servername: 103.173.155.72
@@ -3362,6 +3755,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 0f5e6d9a-49af-4bc0-b04b-503102382144
   tls: true
   servername: ukt1.sshocean.net
@@ -3371,6 +3765,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   tls: true
   servername: 185.44.76.188
@@ -3380,6 +3775,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 67e200f1-4ff5-42ca-8425-3f16f7986c29
   tls: true
   servername: t1.samsung.bforward2.uk
@@ -3389,6 +3785,7 @@ proxies:
   port: 12340
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   tls: true
   servername: s2.hazz.win
@@ -3398,6 +3795,7 @@ proxies:
   port: 12340
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   tls: true
   servername: s4.hazz.win
@@ -3407,6 +3805,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
   tls: true
   servername: 15.204.20.229
@@ -3416,6 +3815,7 @@ proxies:
   port: 12340
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   tls: true
   servername: edge.apple.com
@@ -3425,6 +3825,7 @@ proxies:
   port: 38000
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6711c6cf-847a-4177-b059-55f519b09de4
   tls: true
   servername: 103.173.155.72
@@ -3434,6 +3835,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 5y8y3CwxRVYhyfSY
   tls: true
   servername: ce.rutracker-cn.com
@@ -3443,6 +3845,7 @@ proxies:
   port: 12340
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   tls: true
   servername: s3.hazz.win
@@ -3452,6 +3855,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
   tls: true
   servername: 41.216.177.41
@@ -3461,6 +3865,7 @@ proxies:
   port: 10819
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.2
@@ -3470,6 +3875,7 @@ proxies:
   port: 10821
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.8
@@ -3479,6 +3885,7 @@ proxies:
   port: 10823
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.7
@@ -3488,6 +3895,7 @@ proxies:
   port: 10820
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.6
@@ -3497,6 +3905,7 @@ proxies:
   port: 10822
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.7
@@ -3506,6 +3915,7 @@ proxies:
   port: 10825
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.8
@@ -3515,6 +3925,7 @@ proxies:
   port: 10824
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.6
@@ -3524,6 +3935,7 @@ proxies:
   port: 10822
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.9
@@ -3533,6 +3945,7 @@ proxies:
   port: 10820
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.9
@@ -3542,6 +3955,7 @@ proxies:
   port: 10824
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.9
@@ -3551,6 +3965,7 @@ proxies:
   port: 10825
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.9
@@ -3560,6 +3975,7 @@ proxies:
   port: 10819
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.3
@@ -3569,6 +3985,7 @@ proxies:
   port: 10826
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.7
@@ -3578,6 +3995,7 @@ proxies:
   port: 10822
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.6
@@ -3587,6 +4005,7 @@ proxies:
   port: 10823
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.8
@@ -3596,6 +4015,7 @@ proxies:
   port: 10825
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.4
@@ -3605,6 +4025,7 @@ proxies:
   port: 10820
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.2
@@ -3614,6 +4035,7 @@ proxies:
   port: 10824
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.8
@@ -3623,6 +4045,7 @@ proxies:
   port: 10826
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.2
@@ -3632,6 +4055,7 @@ proxies:
   port: 10826
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.5
@@ -3641,6 +4065,7 @@ proxies:
   port: 10819
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.9
@@ -3650,6 +4075,7 @@ proxies:
   port: 10821
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.7
@@ -3659,6 +4085,7 @@ proxies:
   port: 10819
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.7
@@ -3668,6 +4095,7 @@ proxies:
   port: 10826
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.4
@@ -3677,6 +4105,7 @@ proxies:
   port: 10823
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.6
@@ -3686,6 +4115,7 @@ proxies:
   port: 10823
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.5
@@ -3695,6 +4125,7 @@ proxies:
   port: 10822
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.5
@@ -3704,6 +4135,7 @@ proxies:
   port: 10819
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.8
@@ -3713,6 +4145,7 @@ proxies:
   port: 10826
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.9
@@ -3722,6 +4155,7 @@ proxies:
   port: 10823
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.2
@@ -3731,6 +4165,7 @@ proxies:
   port: 10823
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.3
@@ -3740,6 +4175,7 @@ proxies:
   port: 10824
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.4
@@ -3749,6 +4185,7 @@ proxies:
   port: 10824
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7d223bae-e183-4bf6-89c3-e327b15df490
   tls: true
   servername: 183.236.51.2
@@ -3758,6 +4195,7 @@ proxies:
   port: 40005
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cc05b267-2e17-4e73-92f0-2cf603aa5997
   tls: true
   servername: 146.56.179.67
@@ -3767,6 +4205,7 @@ proxies:
   port: 2053
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: dreDeMpIQpnv
   tls: true
   servername: aryanews.onetwothree123.ir
@@ -3776,6 +4215,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: psycho
   tls: true
   servername: PSYchO.SueX12.Ir
@@ -3785,6 +4225,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: psycho
   tls: true
   servername: pSYcho.sUeX12.IR
@@ -3794,6 +4235,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 2fec7227-9abe-46f2-af18-78302b836c45
   tls: true
   servername: 3y.2032.pp.ua
@@ -3803,6 +4245,7 @@ proxies:
   port: 3462
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
   tls: true
   servername: a03.taipeicitygovernment.cn.ua
@@ -3812,6 +4255,7 @@ proxies:
   port: 30534
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   tls: true
   servername: 36.151.251.36
@@ -3821,6 +4265,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 665c944d-047d-4659-80d5-3eaac70241a9
   tls: true
   servername: de2-full.privateip.net
@@ -3830,6 +4275,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: d86c421f-dbfe-4507-a864-f8f9e29d80e4
   tls: true
   servername: de-full.privateip.net
@@ -3839,6 +4285,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6c64e6f9-a76c-49eb-96d2-bf8b1afee4a3
   tls: true
   servername: fr-full.privateip.net
@@ -3848,6 +4295,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: d150c8c3-a667-4d3e-843c-739f8558c7d2
   tls: true
   servername: uk-full.privateip.net
@@ -3857,6 +4305,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 255a0a50-3f10-11f0-b0d6-1239d0255272
   tls: true
   servername: 51.38.65.155
@@ -3866,6 +4315,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 30761083-5dcd-49d6-85b5-33756ef1f7ed
   tls: true
   servername: uk2-full.privateip.net
@@ -3875,6 +4325,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: d4bdfc72-7f0c-4ff0-aa4d-3530736f4088
   tls: true
   servername: sg-full.privateip.net
@@ -3884,6 +4335,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8d16a256-42d7-4431-8039-da1eb06cafbc
   tls: true
   servername: it-full.privateip.net
@@ -3893,6 +4345,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: x3wOepOcT04FnR8YYF35pzSACDgRBa3CAe9qNalDCy6a2uE8Z7xlX3SSyZKDIj
   tls: true
   servername: 154.17.24.29
@@ -3902,6 +4355,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
   tls: true
   servername: usla.mjt000.com
@@ -3911,6 +4365,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
   tls: true
   servername: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
@@ -3920,6 +4375,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
   tls: true
   servername: hinet.mjt000.com
@@ -3929,6 +4385,7 @@ proxies:
   port: 10889
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   tls: true
   servername: ya.ru
@@ -3938,6 +4395,7 @@ proxies:
   port: 10889
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   tls: true
   servername: web.max.ru
@@ -3947,6 +4405,7 @@ proxies:
   port: 10889
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
   tls: true
   servername: web.max
@@ -3956,6 +4415,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -3965,6 +4425,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -3974,6 +4435,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: BxceQaOe
   tls: true
   servername: t.me/ripaojiedian
@@ -3983,6 +4445,7 @@ proxies:
   port: 36158
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ZblhWr0mqMakCPg.N
   tls: true
   servername: ya.ru
@@ -3992,6 +4455,7 @@ proxies:
   port: 41106
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: kSZddpnUKy
   tls: true
   servername: 150.136.57.125
@@ -4001,6 +4465,7 @@ proxies:
   port: 36501
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7166e17c-286a-4aca-8383-250506f4e1d3
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4010,6 +4475,7 @@ proxies:
   port: 36701
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7166e17c-286a-4aca-8383-250506f4e1d3
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4019,6 +4485,7 @@ proxies:
   port: 36401
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b9b55277-010a-48de-8ad9-0fa1bb7de676
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4028,6 +4495,7 @@ proxies:
   port: 36206
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b9b55277-010a-48de-8ad9-0fa1bb7de676
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4037,6 +4505,7 @@ proxies:
   port: 36201
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b9b55277-010a-48de-8ad9-0fa1bb7de676
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4046,6 +4515,7 @@ proxies:
   port: 36306
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b9b55277-010a-48de-8ad9-0fa1bb7de676
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4055,6 +4525,7 @@ proxies:
   port: 36301
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b9b55277-010a-48de-8ad9-0fa1bb7de676
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4064,6 +4535,7 @@ proxies:
   port: 36106
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b9b55277-010a-48de-8ad9-0fa1bb7de676
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4073,6 +4545,7 @@ proxies:
   port: 36116
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b9b55277-010a-48de-8ad9-0fa1bb7de676
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4082,6 +4555,7 @@ proxies:
   port: 36601
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b9b55277-010a-48de-8ad9-0fa1bb7de676
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4091,6 +4565,7 @@ proxies:
   port: 36206
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7166e17c-286a-4aca-8383-250506f4e1d3
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4100,6 +4575,7 @@ proxies:
   port: 36116
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 7166e17c-286a-4aca-8383-250506f47166e17c-286a-4aca-8383-250506f4e1d3
   tls: true
   servername: bauhinia01.abzoones.xyz
@@ -4109,6 +4585,7 @@ proxies:
   port: 10051
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: a13820c547fa34c5c45515c12f0cd576
   tls: true
   servername: zz6.91js.pw
@@ -4118,6 +4595,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   tls: true
   servername: trojan1.udpgw.com
@@ -4127,6 +4605,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: iyinglong
   tls: true
   servername: 18.141.8.87
@@ -4136,6 +4615,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 973ef350-f6a5-11ec-9274-1239d0255272
   tls: true
   servername: trojan2.udpgw.com
@@ -4145,6 +4625,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: iyinglong
   tls: true
   servername: 18.140.67.76
@@ -4154,6 +4635,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 71086710-33eb-11ed-adce-1239d0255272
   tls: true
   servername: sg1-trojan.bonds.id
@@ -4163,6 +4645,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 08964210-e7b8-11ec-95aa-1239d0255272
   tls: true
   servername: w12.udpgw.com
@@ -4172,6 +4655,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 8aab51da-6b67-4bd2-b6e6-5ab3008cf53e
   tls: true
   servername: jp.iamnotagoodman.com
@@ -4181,6 +4665,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: iyinglong
   tls: true
   servername: 13.213.69.245
@@ -4190,6 +4675,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: cd39f62aed7b90f6
   tls: true
   servername: 5.44.249.43
@@ -4199,6 +4685,7 @@ proxies:
   port: 3389
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 6f0a9d0fa39d65fa
   tls: true
   servername: 5.44.249.43
@@ -4208,6 +4695,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: KLF0qOU0ZZGw5Tnu
   tls: true
   servername: swift.protocolbuffer.com
@@ -4217,6 +4705,7 @@ proxies:
   port: 28443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ae7cc604-d970-4200-9a9b-eb45087b4fc1
   tls: true
   servername: mzy.hruqoaw.cn
@@ -4226,6 +4715,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
   tls: true
   servername: sg-01.tiktokcdn.top
@@ -4235,6 +4725,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
   tls: true
   servername: arbettp.freetrade.link
@@ -4244,6 +4735,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
   tls: true
   servername: stutter.freetrade.link
@@ -4253,6 +4745,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
   tls: true
   servername: httah.freetrade.link
@@ -4262,6 +4755,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g
   tls: true
   servername: golang.protocolbuffer.com
@@ -4271,6 +4765,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: idc117okt
   tls: true
   servername: 103.226.139.201
@@ -4280,6 +4775,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ZDAAFTxBNu5j9pl3Re834a3xSXwOZYeIlE30Dp86qc7yYgKaDCaROCSSnz2FCy
   tls: true
   servername: csharp.protocolbuffer.com
@@ -4289,6 +4785,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: xSYy8KOpEyOjgaNFCeC3a72DS6wBAcz90pDZRRSXnxquIFZlT5433ClYD38aeA
   tls: true
   servername: yokoha.freetrade.link
@@ -4298,6 +4795,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   tls: true
   servername: reooec.freetrade.link
@@ -4307,6 +4805,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
   tls: true
   servername: reooec.freetrade.link
@@ -4316,6 +4815,7 @@ proxies:
   port: 20712
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: ca2345ba-46e7-3991-b1b7-45d18954caf1
   tls: true
   servername: ssl.ssl12.xyz
@@ -4325,6 +4825,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: xxoo
   tls: true
   servername: telewebion.com
@@ -4334,15 +4835,21 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: ws
   password: 0b65bb06-6b28-487a-8e3c-820dda51e977
   tls: true
   servername: series-v1.samanehha.co
+  ws-opts:
+    path: /43xf5zgeApzDAfhOHq
+    headers:
+      Host: series-v1.samanehha.co
 - name: 🥇 🌐 999ms | TROJAN (#482)
   type: trojan
   server: fscus.fscloud123456789.com
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b97c0525-e486-471d-8207-45636ca6b0ae
   tls: true
   servername: fscus.fscloud123456789.com
@@ -4352,6 +4859,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b97c0525-e486-471d-8207-45636ca6b0ae
   tls: true
   servername: fsckr.fscloud123456789.com
@@ -4361,6 +4869,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: 9498f3a0-2992-11ee-a4c7-1239d0255272
   tls: true
   servername: zula.ir
@@ -4370,6 +4879,7 @@ proxies:
   port: 1935
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: xstack-1718-9761-freevpn
   tls: true
   servername: cdn-gr-3.goldaccess.xyz
@@ -4379,6 +4889,7 @@ proxies:
   port: 2087
   udp: true
   skip-cert-verify: true
+  network: grpc
   password: 92902210-2eb5-11ee-b234-205c6d5f5d78
   tls: true
   servername: asia.oceis.net
@@ -4388,6 +4899,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: grpc
   password: mainssh-ddoejfv14
   tls: true
   servername: frtgrpc.mainssh.xyz
@@ -4397,6 +4909,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: grpc
   password: mainssh-niwrhf87
   tls: true
   servername: getgrpc.mainssh.xyz
@@ -4406,6 +4919,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: grpc
   password: 79770a32-9607-4919-9483-0f1794559390
   tls: true
   servername: nika2.hdfy2.foriran.trade
@@ -4415,24 +4929,35 @@ proxies:
   port: 2083
   udp: true
   skip-cert-verify: true
+  network: ws
   password: O4K-nAbZC4qEnBA0a_9EWQ
   tls: true
   servername: gstatic.com
+  ws-opts:
+    path: /
+    headers:
+      Host: 66.228.55.178
 - name: 🥇 🌐 999ms | TROJAN (#491)
   type: trojan
   server: 66.228.55.178
   port: 2083
   udp: true
   skip-cert-verify: true
+  network: ws
   password: O4K-nAbZC4qEnBA0a_9EWQ
   tls: true
   servername: gstatic.com
+  ws-opts:
+    path: /
+    headers:
+      Host: 66.228.55.178
 - name: 🥇 🌐 999ms | TROJAN (#492)
   type: trojan
   server: 51.91.11.29
   port: 80
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   tls: true
   servername: namayesh.com
@@ -4442,6 +4967,7 @@ proxies:
   port: 80
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   tls: true
   servername: asriran.com
@@ -4451,6 +4977,7 @@ proxies:
   port: 80
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
   tls: true
   servername: softsaaz.ir
@@ -4460,6 +4987,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: de798060-31d0-11ee-b282-1239d0255272
   tls: true
   servername: zula.ir
@@ -4469,6 +4997,7 @@ proxies:
   port: 80
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: b640d791-ff83-4300-b509-c2a02f97f167
   tls: true
   servername: uk1.trojanvh.xyz
@@ -4478,6 +5007,7 @@ proxies:
   port: 443
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: f6a0a650-306e-11ee-b692-1239d0255272
   tls: true
   servername: Speedtest.net
@@ -4487,6 +5017,7 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
@@ -4496,1051 +5027,1052 @@ proxies:
   port: 22222
   udp: true
   skip-cert-verify: true
+  network: tcp
   password: telegram-id-directvpn
   tls: true
   servername: trj.rollingnext.co.uk
-- name: 🥈 🇺🇸💻 8ms | SS (#500)
-  type: ss
-  server: 154.38.176.7
-  port: 80
-  cipher: aes-256-gcm
-  password: nKeE2ZFWVaE4DyjR
-  udp: true
-- name: 🥈 🇺🇸💻 8ms | SS (#501)
-  type: ss
-  server: 154.38.176.7
-  port: 80
-  cipher: aes-256-gcm
-  password: nKeE2ZFWVaE4DyjR
-  udp: true
-- name: 🥈 🇺🇸💻 8ms | SS (#502)
-  type: ss
-  server: 64.176.215.70
-  port: 80
-  cipher: aes-256-gcm
-  password: hbhO0xomsJzhO24F
-  udp: true
-- name: 🥈 🇺🇸💻 9ms | SS (#503)
-  type: ss
-  server: 154.38.176.7
-  port: 80
-  cipher: aes-256-gcm
-  password: nKeE2ZFWVaE4DyjR
-  udp: true
-- name: 🥈 🇺🇸💻 9ms | SS (#504)
-  type: ss
-  server: 185.111.156.33
-  port: 80
-  cipher: aes-256-gcm
-  password: 5mCH4624QflO1cFR
-  udp: true
-- name: 🥈 🇺🇸💻 12ms | SS (#505)
-  type: ss
-  server: 64.176.215.70
-  port: 80
-  cipher: aes-256-gcm
-  password: hbhO0xomsJzhO24F
-  udp: true
-- name: 🥈 🇺🇸💻 12ms | SS (#506)
-  type: ss
-  server: 64.176.215.70
-  port: 80
-  cipher: aes-256-gcm
-  password: hbhO0xomsJzhO24F
-  udp: true
-- name: 🥈 🇺🇸💻 25ms | SS (#507)
-  type: ss
-  server: 185.33.84.181
-  port: 21484
-  cipher: chacha20-ietf-poly1305
-  password: 1jCMNPLyZb7it1IQJpqbXT
-  udp: true
-- name: 🥈 🇬🇧💻 79ms | SS (#508)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇬🇧💻 80ms | SS (#509)
-  type: ss
-  server: 51.145.90.56
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: kaQH3hGdcP80XEDI
-  udp: true
-- name: 🥈 🇺🇸💻 81ms | SS (#510)
-  type: ss
-  server: 94.72.127.58
-  port: 80
-  cipher: aes-256-gcm
-  password: jJHq807bQ7TM0yOh
-  udp: true
-- name: 🥈 🇺🇸💻 81ms | SS (#511)
-  type: ss
-  server: 94.72.127.58
-  port: 80
-  cipher: aes-256-gcm
-  password: jJHq807bQ7TM0yOh
-  udp: true
-- name: 🥈 🇬🇧💻 83ms | SS (#512)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇬🇧💻 83ms | SS (#513)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇬🇧💻 83ms | SS (#514)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇬🇧💻 83ms | SS (#515)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇬🇧💻 83ms | SS (#516)
-  type: ss
-  server: 149.102.149.207
-  port: 80
-  cipher: aes-256-gcm
-  password: umWwoQJEJGf74SLe
-  udp: true
-- name: 🥈 🇬🇧💻 84ms | SS (#517)
-  type: ss
-  server: 149.102.152.25
-  port: 80
-  cipher: aes-256-gcm
-  password: RLUoaU4nh8b8Mqq7
-  udp: true
-- name: 🥈 🌐💻 84ms | SS (#518)
-  type: ss
-  server: admin.c1.webramz.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- name: 🥈 🇺🇸💻 88ms | SS (#519)
-  type: ss
-  server: 154.53.60.197
-  port: 80
-  cipher: aes-256-gcm
-  password: 8rb580EBG4l7tO8K
-  udp: true
-- name: 🥈 🇺🇸💻 89ms | SS (#520)
-  type: ss
-  server: 62.146.171.59
-  port: 80
-  cipher: aes-256-gcm
-  password: MEmsQeJtPF1GMwJm
-  udp: true
-- name: 🥈 🇺🇸💻 89ms | SS (#521)
-  type: ss
-  server: 94.72.127.55
-  port: 80
-  cipher: aes-256-gcm
-  password: wlJSF0fC8uqB5Gm5
-  udp: true
-- name: 🥈 🇬🇧💻 93ms | SS (#522)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇺🇸💻 103ms | SS (#523)
-  type: ss
-  server: 94.72.127.55
-  port: 80
-  cipher: aes-256-gcm
-  password: wlJSF0fC8uqB5Gm5
-  udp: true
-- name: 🥈 🇺🇸💻 103ms | SS (#524)
-  type: ss
-  server: 94.72.127.55
-  port: 80
-  cipher: aes-256-gcm
-  password: wlJSF0fC8uqB5Gm5
-  udp: true
-- name: 🥈 🇬🇧💻 103ms | SS (#525)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇬🇧💻 111ms | SS (#526)
-  type: ss
-  server: 149.102.132.180
-  port: 80
-  cipher: aes-256-gcm
-  password: ZTiO11KwZG3S7aET
-  udp: true
-- name: 🥈 🇬🇧💻 111ms | SS (#527)
-  type: ss
-  server: 149.102.149.207
-  port: 80
-  cipher: aes-256-gcm
-  password: umWwoQJEJGf74SLe
-  udp: true
-- name: 🥈 🇳🇱💻 119ms | SS (#528)
-  type: ss
-  server: 82.38.31.89
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 119ms | SS (#529)
-  type: ss
-  server: 82.38.31.61
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 119ms | SS (#530)
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇳🇱💻 119ms | SS (#531)
-  type: ss
-  server: 82.38.31.122
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 119ms | SS (#532)
-  type: ss
-  server: 82.38.31.184
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#533)
-  type: ss
-  server: 82.38.31.99
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇩🇪💻 122ms | SS (#534)
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: 9dQS3geeylyrRth9
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#535)
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#536)
-  type: ss
-  server: 82.38.31.66
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#537)
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇬🇧💻 122ms | SS (#538)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#539)
-  type: ss
-  server: 82.38.31.89
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#540)
-  type: ss
-  server: 82.38.31.66
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#541)
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇩🇪💻 122ms | SS (#542)
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: 9dQS3geeylyrRth9
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#543)
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#544)
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇩🇪💻 122ms | SS (#545)
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: 9dQS3geeylyrRth9
-  udp: true
-- name: 🥈 🌐💻 122ms | SS (#546)
-  type: ss
-  server: admin.c1.havij.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 1kVr0KATIJI7mwOF
-  udp: true
-- name: 🥈 🇩🇪💻 122ms | SS (#547)
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: 9dQS3geeylyrRth9
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#548)
-  type: ss
-  server: 82.38.31.218
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇬🇧💻 122ms | SS (#549)
-  type: ss
-  server: 149.102.149.207
-  port: 80
-  cipher: aes-256-gcm
-  password: umWwoQJEJGf74SLe
-  udp: true
-- name: 🥈 🌐💻 122ms | SS (#550)
-  type: ss
-  server: admin.c1.havij.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 1kVr0KATIJI7mwOF
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#551)
-  type: ss
-  server: 82.38.31.89
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#552)
-  type: ss
-  server: 82.38.31.184
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#553)
-  type: ss
-  server: 82.38.31.61
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 122ms | SS (#554)
-  type: ss
-  server: 82.38.31.61
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇺🇸💻 122ms | SS (#555)
-  type: ss
-  server: 94.72.127.55
-  port: 80
-  cipher: aes-256-gcm
-  password: wlJSF0fC8uqB5Gm5
-  udp: true
-- name: 🥈 🇳🇱💻 123ms | SS (#556)
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 123ms | SS (#557)
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 123ms | SS (#558)
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇳🇱💻 123ms | SS (#559)
-  type: ss
-  server: 82.38.31.99
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 123ms | SS (#560)
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 123ms | SS (#561)
-  type: ss
-  server: 82.38.31.214
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇸🇪💻 123ms | SS (#562)
-  type: ss
-  server: 46.246.96.42
-  port: 12346
-  cipher: chacha20-ietf-poly1305
-  password: 8nr2nWa5RX4fy3Lbd4kQ0c
-  udp: true
-- name: 🥈 🇩🇪💻 123ms | SS (#563)
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: 9dQS3geeylyrRth9
-  udp: true
-- name: 🥈 🇷🇺💻 139ms | SS (#564)
-  type: ss
-  server: 62.113.114.116
-  port: 42320
-  cipher: chacha20-ietf-poly1305
-  password: BShcek5ydIWbXEnhI2vIym
-  udp: true
-- name: 🥈 🌐💻 139ms | SS (#565)
-  type: ss
-  server: media.mothyleela.cfd
-  port: 40521
-  cipher: chacha20-ietf-poly1305
-  password: 2WkRGh6tAv8UmsHh4i3F6zosj2dzA6sCzXbwq4TdXteztMfyA5aZcLy5jY5Z7FZ3QQMcTVwM7TvibdvzYircC7iDZafp2U6z
-  udp: true
-- name: 🥈 🇷🇺💻 139ms | SS (#566)
-  type: ss
-  server: 62.113.114.116
-  port: 42320
-  cipher: chacha20-ietf-poly1305
-  password: BShcek5ydIWbXEnhI2vIym
-  udp: true
-- name: 🥈 🇷🇺💻 139ms | SS (#567)
-  type: ss
-  server: 62.113.114.116
-  port: 42320
-  cipher: chacha20-ietf-poly1305
-  password: BShcek5ydIWbXEnhI2vIym
-  udp: true
-- name: 🥈 🇷🇺💻 139ms | SS (#568)
-  type: ss
-  server: 62.113.114.116
-  port: 42320
-  cipher: chacha20-ietf-poly1305
-  password: BShcek5ydIWbXEnhI2vIym
-  udp: true
-- name: 🥈 🇷🇺💻 139ms | SS (#569)
-  type: ss
-  server: 62.113.114.116
-  port: 42320
-  cipher: chacha20-ietf-poly1305
-  password: BShcek5ydIWbXEnhI2vIym
-  udp: true
-- name: 🥈 🇷🇺💻 139ms | SS (#570)
-  type: ss
-  server: 62.113.114.116
-  port: 42320
-  cipher: chacha20-ietf-poly1305
-  password: BShcek5ydIWbXEnhI2vIym
-  udp: true
-- name: 🥈 🇺🇸💻 141ms | SS (#571)
-  type: ss
-  server: 62.146.171.57
-  port: 80
-  cipher: aes-256-gcm
-  password: jd9FR12wprKPNJHg
-  udp: true
-- name: 🥈 🇺🇸💻 142ms | SS (#572)
-  type: ss
-  server: 154.53.63.32
-  port: 80
-  cipher: aes-256-gcm
-  password: k6ruJuwgAUxIrkHb
-  udp: true
-- name: 🥈 🇳🇱💻 151ms | SS (#573)
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 151ms | SS (#574)
-  type: ss
-  server: 82.38.31.214
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇷🇺💻 151ms | SS (#575)
-  type: ss
-  server: 62.113.114.116
-  port: 42320
-  cipher: chacha20-ietf-poly1305
-  password: BShcek5ydIWbXEnhI2vIym
-  udp: true
-- name: 🥈 🇳🇱💻 151ms | SS (#576)
-  type: ss
-  server: 82.38.31.218
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🥈 🇺🇸💻 151ms | SS (#577)
-  type: ss
-  server: 94.72.127.55
-  port: 80
-  cipher: aes-256-gcm
-  password: wlJSF0fC8uqB5Gm5
-  udp: true
-- name: 🥈 🇺🇸💻 151ms | SS (#578)
-  type: ss
-  server: 94.72.127.58
-  port: 80
-  cipher: aes-256-gcm
-  password: jJHq807bQ7TM0yOh
-  udp: true
-- name: 🥈 🇺🇸💻 174ms | SS (#579)
-  type: ss
-  server: 62.146.172.130
-  port: 80
-  cipher: aes-256-gcm
-  password: LYXiIUJ0FutnTzBG
-  udp: true
-- name: 🥈 🇺🇸💻 180ms | SS (#580)
-  type: ss
-  server: 154.53.57.143
-  port: 80
-  cipher: aes-256-gcm
-  password: uwmRUOVM5ljNAtPj
-  udp: true
-- name: 🥈 🇳🇱💻 185ms | SS (#581)
-  type: ss
-  server: 82.38.31.99
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇬🇧💻 194ms | SS (#582)
+- name: 🥈 🇬🇧💻 81ms | SS (#500)
   type: ss
   server: 51.105.54.74
   port: 443
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
   udp: true
-- name: 🥈 🇫🇷💻 210ms | SS (#583)
-  type: ss
-  server: 195.154.202.112
-  port: 18292
-  cipher: aes-128-gcm
-  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
-  udp: true
-- name: 🥈 🇫🇷💻 210ms | SS (#584)
-  type: ss
-  server: 195.154.202.112
-  port: 18292
-  cipher: aes-128-gcm
-  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
-  udp: true
-- name: 🥈 🇬🇧💻 210ms | SS (#585)
-  type: ss
-  server: 149.102.152.25
-  port: 80
-  cipher: aes-256-gcm
-  password: RLUoaU4nh8b8Mqq7
-  udp: true
-- name: 🥈 🌐💻 210ms | SS (#586)
-  type: ss
-  server: admin.c1.webramz.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- name: 🥈 🇳🇱💻 210ms | SS (#587)
-  type: ss
-  server: 82.38.31.61
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇫🇷💻 210ms | SS (#588)
-  type: ss
-  server: 51.159.103.137
-  port: 18290
-  cipher: aes-128-gcm
-  password: mBl1fYhX88xk3K39IePrRnmsQDvb1h4f
-  udp: true
-- name: 🥈 🇬🇧💻 210ms | SS (#589)
-  type: ss
-  server: 149.102.132.180
-  port: 80
-  cipher: aes-256-gcm
-  password: ZTiO11KwZG3S7aET
-  udp: true
-- name: 🥈 🇬🇧💻 210ms | SS (#590)
+- name: 🥈 🇬🇧💻 81ms | SS (#501)
   type: ss
   server: 51.145.90.56
   port: 443
   cipher: chacha20-ietf-poly1305
   password: kaQH3hGdcP80XEDI
   udp: true
-- name: 🥈 🇬🇧💻 210ms | SS (#591)
+- name: 🥈 🇫🇷💻 92ms | SS (#502)
   type: ss
-  server: 149.102.132.180
+  server: 195.154.202.112
+  port: 18292
+  cipher: aes-128-gcm
+  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
+  udp: true
+- name: 🥈 🇫🇷💻 92ms | SS (#503)
+  type: ss
+  server: 195.154.202.112
+  port: 18292
+  cipher: aes-128-gcm
+  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
+  udp: true
+- name: 🥈 🇫🇷💻 92ms | SS (#504)
+  type: ss
+  server: 195.154.202.112
+  port: 18292
+  cipher: aes-128-gcm
+  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
+  udp: true
+- name: 🥈 🇫🇷💻 92ms | SS (#505)
+  type: ss
+  server: 195.154.202.112
+  port: 18292
+  cipher: aes-128-gcm
+  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
+  udp: true
+- name: 🥈 🇫🇷💻 92ms | SS (#506)
+  type: ss
+  server: 195.154.202.112
+  port: 18292
+  cipher: aes-128-gcm
+  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
+  udp: true
+- name: 🥈 🇬🇧💻 92ms | SS (#507)
+  type: ss
+  server: 51.145.90.56
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+  udp: true
+- name: 🥈 🇫🇷💻 92ms | SS (#508)
+  type: ss
+  server: 195.154.202.112
+  port: 18292
+  cipher: aes-128-gcm
+  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
+  udp: true
+- name: 🥈 🇬🇧💻 92ms | SS (#509)
+  type: ss
+  server: 149.102.152.25
   port: 80
   cipher: aes-256-gcm
-  password: ZTiO11KwZG3S7aET
+  password: RLUoaU4nh8b8Mqq7
   udp: true
-- name: 🥈 🇬🇧💻 210ms | SS (#592)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇬🇧💻 210ms | SS (#593)
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: aes-256-gcm
-  password: YhzqOeJsfuZ9rkkc
-  udp: true
-- name: 🥈 🇫🇷💻 210ms | SS (#594)
+- name: 🥈 🇫🇷💻 92ms | SS (#510)
   type: ss
   server: 51.159.103.137
   port: 18290
   cipher: aes-128-gcm
   password: mBl1fYhX88xk3K39IePrRnmsQDvb1h4f
   udp: true
-- name: 🥈 🇳🇱💻 210ms | SS (#595)
+- name: 🥈 🇬🇧💻 92ms | SS (#511)
   type: ss
-  server: 82.38.31.99
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: 149.102.132.180
+  port: 80
+  cipher: aes-256-gcm
+  password: ZTiO11KwZG3S7aET
   udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#596)
+- name: 🥈 🇬🇧💻 92ms | SS (#512)
+  type: ss
+  server: 149.102.132.180
+  port: 80
+  cipher: aes-256-gcm
+  password: ZTiO11KwZG3S7aET
+  udp: true
+- name: 🥈 🇬🇧💻 92ms | SS (#513)
+  type: ss
+  server: 149.102.132.186
+  port: 80
+  cipher: aes-256-gcm
+  password: YhzqOeJsfuZ9rkkc
+  udp: true
+- name: 🥈 🇬🇧💻 92ms | SS (#514)
+  type: ss
+  server: 149.102.132.186
+  port: 80
+  cipher: aes-256-gcm
+  password: YhzqOeJsfuZ9rkkc
+  udp: true
+- name: 🥈 🇫🇷💻 92ms | SS (#515)
+  type: ss
+  server: 51.159.103.137
+  port: 18290
+  cipher: aes-128-gcm
+  password: mBl1fYhX88xk3K39IePrRnmsQDvb1h4f
+  udp: true
+- name: 🥈 🇳🇱💻 93ms | SS (#516)
   type: ss
   server: 82.38.31.66
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#597)
+- name: 🥈 🇳🇱💻 93ms | SS (#517)
   type: ss
   server: 82.38.31.69
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🌐💻 211ms | SS (#598)
+- name: 🥈 🌐💻 93ms | SS (#518)
   type: ss
   server: admin.c2.havij.co
   port: 443
   cipher: chacha20-ietf-poly1305
   password: kaQH3hGdcP80XEDI
   udp: true
-- name: 🥈 🌐💻 211ms | SS (#599)
-  type: ss
-  server: admin.c2.havij.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: kaQH3hGdcP80XEDI
-  udp: true
-- name: 🥈 🌐💻 211ms | SS (#600)
-  type: ss
-  server: admin.c2.havij.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: kaQH3hGdcP80XEDI
-  udp: true
-- name: 🥈 🌐💻 211ms | SS (#601)
-  type: ss
-  server: admin.c2.havij.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: kaQH3hGdcP80XEDI
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#602)
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#603)
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#604)
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🌐💻 211ms | SS (#605)
-  type: ss
-  server: admin.c2.havij.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: kaQH3hGdcP80XEDI
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#606)
-  type: ss
-  server: 82.38.31.99
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#607)
-  type: ss
-  server: 82.38.31.66
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#608)
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇫🇷💻 211ms | SS (#609)
-  type: ss
-  server: 195.154.202.112
-  port: 18292
-  cipher: aes-128-gcm
-  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#610)
-  type: ss
-  server: 82.38.31.89
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇫🇷💻 211ms | SS (#611)
-  type: ss
-  server: 195.154.202.112
-  port: 18292
-  cipher: aes-128-gcm
-  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
-  udp: true
-- name: 🥈 🇫🇷💻 211ms | SS (#612)
-  type: ss
-  server: 195.154.202.112
-  port: 18292
-  cipher: aes-128-gcm
-  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
-  udp: true
-- name: 🥈 🇫🇷💻 211ms | SS (#613)
-  type: ss
-  server: 195.154.202.112
-  port: 18292
-  cipher: aes-128-gcm
-  password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#614)
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#615)
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#616)
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#617)
-  type: ss
-  server: 82.38.31.99
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#618)
+- name: 🥈 🇳🇱💻 167ms | SS (#519)
   type: ss
   server: 82.38.31.61
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#619)
+- name: 🥈 🇷🇺💻 167ms | SS (#520)
   type: ss
-  server: 82.38.31.62
+  server: 62.113.114.116
+  port: 42320
+  cipher: chacha20-ietf-poly1305
+  password: BShcek5ydIWbXEnhI2vIym
+  udp: true
+- name: 🥈 🇳🇱💻 167ms | SS (#521)
+  type: ss
+  server: 82.38.31.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🇷🇺💻 167ms | SS (#522)
+  type: ss
+  server: 62.113.114.116
+  port: 42320
+  cipher: chacha20-ietf-poly1305
+  password: BShcek5ydIWbXEnhI2vIym
+  udp: true
+- name: 🥈 🇷🇺💻 167ms | SS (#523)
+  type: ss
+  server: 62.113.114.116
+  port: 42320
+  cipher: chacha20-ietf-poly1305
+  password: BShcek5ydIWbXEnhI2vIym
+  udp: true
+- name: 🥈 🇷🇺💻 167ms | SS (#524)
+  type: ss
+  server: 62.113.114.116
+  port: 42320
+  cipher: chacha20-ietf-poly1305
+  password: BShcek5ydIWbXEnhI2vIym
+  udp: true
+- name: 🥈 🇬🇧💻 167ms | SS (#525)
+  type: ss
+  server: 149.102.132.186
+  port: 80
+  cipher: aes-256-gcm
+  password: YhzqOeJsfuZ9rkkc
+  udp: true
+- name: 🥈 🇷🇺💻 167ms | SS (#526)
+  type: ss
+  server: 62.113.114.116
+  port: 42320
+  cipher: chacha20-ietf-poly1305
+  password: BShcek5ydIWbXEnhI2vIym
+  udp: true
+- name: 🥈 🇳🇱💻 167ms | SS (#527)
+  type: ss
+  server: 82.38.31.122
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#620)
+- name: 🥈 🇳🇱💻 167ms | SS (#528)
   type: ss
-  server: 82.38.31.66
+  server: 82.38.31.184
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🇺🇸💻 167ms | SS (#529)
+  type: ss
+  server: 154.53.60.197
+  port: 80
+  cipher: aes-256-gcm
+  password: 8rb580EBG4l7tO8K
+  udp: true
+- name: 🥈 🇺🇸💻 168ms | SS (#530)
+  type: ss
+  server: 94.72.127.58
+  port: 80
+  cipher: aes-256-gcm
+  password: jJHq807bQ7TM0yOh
+  udp: true
+- name: 🥈 🌐💻 168ms | SS (#531)
+  type: ss
+  server: media.mothyleela.cfd
+  port: 40521
+  cipher: chacha20-ietf-poly1305
+  password: 2WkRGh6tAv8UmsHh4i3F6zosj2dzA6sCzXbwq4TdXteztMfyA5aZcLy5jY5Z7FZ3QQMcTVwM7TvibdvzYircC7iDZafp2U6z
+  udp: true
+- name: 🥈 🇺🇸💻 168ms | SS (#532)
+  type: ss
+  server: 94.72.127.55
+  port: 80
+  cipher: aes-256-gcm
+  password: wlJSF0fC8uqB5Gm5
+  udp: true
+- name: 🥈 🇳🇱💻 168ms | SS (#533)
+  type: ss
+  server: 82.38.31.89
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#621)
+- name: 🥈 🇬🇧💻 169ms | SS (#534)
   type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: 149.102.149.207
+  port: 80
+  cipher: aes-256-gcm
+  password: umWwoQJEJGf74SLe
   udp: true
-- name: 🥈 🇸🇪💻 211ms | SS (#622)
+- name: 🥈 🇬🇧💻 169ms | SS (#535)
   type: ss
-  server: 46.246.96.42
-  port: 12346
-  cipher: chacha20-ietf-poly1305
-  password: 8nr2nWa5RX4fy3Lbd4kQ0c
+  server: 149.102.132.180
+  port: 80
+  cipher: aes-256-gcm
+  password: ZTiO11KwZG3S7aET
   udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#623)
+- name: 🥈 🇬🇧💻 169ms | SS (#536)
   type: ss
-  server: 82.38.31.82
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: 149.102.149.207
+  port: 80
+  cipher: aes-256-gcm
+  password: umWwoQJEJGf74SLe
   udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#624)
-  type: ss
-  server: 82.38.31.99
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#625)
-  type: ss
-  server: 82.38.31.82
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#626)
+- name: 🥈 🇳🇱💻 169ms | SS (#537)
   type: ss
   server: 82.38.31.61
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🌐💻 211ms | SS (#627)
+- name: 🥈 🇳🇱💻 169ms | SS (#538)
   type: ss
-  server: admin.c1.webramz.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-  udp: true
-- name: 🥈 🇳🇱💻 211ms | SS (#628)
-  type: ss
-  server: 82.38.31.89
+  server: 82.38.31.61
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🇫🇷💻 211ms | SS (#629)
+- name: 🥈 🇬🇧💻 169ms | SS (#539)
   type: ss
-  server: 95.111.250.4
+  server: 149.102.149.207
   port: 80
   cipher: aes-256-gcm
-  password: BbOUgNLUyT6rdrxE
+  password: umWwoQJEJGf74SLe
   udp: true
-- name: 🥈 🇳🇱💻 221ms | SS (#630)
+- name: 🥈 🇺🇸💻 169ms | SS (#540)
   type: ss
-  server: 82.38.31.89
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: 64.176.215.70
+  port: 80
+  cipher: aes-256-gcm
+  password: hbhO0xomsJzhO24F
   udp: true
-- name: 🥈 🇳🇱💻 228ms | SS (#631)
+- name: 🥈 🇺🇸💻 169ms | SS (#541)
+  type: ss
+  server: 64.176.215.70
+  port: 80
+  cipher: aes-256-gcm
+  password: hbhO0xomsJzhO24F
+  udp: true
+- name: 🥈 🌐💻 169ms | SS (#542)
+  type: ss
+  server: media.mothyleela.cfd
+  port: 40521
+  cipher: chacha20-ietf-poly1305
+  password: LYW2w9fwdrwj2qC9NyTBuBNKQJUvkKnCp9UxVnFW6LqeSpiCcnzV1cMohBUnCCWBkjkp83rV9wWeYQQqUZwMuYu1YyCt17tW
+  udp: true
+- name: 🥈 🇺🇸💻 169ms | SS (#543)
+  type: ss
+  server: 94.72.127.55
+  port: 80
+  cipher: aes-256-gcm
+  password: wlJSF0fC8uqB5Gm5
+  udp: true
+- name: 🥈 🇺🇸💻 169ms | SS (#544)
+  type: ss
+  server: 154.38.176.7
+  port: 80
+  cipher: aes-256-gcm
+  password: nKeE2ZFWVaE4DyjR
+  udp: true
+- name: 🥈 🇺🇸💻 169ms | SS (#545)
+  type: ss
+  server: 154.38.176.7
+  port: 80
+  cipher: aes-256-gcm
+  password: nKeE2ZFWVaE4DyjR
+  udp: true
+- name: 🥈 🇳🇱💻 169ms | SS (#546)
   type: ss
   server: 82.38.31.99
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🇸🇬💻 240ms | SS (#632)
+- name: 🥈 🇩🇪💻 170ms | SS (#547)
   type: ss
-  server: 194.233.94.119
+  server: 2.58.81.221
   port: 80
   cipher: aes-256-gcm
-  password: 8t2xeemUtyui4zAv
+  password: 9dQS3geeylyrRth9
   udp: true
-- name: 🥈 🇸🇬💻 241ms | SS (#633)
+- name: 🥈 🇬🇧💻 170ms | SS (#548)
   type: ss
-  server: 194.233.94.119
+  server: 149.102.132.186
   port: 80
   cipher: aes-256-gcm
-  password: 8t2xeemUtyui4zAv
+  password: YhzqOeJsfuZ9rkkc
   udp: true
-- name: 🥈 🇸🇬💻 249ms | SS (#634)
+- name: 🥈 🇩🇪💻 170ms | SS (#549)
   type: ss
-  server: 194.233.94.119
+  server: 2.58.81.221
   port: 80
   cipher: aes-256-gcm
-  password: 8t2xeemUtyui4zAv
+  password: 9dQS3geeylyrRth9
   udp: true
-- name: 🥈 🇸🇬💻 253ms | SS (#635)
+- name: 🥈 🇳🇱💻 170ms | SS (#550)
   type: ss
-  server: 194.233.94.119
-  port: 80
-  cipher: aes-256-gcm
-  password: 8t2xeemUtyui4zAv
+  server: 82.38.31.218
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🇸🇬💻 253ms | SS (#636)
-  type: ss
-  server: 194.233.94.119
-  port: 443
-  cipher: aes-256-gcm
-  password: 8t2xeemUtyui4zAv
-  udp: true
-- name: 🥈 🇸🇬💻 253ms | SS (#637)
-  type: ss
-  server: 194.233.94.119
-  port: 443
-  cipher: aes-256-gcm
-  password: 8t2xeemUtyui4zAv
-  udp: true
-- name: 🥈 🇸🇬💻 253ms | SS (#638)
-  type: ss
-  server: 194.233.94.119
-  port: 80
-  cipher: aes-256-gcm
-  password: 8t2xeemUtyui4zAv
-  udp: true
-- name: 🥈 🇫🇷💻 263ms | SS (#639)
-  type: ss
-  server: 95.111.250.4
-  port: 80
-  cipher: aes-256-gcm
-  password: BbOUgNLUyT6rdrxE
-  udp: true
-- name: 🥈 🇹🇷💻 263ms | SS (#640)
+- name: 🥈 🇹🇷💻 170ms | SS (#551)
   type: ss
   server: 31.210.50.196
   port: 12422
   cipher: chacha20-ietf-poly1305
   password: Oqt9kgyMGBiOAJPG4uZXlv
   udp: true
-- name: 🥈 🇸🇬💻 268ms | SS (#641)
+- name: 🥈 🇳🇱💻 170ms | SS (#552)
   type: ss
-  server: 194.233.94.119
+  server: 82.38.31.89
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 170ms | SS (#553)
+  type: ss
+  server: 82.38.31.184
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🌐💻 170ms | SS (#554)
+  type: ss
+  server: media.mothyleela.cfd
+  port: 40521
+  cipher: chacha20-ietf-poly1305
+  password: LYW2w9fwdrwj2qC9NyTBuBNKQJUvkKnCp9UxVnFW6LqeSpiCcnzV1cMohBUnCCWBkjkp83rV9wWeYQQqUZwMuYu1YyCt17tW
+  udp: true
+- name: 🥈 🇳🇱💻 204ms | SS (#555)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 204ms | SS (#556)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 219ms | SS (#557)
+  type: ss
+  server: 82.38.31.69
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 219ms | SS (#558)
+  type: ss
+  server: 82.38.31.69
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🌐💻 219ms | SS (#559)
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+  udp: true
+- name: 🥈 🌐💻 223ms | SS (#560)
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+  udp: true
+- name: 🥈 🇳🇱💻 223ms | SS (#561)
+  type: ss
+  server: 82.38.31.99
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#562)
+  type: ss
+  server: 185.111.156.33
   port: 80
   cipher: aes-256-gcm
-  password: 8t2xeemUtyui4zAv
+  password: 5mCH4624QflO1cFR
   udp: true
-- name: 🥈 🌐💻 320ms | SS (#642)
+- name: 🥈 🇺🇸💻 230ms | SS (#563)
+  type: ss
+  server: 64.176.215.70
+  port: 80
+  cipher: aes-256-gcm
+  password: hbhO0xomsJzhO24F
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#564)
+  type: ss
+  server: 185.33.84.181
+  port: 21484
+  cipher: chacha20-ietf-poly1305
+  password: 1jCMNPLyZb7it1IQJpqbXT
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#565)
+  type: ss
+  server: 94.72.127.55
+  port: 80
+  cipher: aes-256-gcm
+  password: wlJSF0fC8uqB5Gm5
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#566)
+  type: ss
+  server: 94.72.127.58
+  port: 80
+  cipher: aes-256-gcm
+  password: jJHq807bQ7TM0yOh
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#567)
+  type: ss
+  server: 154.53.63.32
+  port: 80
+  cipher: aes-256-gcm
+  password: k6ruJuwgAUxIrkHb
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#568)
+  type: ss
+  server: 62.146.171.57
+  port: 80
+  cipher: aes-256-gcm
+  password: jd9FR12wprKPNJHg
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#569)
+  type: ss
+  server: 62.146.171.59
+  port: 80
+  cipher: aes-256-gcm
+  password: MEmsQeJtPF1GMwJm
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#570)
+  type: ss
+  server: 94.72.127.55
+  port: 80
+  cipher: aes-256-gcm
+  password: wlJSF0fC8uqB5Gm5
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#571)
+  type: ss
+  server: 62.146.172.130
+  port: 80
+  cipher: aes-256-gcm
+  password: LYXiIUJ0FutnTzBG
+  udp: true
+- name: 🥈 🇷🇺💻 230ms | SS (#572)
+  type: ss
+  server: 62.113.114.116
+  port: 42320
+  cipher: chacha20-ietf-poly1305
+  password: BShcek5ydIWbXEnhI2vIym
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#573)
+  type: ss
+  server: 94.72.127.58
+  port: 80
+  cipher: aes-256-gcm
+  password: jJHq807bQ7TM0yOh
+  udp: true
+- name: 🥈 🇺🇸💻 230ms | SS (#574)
+  type: ss
+  server: 94.72.127.55
+  port: 80
+  cipher: aes-256-gcm
+  password: wlJSF0fC8uqB5Gm5
+  udp: true
+- name: 🥈 🇬🇧💻 231ms | SS (#575)
+  type: ss
+  server: 149.102.132.186
+  port: 80
+  cipher: aes-256-gcm
+  password: YhzqOeJsfuZ9rkkc
+  udp: true
+- name: 🥈 🇳🇱💻 231ms | SS (#576)
+  type: ss
+  server: 82.38.31.89
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 231ms | SS (#577)
+  type: ss
+  server: 82.38.31.99
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇺🇸💻 231ms | SS (#578)
+  type: ss
+  server: 154.53.57.143
+  port: 80
+  cipher: aes-256-gcm
+  password: uwmRUOVM5ljNAtPj
+  udp: true
+- name: 🥈 🇳🇱💻 231ms | SS (#579)
+  type: ss
+  server: 82.38.31.69
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🌐💻 231ms | SS (#580)
   type: ss
   server: switcher-nick-croquet.freesocks.work
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 9tqhMdIrTkgQ46PvhyAtMH
   udp: true
-- name: 🥈 🌐💻 323ms | SS (#643)
+- name: 🥈 🇳🇱💻 231ms | SS (#581)
   type: ss
-  server: media.mothyleela.cfd
-  port: 40521
+  server: 82.38.31.214
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: LYW2w9fwdrwj2qC9NyTBuBNKQJUvkKnCp9UxVnFW6LqeSpiCcnzV1cMohBUnCCWBkjkp83rV9wWeYQQqUZwMuYu1YyCt17tW
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥈 🌐💻 323ms | SS (#644)
+- name: 🥈 🇷🇺💻 231ms | SS (#582)
   type: ss
-  server: media.mothyleela.cfd
-  port: 40521
+  server: 62.113.114.116
+  port: 42320
   cipher: chacha20-ietf-poly1305
-  password: LYW2w9fwdrwj2qC9NyTBuBNKQJUvkKnCp9UxVnFW6LqeSpiCcnzV1cMohBUnCCWBkjkp83rV9wWeYQQqUZwMuYu1YyCt17tW
+  password: BShcek5ydIWbXEnhI2vIym
   udp: true
-- name: 🥈 🇳🇱💻 458ms | SS (#645)
+- name: 🥈 🇳🇱💻 231ms | SS (#583)
+  type: ss
+  server: 82.38.31.218
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🇳🇱💻 269ms | SS (#584)
+  type: ss
+  server: 82.38.31.66
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 270ms | SS (#585)
   type: ss
   server: 82.38.31.62
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🇳🇱💻 472ms | SS (#646)
+- name: 🥈 🇳🇱💻 270ms | SS (#586)
   type: ss
   server: 82.38.31.62
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥈 🌐💻 1107ms | SS (#647)
+- name: 🥈 🇳🇱💻 274ms | SS (#587)
+  type: ss
+  server: 82.38.31.99
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 274ms | SS (#588)
+  type: ss
+  server: 82.38.31.61
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 293ms | SS (#589)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 293ms | SS (#590)
+  type: ss
+  server: 82.38.31.66
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 293ms | SS (#591)
+  type: ss
+  server: 82.38.31.99
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 293ms | SS (#592)
+  type: ss
+  server: 82.38.31.61
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 293ms | SS (#593)
+  type: ss
+  server: 82.38.31.99
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🌐💻 293ms | SS (#594)
   type: ss
   server: admin.c1.webramz.co
   port: 443
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
   udp: true
-- name: 🥈 🌐💻 1216ms | SS (#648)
+- name: 🥈 🇳🇱💻 293ms | SS (#595)
+  type: ss
+  server: 82.38.31.89
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇫🇷💻 293ms | SS (#596)
+  type: ss
+  server: 95.111.250.4
+  port: 80
+  cipher: aes-256-gcm
+  password: BbOUgNLUyT6rdrxE
+  udp: true
+- name: 🥈 🌐💻 294ms | SS (#597)
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+  udp: true
+- name: 🥈 🌐💻 294ms | SS (#598)
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+  udp: true
+- name: 🥈 🇳🇱💻 294ms | SS (#599)
+  type: ss
+  server: 82.38.31.69
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 294ms | SS (#600)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 294ms | SS (#601)
+  type: ss
+  server: 82.38.31.89
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 294ms | SS (#602)
+  type: ss
+  server: 82.38.31.69
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🌐💻 294ms | SS (#603)
+  type: ss
+  server: admin.c1.webramz.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 🥈 🇳🇱💻 294ms | SS (#604)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🌐💻 294ms | SS (#605)
+  type: ss
+  server: admin.c1.webramz.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 🥈 🇸🇪💻 294ms | SS (#606)
+  type: ss
+  server: 46.246.96.42
+  port: 12346
+  cipher: chacha20-ietf-poly1305
+  password: 8nr2nWa5RX4fy3Lbd4kQ0c
+  udp: true
+- name: 🥈 🇳🇱💻 294ms | SS (#607)
+  type: ss
+  server: 82.38.31.82
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 294ms | SS (#608)
+  type: ss
+  server: 82.38.31.82
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 294ms | SS (#609)
+  type: ss
+  server: 82.38.31.61
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇸🇬💻 304ms | SS (#610)
+  type: ss
+  server: 194.233.94.119
+  port: 80
+  cipher: aes-256-gcm
+  password: 8t2xeemUtyui4zAv
+  udp: true
+- name: 🥈 🇸🇬💻 304ms | SS (#611)
+  type: ss
+  server: 194.233.94.119
+  port: 80
+  cipher: aes-256-gcm
+  password: 8t2xeemUtyui4zAv
+  udp: true
+- name: 🥈 🇸🇬💻 304ms | SS (#612)
+  type: ss
+  server: 194.233.94.119
+  port: 443
+  cipher: aes-256-gcm
+  password: 8t2xeemUtyui4zAv
+  udp: true
+- name: 🥈 🌐💻 304ms | SS (#613)
   type: ss
   server: switcher-nick-croquet.freesocks.work
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 9tqhMdIrTkgQ46PvhyAtMH
+  udp: true
+- name: 🥈 🇸🇬💻 304ms | SS (#614)
+  type: ss
+  server: 194.233.94.119
+  port: 80
+  cipher: aes-256-gcm
+  password: 8t2xeemUtyui4zAv
+  udp: true
+- name: 🥈 🇸🇬💻 304ms | SS (#615)
+  type: ss
+  server: 194.233.94.119
+  port: 443
+  cipher: aes-256-gcm
+  password: 8t2xeemUtyui4zAv
+  udp: true
+- name: 🥈 🇸🇬💻 304ms | SS (#616)
+  type: ss
+  server: 194.233.94.119
+  port: 80
+  cipher: aes-256-gcm
+  password: 8t2xeemUtyui4zAv
+  udp: true
+- name: 🥈 🇺🇸💻 386ms | SS (#617)
+  type: ss
+  server: 154.38.176.7
+  port: 80
+  cipher: aes-256-gcm
+  password: nKeE2ZFWVaE4DyjR
+  udp: true
+- name: 🥈 🇸🇬💻 394ms | SS (#618)
+  type: ss
+  server: 194.233.94.119
+  port: 80
+  cipher: aes-256-gcm
+  password: 8t2xeemUtyui4zAv
+  udp: true
+- name: 🥈 🇸🇬💻 394ms | SS (#619)
+  type: ss
+  server: 194.233.94.119
+  port: 80
+  cipher: aes-256-gcm
+  password: 8t2xeemUtyui4zAv
+  udp: true
+- name: 🥈 🌐💻 396ms | SS (#620)
+  type: ss
+  server: admin.c1.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1kVr0KATIJI7mwOF
+  udp: true
+- name: 🥈 🌐💻 396ms | SS (#621)
+  type: ss
+  server: admin.c1.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1kVr0KATIJI7mwOF
+  udp: true
+- name: 🥈 🇬🇧💻 557ms | SS (#622)
+  type: ss
+  server: 149.102.132.186
+  port: 80
+  cipher: aes-256-gcm
+  password: YhzqOeJsfuZ9rkkc
+  udp: true
+- name: 🥈 🇩🇪💻 557ms | SS (#623)
+  type: ss
+  server: 2.58.81.221
+  port: 80
+  cipher: aes-256-gcm
+  password: 9dQS3geeylyrRth9
+  udp: true
+- name: 🥈 🇩🇪💻 577ms | SS (#624)
+  type: ss
+  server: 2.58.81.221
+  port: 80
+  cipher: aes-256-gcm
+  password: 9dQS3geeylyrRth9
+  udp: true
+- name: 🥈 🇳🇱💻 581ms | SS (#625)
+  type: ss
+  server: 82.38.31.66
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 581ms | SS (#626)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 606ms | SS (#627)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇬🇧💻 606ms | SS (#628)
+  type: ss
+  server: 149.102.132.186
+  port: 80
+  cipher: aes-256-gcm
+  password: YhzqOeJsfuZ9rkkc
+  udp: true
+- name: 🥈 🇳🇱💻 606ms | SS (#629)
+  type: ss
+  server: 82.38.31.89
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇬🇧💻 626ms | SS (#630)
+  type: ss
+  server: 149.102.132.186
+  port: 80
+  cipher: aes-256-gcm
+  password: YhzqOeJsfuZ9rkkc
+  udp: true
+- name: 🥈 🇳🇱💻 632ms | SS (#631)
+  type: ss
+  server: 82.38.31.69
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 632ms | SS (#632)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 632ms | SS (#633)
+  type: ss
+  server: 82.38.31.217
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🇬🇧💻 632ms | SS (#634)
+  type: ss
+  server: 149.102.132.186
+  port: 80
+  cipher: aes-256-gcm
+  password: YhzqOeJsfuZ9rkkc
+  udp: true
+- name: 🥈 🇬🇧💻 632ms | SS (#635)
+  type: ss
+  server: 149.102.152.25
+  port: 80
+  cipher: aes-256-gcm
+  password: RLUoaU4nh8b8Mqq7
+  udp: true
+- name: 🥈 🇳🇱💻 632ms | SS (#636)
+  type: ss
+  server: 82.38.31.99
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🌐💻 632ms | SS (#637)
+  type: ss
+  server: admin.c1.webramz.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+  udp: true
+- name: 🥈 🇳🇱💻 632ms | SS (#638)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 632ms | SS (#639)
+  type: ss
+  server: 82.38.31.214
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🥈 🇳🇱💻 632ms | SS (#640)
+  type: ss
+  server: 82.38.31.99
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇸🇪💻 632ms | SS (#641)
+  type: ss
+  server: 46.246.96.42
+  port: 12346
+  cipher: chacha20-ietf-poly1305
+  password: 8nr2nWa5RX4fy3Lbd4kQ0c
+  udp: true
+- name: 🥈 🇫🇷💻 632ms | SS (#642)
+  type: ss
+  server: 95.111.250.4
+  port: 80
+  cipher: aes-256-gcm
+  password: BbOUgNLUyT6rdrxE
+  udp: true
+- name: 🥈 🇩🇪💻 632ms | SS (#643)
+  type: ss
+  server: 2.58.81.221
+  port: 80
+  cipher: aes-256-gcm
+  password: 9dQS3geeylyrRth9
+  udp: true
+- name: 🥈 🇳🇱💻 632ms | SS (#644)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 632ms | SS (#645)
+  type: ss
+  server: 82.38.31.66
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇬🇧💻 632ms | SS (#646)
+  type: ss
+  server: 149.102.132.186
+  port: 80
+  cipher: aes-256-gcm
+  password: YhzqOeJsfuZ9rkkc
+  udp: true
+- name: 🥈 🇳🇱💻 707ms | SS (#647)
+  type: ss
+  server: 82.38.31.69
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🥈 🇳🇱💻 707ms | SS (#648)
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🥈 🌐 999ms | SS (#649)
   type: ss
@@ -5774,9 +6306,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /linkvws
     headers:
@@ -5796,9 +6328,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /e6395c20
     headers:
@@ -5825,9 +6357,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /linkvws
     headers:
@@ -5840,9 +6372,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /linkvws
     headers:
@@ -5911,9 +6443,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /linkvws
     headers:
@@ -5926,9 +6458,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /linkvws
     headers:
@@ -6004,7 +6536,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6019,9 +6550,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -6034,7 +6565,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6077,7 +6607,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6099,7 +6628,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6114,7 +6642,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6136,7 +6663,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6263,9 +6789,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -6285,7 +6811,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6300,7 +6825,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6322,9 +6846,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -6351,9 +6875,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -6387,7 +6911,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6409,7 +6932,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6431,7 +6953,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6453,7 +6974,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6468,9 +6988,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -6483,9 +7003,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -6505,9 +7025,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -6520,9 +7040,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -6570,7 +7090,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6585,9 +7104,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -6614,7 +7133,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6636,7 +7154,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6868,9 +7385,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /chat
     headers:
@@ -6883,9 +7400,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /chat
     headers:
@@ -6898,9 +7415,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /ws
     headers:
@@ -6913,7 +7430,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6928,7 +7444,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6943,9 +7458,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /ws
     headers:
@@ -6958,9 +7473,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /ws
     headers:
@@ -6973,7 +7488,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -6995,9 +7509,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -7087,9 +7601,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -7298,9 +7812,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -7334,9 +7848,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -7433,7 +7947,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7448,7 +7961,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7463,7 +7975,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7478,9 +7989,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /ws
     headers:
@@ -7514,7 +8025,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7529,9 +8039,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -7579,7 +8089,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7594,7 +8103,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7609,7 +8117,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7624,7 +8131,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7639,7 +8145,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7654,7 +8159,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7669,7 +8173,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7684,7 +8187,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7713,9 +8215,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /ray
     headers:
@@ -7749,9 +8251,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /ws
     headers:
@@ -7764,7 +8266,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7779,7 +8280,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7794,7 +8294,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -7844,9 +8343,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -7873,9 +8372,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -7888,9 +8387,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -7903,9 +8402,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -7932,9 +8431,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -8045,9 +8544,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -8074,7 +8573,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8089,9 +8587,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /ray
     headers:
@@ -8104,7 +8602,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8133,9 +8630,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /freebaipiao
     headers:
@@ -8148,7 +8645,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8177,7 +8673,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8206,9 +8701,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -8221,9 +8716,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /
     headers:
@@ -8460,9 +8955,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /5QNROSRV
     headers:
@@ -8475,9 +8970,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /5QNROSRV
     headers:
@@ -8490,9 +8985,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /A2DJOPFT
     headers:
@@ -8505,7 +9000,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8520,9 +9014,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /5QNROSRV
     headers:
@@ -8535,7 +9029,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8550,9 +9043,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /A2DJOPFT
     headers:
@@ -8565,9 +9058,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /IYKLD53M
     headers:
@@ -8580,9 +9073,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /zksna
     headers:
@@ -8595,9 +9088,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /A2DJOPFT
     headers:
@@ -8610,9 +9103,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /IYKLD53M
     headers:
@@ -8625,7 +9118,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8640,9 +9132,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /eisasqa
     headers:
@@ -8655,9 +9147,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /IYKLD53M
     headers:
@@ -8670,9 +9162,9 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
   skip-cert-verify: true
   network: ws
+  tls: true
   ws-opts:
     path: /5QNROSRV
     headers:
@@ -8685,7 +9177,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8700,7 +9191,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8715,7 +9205,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8730,7 +9219,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8745,7 +9233,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -8760,7 +9247,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -16274,155 +16760,155 @@ proxy-groups:
 - name: 🥈 Tier 2
   type: select
   proxies:
-  - 🥈 🇺🇸💻 8ms | SS (#500)
-  - 🥈 🇺🇸💻 8ms | SS (#501)
-  - 🥈 🇺🇸💻 8ms | SS (#502)
-  - 🥈 🇺🇸💻 9ms | SS (#503)
-  - 🥈 🇺🇸💻 9ms | SS (#504)
-  - 🥈 🇺🇸💻 12ms | SS (#505)
-  - 🥈 🇺🇸💻 12ms | SS (#506)
-  - 🥈 🇺🇸💻 25ms | SS (#507)
-  - 🥈 🇬🇧💻 79ms | SS (#508)
-  - 🥈 🇬🇧💻 80ms | SS (#509)
-  - 🥈 🇺🇸💻 81ms | SS (#510)
-  - 🥈 🇺🇸💻 81ms | SS (#511)
-  - 🥈 🇬🇧💻 83ms | SS (#512)
-  - 🥈 🇬🇧💻 83ms | SS (#513)
-  - 🥈 🇬🇧💻 83ms | SS (#514)
-  - 🥈 🇬🇧💻 83ms | SS (#515)
-  - 🥈 🇬🇧💻 83ms | SS (#516)
-  - 🥈 🇬🇧💻 84ms | SS (#517)
-  - 🥈 🌐💻 84ms | SS (#518)
-  - 🥈 🇺🇸💻 88ms | SS (#519)
-  - 🥈 🇺🇸💻 89ms | SS (#520)
-  - 🥈 🇺🇸💻 89ms | SS (#521)
-  - 🥈 🇬🇧💻 93ms | SS (#522)
-  - 🥈 🇺🇸💻 103ms | SS (#523)
-  - 🥈 🇺🇸💻 103ms | SS (#524)
-  - 🥈 🇬🇧💻 103ms | SS (#525)
-  - 🥈 🇬🇧💻 111ms | SS (#526)
-  - 🥈 🇬🇧💻 111ms | SS (#527)
-  - 🥈 🇳🇱💻 119ms | SS (#528)
-  - 🥈 🇳🇱💻 119ms | SS (#529)
-  - 🥈 🇳🇱💻 119ms | SS (#530)
-  - 🥈 🇳🇱💻 119ms | SS (#531)
-  - 🥈 🇳🇱💻 119ms | SS (#532)
-  - 🥈 🇳🇱💻 122ms | SS (#533)
-  - 🥈 🇩🇪💻 122ms | SS (#534)
-  - 🥈 🇳🇱💻 122ms | SS (#535)
-  - 🥈 🇳🇱💻 122ms | SS (#536)
-  - 🥈 🇳🇱💻 122ms | SS (#537)
-  - 🥈 🇬🇧💻 122ms | SS (#538)
-  - 🥈 🇳🇱💻 122ms | SS (#539)
-  - 🥈 🇳🇱💻 122ms | SS (#540)
-  - 🥈 🇳🇱💻 122ms | SS (#541)
-  - 🥈 🇩🇪💻 122ms | SS (#542)
-  - 🥈 🇳🇱💻 122ms | SS (#543)
-  - 🥈 🇳🇱💻 122ms | SS (#544)
-  - 🥈 🇩🇪💻 122ms | SS (#545)
-  - 🥈 🌐💻 122ms | SS (#546)
-  - 🥈 🇩🇪💻 122ms | SS (#547)
-  - 🥈 🇳🇱💻 122ms | SS (#548)
-  - 🥈 🇬🇧💻 122ms | SS (#549)
-  - 🥈 🌐💻 122ms | SS (#550)
-  - 🥈 🇳🇱💻 122ms | SS (#551)
-  - 🥈 🇳🇱💻 122ms | SS (#552)
-  - 🥈 🇳🇱💻 122ms | SS (#553)
-  - 🥈 🇳🇱💻 122ms | SS (#554)
-  - 🥈 🇺🇸💻 122ms | SS (#555)
-  - 🥈 🇳🇱💻 123ms | SS (#556)
-  - 🥈 🇳🇱💻 123ms | SS (#557)
-  - 🥈 🇳🇱💻 123ms | SS (#558)
-  - 🥈 🇳🇱💻 123ms | SS (#559)
-  - 🥈 🇳🇱💻 123ms | SS (#560)
-  - 🥈 🇳🇱💻 123ms | SS (#561)
-  - 🥈 🇸🇪💻 123ms | SS (#562)
-  - 🥈 🇩🇪💻 123ms | SS (#563)
-  - 🥈 🇷🇺💻 139ms | SS (#564)
-  - 🥈 🌐💻 139ms | SS (#565)
-  - 🥈 🇷🇺💻 139ms | SS (#566)
-  - 🥈 🇷🇺💻 139ms | SS (#567)
-  - 🥈 🇷🇺💻 139ms | SS (#568)
-  - 🥈 🇷🇺💻 139ms | SS (#569)
-  - 🥈 🇷🇺💻 139ms | SS (#570)
-  - 🥈 🇺🇸💻 141ms | SS (#571)
-  - 🥈 🇺🇸💻 142ms | SS (#572)
-  - 🥈 🇳🇱💻 151ms | SS (#573)
-  - 🥈 🇳🇱💻 151ms | SS (#574)
-  - 🥈 🇷🇺💻 151ms | SS (#575)
-  - 🥈 🇳🇱💻 151ms | SS (#576)
-  - 🥈 🇺🇸💻 151ms | SS (#577)
-  - 🥈 🇺🇸💻 151ms | SS (#578)
-  - 🥈 🇺🇸💻 174ms | SS (#579)
-  - 🥈 🇺🇸💻 180ms | SS (#580)
-  - 🥈 🇳🇱💻 185ms | SS (#581)
-  - 🥈 🇬🇧💻 194ms | SS (#582)
-  - 🥈 🇫🇷💻 210ms | SS (#583)
-  - 🥈 🇫🇷💻 210ms | SS (#584)
-  - 🥈 🇬🇧💻 210ms | SS (#585)
-  - 🥈 🌐💻 210ms | SS (#586)
-  - 🥈 🇳🇱💻 210ms | SS (#587)
-  - 🥈 🇫🇷💻 210ms | SS (#588)
-  - 🥈 🇬🇧💻 210ms | SS (#589)
-  - 🥈 🇬🇧💻 210ms | SS (#590)
-  - 🥈 🇬🇧💻 210ms | SS (#591)
-  - 🥈 🇬🇧💻 210ms | SS (#592)
-  - 🥈 🇬🇧💻 210ms | SS (#593)
-  - 🥈 🇫🇷💻 210ms | SS (#594)
-  - 🥈 🇳🇱💻 210ms | SS (#595)
-  - 🥈 🇳🇱💻 211ms | SS (#596)
-  - 🥈 🇳🇱💻 211ms | SS (#597)
-  - 🥈 🌐💻 211ms | SS (#598)
-  - 🥈 🌐💻 211ms | SS (#599)
-  - 🥈 🌐💻 211ms | SS (#600)
-  - 🥈 🌐💻 211ms | SS (#601)
-  - 🥈 🇳🇱💻 211ms | SS (#602)
-  - 🥈 🇳🇱💻 211ms | SS (#603)
-  - 🥈 🇳🇱💻 211ms | SS (#604)
-  - 🥈 🌐💻 211ms | SS (#605)
-  - 🥈 🇳🇱💻 211ms | SS (#606)
-  - 🥈 🇳🇱💻 211ms | SS (#607)
-  - 🥈 🇳🇱💻 211ms | SS (#608)
-  - 🥈 🇫🇷💻 211ms | SS (#609)
-  - 🥈 🇳🇱💻 211ms | SS (#610)
-  - 🥈 🇫🇷💻 211ms | SS (#611)
-  - 🥈 🇫🇷💻 211ms | SS (#612)
-  - 🥈 🇫🇷💻 211ms | SS (#613)
-  - 🥈 🇳🇱💻 211ms | SS (#614)
-  - 🥈 🇳🇱💻 211ms | SS (#615)
-  - 🥈 🇳🇱💻 211ms | SS (#616)
-  - 🥈 🇳🇱💻 211ms | SS (#617)
-  - 🥈 🇳🇱💻 211ms | SS (#618)
-  - 🥈 🇳🇱💻 211ms | SS (#619)
-  - 🥈 🇳🇱💻 211ms | SS (#620)
-  - 🥈 🇳🇱💻 211ms | SS (#621)
-  - 🥈 🇸🇪💻 211ms | SS (#622)
-  - 🥈 🇳🇱💻 211ms | SS (#623)
-  - 🥈 🇳🇱💻 211ms | SS (#624)
-  - 🥈 🇳🇱💻 211ms | SS (#625)
-  - 🥈 🇳🇱💻 211ms | SS (#626)
-  - 🥈 🌐💻 211ms | SS (#627)
-  - 🥈 🇳🇱💻 211ms | SS (#628)
-  - 🥈 🇫🇷💻 211ms | SS (#629)
-  - 🥈 🇳🇱💻 221ms | SS (#630)
-  - 🥈 🇳🇱💻 228ms | SS (#631)
-  - 🥈 🇸🇬💻 240ms | SS (#632)
-  - 🥈 🇸🇬💻 241ms | SS (#633)
-  - 🥈 🇸🇬💻 249ms | SS (#634)
-  - 🥈 🇸🇬💻 253ms | SS (#635)
-  - 🥈 🇸🇬💻 253ms | SS (#636)
-  - 🥈 🇸🇬💻 253ms | SS (#637)
-  - 🥈 🇸🇬💻 253ms | SS (#638)
-  - 🥈 🇫🇷💻 263ms | SS (#639)
-  - 🥈 🇹🇷💻 263ms | SS (#640)
-  - 🥈 🇸🇬💻 268ms | SS (#641)
-  - 🥈 🌐💻 320ms | SS (#642)
-  - 🥈 🌐💻 323ms | SS (#643)
-  - 🥈 🌐💻 323ms | SS (#644)
-  - 🥈 🇳🇱💻 458ms | SS (#645)
-  - 🥈 🇳🇱💻 472ms | SS (#646)
-  - 🥈 🌐💻 1107ms | SS (#647)
-  - 🥈 🌐💻 1216ms | SS (#648)
+  - 🥈 🇬🇧💻 81ms | SS (#500)
+  - 🥈 🇬🇧💻 81ms | SS (#501)
+  - 🥈 🇫🇷💻 92ms | SS (#502)
+  - 🥈 🇫🇷💻 92ms | SS (#503)
+  - 🥈 🇫🇷💻 92ms | SS (#504)
+  - 🥈 🇫🇷💻 92ms | SS (#505)
+  - 🥈 🇫🇷💻 92ms | SS (#506)
+  - 🥈 🇬🇧💻 92ms | SS (#507)
+  - 🥈 🇫🇷💻 92ms | SS (#508)
+  - 🥈 🇬🇧💻 92ms | SS (#509)
+  - 🥈 🇫🇷💻 92ms | SS (#510)
+  - 🥈 🇬🇧💻 92ms | SS (#511)
+  - 🥈 🇬🇧💻 92ms | SS (#512)
+  - 🥈 🇬🇧💻 92ms | SS (#513)
+  - 🥈 🇬🇧💻 92ms | SS (#514)
+  - 🥈 🇫🇷💻 92ms | SS (#515)
+  - 🥈 🇳🇱💻 93ms | SS (#516)
+  - 🥈 🇳🇱💻 93ms | SS (#517)
+  - 🥈 🌐💻 93ms | SS (#518)
+  - 🥈 🇳🇱💻 167ms | SS (#519)
+  - 🥈 🇷🇺💻 167ms | SS (#520)
+  - 🥈 🇳🇱💻 167ms | SS (#521)
+  - 🥈 🇷🇺💻 167ms | SS (#522)
+  - 🥈 🇷🇺💻 167ms | SS (#523)
+  - 🥈 🇷🇺💻 167ms | SS (#524)
+  - 🥈 🇬🇧💻 167ms | SS (#525)
+  - 🥈 🇷🇺💻 167ms | SS (#526)
+  - 🥈 🇳🇱💻 167ms | SS (#527)
+  - 🥈 🇳🇱💻 167ms | SS (#528)
+  - 🥈 🇺🇸💻 167ms | SS (#529)
+  - 🥈 🇺🇸💻 168ms | SS (#530)
+  - 🥈 🌐💻 168ms | SS (#531)
+  - 🥈 🇺🇸💻 168ms | SS (#532)
+  - 🥈 🇳🇱💻 168ms | SS (#533)
+  - 🥈 🇬🇧💻 169ms | SS (#534)
+  - 🥈 🇬🇧💻 169ms | SS (#535)
+  - 🥈 🇬🇧💻 169ms | SS (#536)
+  - 🥈 🇳🇱💻 169ms | SS (#537)
+  - 🥈 🇳🇱💻 169ms | SS (#538)
+  - 🥈 🇬🇧💻 169ms | SS (#539)
+  - 🥈 🇺🇸💻 169ms | SS (#540)
+  - 🥈 🇺🇸💻 169ms | SS (#541)
+  - 🥈 🌐💻 169ms | SS (#542)
+  - 🥈 🇺🇸💻 169ms | SS (#543)
+  - 🥈 🇺🇸💻 169ms | SS (#544)
+  - 🥈 🇺🇸💻 169ms | SS (#545)
+  - 🥈 🇳🇱💻 169ms | SS (#546)
+  - 🥈 🇩🇪💻 170ms | SS (#547)
+  - 🥈 🇬🇧💻 170ms | SS (#548)
+  - 🥈 🇩🇪💻 170ms | SS (#549)
+  - 🥈 🇳🇱💻 170ms | SS (#550)
+  - 🥈 🇹🇷💻 170ms | SS (#551)
+  - 🥈 🇳🇱💻 170ms | SS (#552)
+  - 🥈 🇳🇱💻 170ms | SS (#553)
+  - 🥈 🌐💻 170ms | SS (#554)
+  - 🥈 🇳🇱💻 204ms | SS (#555)
+  - 🥈 🇳🇱💻 204ms | SS (#556)
+  - 🥈 🇳🇱💻 219ms | SS (#557)
+  - 🥈 🇳🇱💻 219ms | SS (#558)
+  - 🥈 🌐💻 219ms | SS (#559)
+  - 🥈 🌐💻 223ms | SS (#560)
+  - 🥈 🇳🇱💻 223ms | SS (#561)
+  - 🥈 🇺🇸💻 230ms | SS (#562)
+  - 🥈 🇺🇸💻 230ms | SS (#563)
+  - 🥈 🇺🇸💻 230ms | SS (#564)
+  - 🥈 🇺🇸💻 230ms | SS (#565)
+  - 🥈 🇺🇸💻 230ms | SS (#566)
+  - 🥈 🇺🇸💻 230ms | SS (#567)
+  - 🥈 🇺🇸💻 230ms | SS (#568)
+  - 🥈 🇺🇸💻 230ms | SS (#569)
+  - 🥈 🇺🇸💻 230ms | SS (#570)
+  - 🥈 🇺🇸💻 230ms | SS (#571)
+  - 🥈 🇷🇺💻 230ms | SS (#572)
+  - 🥈 🇺🇸💻 230ms | SS (#573)
+  - 🥈 🇺🇸💻 230ms | SS (#574)
+  - 🥈 🇬🇧💻 231ms | SS (#575)
+  - 🥈 🇳🇱💻 231ms | SS (#576)
+  - 🥈 🇳🇱💻 231ms | SS (#577)
+  - 🥈 🇺🇸💻 231ms | SS (#578)
+  - 🥈 🇳🇱💻 231ms | SS (#579)
+  - 🥈 🌐💻 231ms | SS (#580)
+  - 🥈 🇳🇱💻 231ms | SS (#581)
+  - 🥈 🇷🇺💻 231ms | SS (#582)
+  - 🥈 🇳🇱💻 231ms | SS (#583)
+  - 🥈 🇳🇱💻 269ms | SS (#584)
+  - 🥈 🇳🇱💻 270ms | SS (#585)
+  - 🥈 🇳🇱💻 270ms | SS (#586)
+  - 🥈 🇳🇱💻 274ms | SS (#587)
+  - 🥈 🇳🇱💻 274ms | SS (#588)
+  - 🥈 🇳🇱💻 293ms | SS (#589)
+  - 🥈 🇳🇱💻 293ms | SS (#590)
+  - 🥈 🇳🇱💻 293ms | SS (#591)
+  - 🥈 🇳🇱💻 293ms | SS (#592)
+  - 🥈 🇳🇱💻 293ms | SS (#593)
+  - 🥈 🌐💻 293ms | SS (#594)
+  - 🥈 🇳🇱💻 293ms | SS (#595)
+  - 🥈 🇫🇷💻 293ms | SS (#596)
+  - 🥈 🌐💻 294ms | SS (#597)
+  - 🥈 🌐💻 294ms | SS (#598)
+  - 🥈 🇳🇱💻 294ms | SS (#599)
+  - 🥈 🇳🇱💻 294ms | SS (#600)
+  - 🥈 🇳🇱💻 294ms | SS (#601)
+  - 🥈 🇳🇱💻 294ms | SS (#602)
+  - 🥈 🌐💻 294ms | SS (#603)
+  - 🥈 🇳🇱💻 294ms | SS (#604)
+  - 🥈 🌐💻 294ms | SS (#605)
+  - 🥈 🇸🇪💻 294ms | SS (#606)
+  - 🥈 🇳🇱💻 294ms | SS (#607)
+  - 🥈 🇳🇱💻 294ms | SS (#608)
+  - 🥈 🇳🇱💻 294ms | SS (#609)
+  - 🥈 🇸🇬💻 304ms | SS (#610)
+  - 🥈 🇸🇬💻 304ms | SS (#611)
+  - 🥈 🇸🇬💻 304ms | SS (#612)
+  - 🥈 🌐💻 304ms | SS (#613)
+  - 🥈 🇸🇬💻 304ms | SS (#614)
+  - 🥈 🇸🇬💻 304ms | SS (#615)
+  - 🥈 🇸🇬💻 304ms | SS (#616)
+  - 🥈 🇺🇸💻 386ms | SS (#617)
+  - 🥈 🇸🇬💻 394ms | SS (#618)
+  - 🥈 🇸🇬💻 394ms | SS (#619)
+  - 🥈 🌐💻 396ms | SS (#620)
+  - 🥈 🌐💻 396ms | SS (#621)
+  - 🥈 🇬🇧💻 557ms | SS (#622)
+  - 🥈 🇩🇪💻 557ms | SS (#623)
+  - 🥈 🇩🇪💻 577ms | SS (#624)
+  - 🥈 🇳🇱💻 581ms | SS (#625)
+  - 🥈 🇳🇱💻 581ms | SS (#626)
+  - 🥈 🇳🇱💻 606ms | SS (#627)
+  - 🥈 🇬🇧💻 606ms | SS (#628)
+  - 🥈 🇳🇱💻 606ms | SS (#629)
+  - 🥈 🇬🇧💻 626ms | SS (#630)
+  - 🥈 🇳🇱💻 632ms | SS (#631)
+  - 🥈 🇳🇱💻 632ms | SS (#632)
+  - 🥈 🇳🇱💻 632ms | SS (#633)
+  - 🥈 🇬🇧💻 632ms | SS (#634)
+  - 🥈 🇬🇧💻 632ms | SS (#635)
+  - 🥈 🇳🇱💻 632ms | SS (#636)
+  - 🥈 🌐💻 632ms | SS (#637)
+  - 🥈 🇳🇱💻 632ms | SS (#638)
+  - 🥈 🇳🇱💻 632ms | SS (#639)
+  - 🥈 🇳🇱💻 632ms | SS (#640)
+  - 🥈 🇸🇪💻 632ms | SS (#641)
+  - 🥈 🇫🇷💻 632ms | SS (#642)
+  - 🥈 🇩🇪💻 632ms | SS (#643)
+  - 🥈 🇳🇱💻 632ms | SS (#644)
+  - 🥈 🇳🇱💻 632ms | SS (#645)
+  - 🥈 🇬🇧💻 632ms | SS (#646)
+  - 🥈 🇳🇱💻 707ms | SS (#647)
+  - 🥈 🇳🇱💻 707ms | SS (#648)
   - 🥈 🌐 999ms | SS (#649)
   - 🥈 🌐 999ms | SS (#650)
   - 🥈 🌐 999ms | SS (#651)
@@ -18283,155 +18769,155 @@ proxy-groups:
   - 🥇 🌐 999ms | TROJAN (#497)
   - 🥇 🌐 999ms | TROJAN (#498)
   - 🥇 🌐 999ms | TROJAN (#499)
-  - 🥈 🇺🇸💻 8ms | SS (#500)
-  - 🥈 🇺🇸💻 8ms | SS (#501)
-  - 🥈 🇺🇸💻 8ms | SS (#502)
-  - 🥈 🇺🇸💻 9ms | SS (#503)
-  - 🥈 🇺🇸💻 9ms | SS (#504)
-  - 🥈 🇺🇸💻 12ms | SS (#505)
-  - 🥈 🇺🇸💻 12ms | SS (#506)
-  - 🥈 🇺🇸💻 25ms | SS (#507)
-  - 🥈 🇬🇧💻 79ms | SS (#508)
-  - 🥈 🇬🇧💻 80ms | SS (#509)
-  - 🥈 🇺🇸💻 81ms | SS (#510)
-  - 🥈 🇺🇸💻 81ms | SS (#511)
-  - 🥈 🇬🇧💻 83ms | SS (#512)
-  - 🥈 🇬🇧💻 83ms | SS (#513)
-  - 🥈 🇬🇧💻 83ms | SS (#514)
-  - 🥈 🇬🇧💻 83ms | SS (#515)
-  - 🥈 🇬🇧💻 83ms | SS (#516)
-  - 🥈 🇬🇧💻 84ms | SS (#517)
-  - 🥈 🌐💻 84ms | SS (#518)
-  - 🥈 🇺🇸💻 88ms | SS (#519)
-  - 🥈 🇺🇸💻 89ms | SS (#520)
-  - 🥈 🇺🇸💻 89ms | SS (#521)
-  - 🥈 🇬🇧💻 93ms | SS (#522)
-  - 🥈 🇺🇸💻 103ms | SS (#523)
-  - 🥈 🇺🇸💻 103ms | SS (#524)
-  - 🥈 🇬🇧💻 103ms | SS (#525)
-  - 🥈 🇬🇧💻 111ms | SS (#526)
-  - 🥈 🇬🇧💻 111ms | SS (#527)
-  - 🥈 🇳🇱💻 119ms | SS (#528)
-  - 🥈 🇳🇱💻 119ms | SS (#529)
-  - 🥈 🇳🇱💻 119ms | SS (#530)
-  - 🥈 🇳🇱💻 119ms | SS (#531)
-  - 🥈 🇳🇱💻 119ms | SS (#532)
-  - 🥈 🇳🇱💻 122ms | SS (#533)
-  - 🥈 🇩🇪💻 122ms | SS (#534)
-  - 🥈 🇳🇱💻 122ms | SS (#535)
-  - 🥈 🇳🇱💻 122ms | SS (#536)
-  - 🥈 🇳🇱💻 122ms | SS (#537)
-  - 🥈 🇬🇧💻 122ms | SS (#538)
-  - 🥈 🇳🇱💻 122ms | SS (#539)
-  - 🥈 🇳🇱💻 122ms | SS (#540)
-  - 🥈 🇳🇱💻 122ms | SS (#541)
-  - 🥈 🇩🇪💻 122ms | SS (#542)
-  - 🥈 🇳🇱💻 122ms | SS (#543)
-  - 🥈 🇳🇱💻 122ms | SS (#544)
-  - 🥈 🇩🇪💻 122ms | SS (#545)
-  - 🥈 🌐💻 122ms | SS (#546)
-  - 🥈 🇩🇪💻 122ms | SS (#547)
-  - 🥈 🇳🇱💻 122ms | SS (#548)
-  - 🥈 🇬🇧💻 122ms | SS (#549)
-  - 🥈 🌐💻 122ms | SS (#550)
-  - 🥈 🇳🇱💻 122ms | SS (#551)
-  - 🥈 🇳🇱💻 122ms | SS (#552)
-  - 🥈 🇳🇱💻 122ms | SS (#553)
-  - 🥈 🇳🇱💻 122ms | SS (#554)
-  - 🥈 🇺🇸💻 122ms | SS (#555)
-  - 🥈 🇳🇱💻 123ms | SS (#556)
-  - 🥈 🇳🇱💻 123ms | SS (#557)
-  - 🥈 🇳🇱💻 123ms | SS (#558)
-  - 🥈 🇳🇱💻 123ms | SS (#559)
-  - 🥈 🇳🇱💻 123ms | SS (#560)
-  - 🥈 🇳🇱💻 123ms | SS (#561)
-  - 🥈 🇸🇪💻 123ms | SS (#562)
-  - 🥈 🇩🇪💻 123ms | SS (#563)
-  - 🥈 🇷🇺💻 139ms | SS (#564)
-  - 🥈 🌐💻 139ms | SS (#565)
-  - 🥈 🇷🇺💻 139ms | SS (#566)
-  - 🥈 🇷🇺💻 139ms | SS (#567)
-  - 🥈 🇷🇺💻 139ms | SS (#568)
-  - 🥈 🇷🇺💻 139ms | SS (#569)
-  - 🥈 🇷🇺💻 139ms | SS (#570)
-  - 🥈 🇺🇸💻 141ms | SS (#571)
-  - 🥈 🇺🇸💻 142ms | SS (#572)
-  - 🥈 🇳🇱💻 151ms | SS (#573)
-  - 🥈 🇳🇱💻 151ms | SS (#574)
-  - 🥈 🇷🇺💻 151ms | SS (#575)
-  - 🥈 🇳🇱💻 151ms | SS (#576)
-  - 🥈 🇺🇸💻 151ms | SS (#577)
-  - 🥈 🇺🇸💻 151ms | SS (#578)
-  - 🥈 🇺🇸💻 174ms | SS (#579)
-  - 🥈 🇺🇸💻 180ms | SS (#580)
-  - 🥈 🇳🇱💻 185ms | SS (#581)
-  - 🥈 🇬🇧💻 194ms | SS (#582)
-  - 🥈 🇫🇷💻 210ms | SS (#583)
-  - 🥈 🇫🇷💻 210ms | SS (#584)
-  - 🥈 🇬🇧💻 210ms | SS (#585)
-  - 🥈 🌐💻 210ms | SS (#586)
-  - 🥈 🇳🇱💻 210ms | SS (#587)
-  - 🥈 🇫🇷💻 210ms | SS (#588)
-  - 🥈 🇬🇧💻 210ms | SS (#589)
-  - 🥈 🇬🇧💻 210ms | SS (#590)
-  - 🥈 🇬🇧💻 210ms | SS (#591)
-  - 🥈 🇬🇧💻 210ms | SS (#592)
-  - 🥈 🇬🇧💻 210ms | SS (#593)
-  - 🥈 🇫🇷💻 210ms | SS (#594)
-  - 🥈 🇳🇱💻 210ms | SS (#595)
-  - 🥈 🇳🇱💻 211ms | SS (#596)
-  - 🥈 🇳🇱💻 211ms | SS (#597)
-  - 🥈 🌐💻 211ms | SS (#598)
-  - 🥈 🌐💻 211ms | SS (#599)
-  - 🥈 🌐💻 211ms | SS (#600)
-  - 🥈 🌐💻 211ms | SS (#601)
-  - 🥈 🇳🇱💻 211ms | SS (#602)
-  - 🥈 🇳🇱💻 211ms | SS (#603)
-  - 🥈 🇳🇱💻 211ms | SS (#604)
-  - 🥈 🌐💻 211ms | SS (#605)
-  - 🥈 🇳🇱💻 211ms | SS (#606)
-  - 🥈 🇳🇱💻 211ms | SS (#607)
-  - 🥈 🇳🇱💻 211ms | SS (#608)
-  - 🥈 🇫🇷💻 211ms | SS (#609)
-  - 🥈 🇳🇱💻 211ms | SS (#610)
-  - 🥈 🇫🇷💻 211ms | SS (#611)
-  - 🥈 🇫🇷💻 211ms | SS (#612)
-  - 🥈 🇫🇷💻 211ms | SS (#613)
-  - 🥈 🇳🇱💻 211ms | SS (#614)
-  - 🥈 🇳🇱💻 211ms | SS (#615)
-  - 🥈 🇳🇱💻 211ms | SS (#616)
-  - 🥈 🇳🇱💻 211ms | SS (#617)
-  - 🥈 🇳🇱💻 211ms | SS (#618)
-  - 🥈 🇳🇱💻 211ms | SS (#619)
-  - 🥈 🇳🇱💻 211ms | SS (#620)
-  - 🥈 🇳🇱💻 211ms | SS (#621)
-  - 🥈 🇸🇪💻 211ms | SS (#622)
-  - 🥈 🇳🇱💻 211ms | SS (#623)
-  - 🥈 🇳🇱💻 211ms | SS (#624)
-  - 🥈 🇳🇱💻 211ms | SS (#625)
-  - 🥈 🇳🇱💻 211ms | SS (#626)
-  - 🥈 🌐💻 211ms | SS (#627)
-  - 🥈 🇳🇱💻 211ms | SS (#628)
-  - 🥈 🇫🇷💻 211ms | SS (#629)
-  - 🥈 🇳🇱💻 221ms | SS (#630)
-  - 🥈 🇳🇱💻 228ms | SS (#631)
-  - 🥈 🇸🇬💻 240ms | SS (#632)
-  - 🥈 🇸🇬💻 241ms | SS (#633)
-  - 🥈 🇸🇬💻 249ms | SS (#634)
-  - 🥈 🇸🇬💻 253ms | SS (#635)
-  - 🥈 🇸🇬💻 253ms | SS (#636)
-  - 🥈 🇸🇬💻 253ms | SS (#637)
-  - 🥈 🇸🇬💻 253ms | SS (#638)
-  - 🥈 🇫🇷💻 263ms | SS (#639)
-  - 🥈 🇹🇷💻 263ms | SS (#640)
-  - 🥈 🇸🇬💻 268ms | SS (#641)
-  - 🥈 🌐💻 320ms | SS (#642)
-  - 🥈 🌐💻 323ms | SS (#643)
-  - 🥈 🌐💻 323ms | SS (#644)
-  - 🥈 🇳🇱💻 458ms | SS (#645)
-  - 🥈 🇳🇱💻 472ms | SS (#646)
-  - 🥈 🌐💻 1107ms | SS (#647)
-  - 🥈 🌐💻 1216ms | SS (#648)
+  - 🥈 🇬🇧💻 81ms | SS (#500)
+  - 🥈 🇬🇧💻 81ms | SS (#501)
+  - 🥈 🇫🇷💻 92ms | SS (#502)
+  - 🥈 🇫🇷💻 92ms | SS (#503)
+  - 🥈 🇫🇷💻 92ms | SS (#504)
+  - 🥈 🇫🇷💻 92ms | SS (#505)
+  - 🥈 🇫🇷💻 92ms | SS (#506)
+  - 🥈 🇬🇧💻 92ms | SS (#507)
+  - 🥈 🇫🇷💻 92ms | SS (#508)
+  - 🥈 🇬🇧💻 92ms | SS (#509)
+  - 🥈 🇫🇷💻 92ms | SS (#510)
+  - 🥈 🇬🇧💻 92ms | SS (#511)
+  - 🥈 🇬🇧💻 92ms | SS (#512)
+  - 🥈 🇬🇧💻 92ms | SS (#513)
+  - 🥈 🇬🇧💻 92ms | SS (#514)
+  - 🥈 🇫🇷💻 92ms | SS (#515)
+  - 🥈 🇳🇱💻 93ms | SS (#516)
+  - 🥈 🇳🇱💻 93ms | SS (#517)
+  - 🥈 🌐💻 93ms | SS (#518)
+  - 🥈 🇳🇱💻 167ms | SS (#519)
+  - 🥈 🇷🇺💻 167ms | SS (#520)
+  - 🥈 🇳🇱💻 167ms | SS (#521)
+  - 🥈 🇷🇺💻 167ms | SS (#522)
+  - 🥈 🇷🇺💻 167ms | SS (#523)
+  - 🥈 🇷🇺💻 167ms | SS (#524)
+  - 🥈 🇬🇧💻 167ms | SS (#525)
+  - 🥈 🇷🇺💻 167ms | SS (#526)
+  - 🥈 🇳🇱💻 167ms | SS (#527)
+  - 🥈 🇳🇱💻 167ms | SS (#528)
+  - 🥈 🇺🇸💻 167ms | SS (#529)
+  - 🥈 🇺🇸💻 168ms | SS (#530)
+  - 🥈 🌐💻 168ms | SS (#531)
+  - 🥈 🇺🇸💻 168ms | SS (#532)
+  - 🥈 🇳🇱💻 168ms | SS (#533)
+  - 🥈 🇬🇧💻 169ms | SS (#534)
+  - 🥈 🇬🇧💻 169ms | SS (#535)
+  - 🥈 🇬🇧💻 169ms | SS (#536)
+  - 🥈 🇳🇱💻 169ms | SS (#537)
+  - 🥈 🇳🇱💻 169ms | SS (#538)
+  - 🥈 🇬🇧💻 169ms | SS (#539)
+  - 🥈 🇺🇸💻 169ms | SS (#540)
+  - 🥈 🇺🇸💻 169ms | SS (#541)
+  - 🥈 🌐💻 169ms | SS (#542)
+  - 🥈 🇺🇸💻 169ms | SS (#543)
+  - 🥈 🇺🇸💻 169ms | SS (#544)
+  - 🥈 🇺🇸💻 169ms | SS (#545)
+  - 🥈 🇳🇱💻 169ms | SS (#546)
+  - 🥈 🇩🇪💻 170ms | SS (#547)
+  - 🥈 🇬🇧💻 170ms | SS (#548)
+  - 🥈 🇩🇪💻 170ms | SS (#549)
+  - 🥈 🇳🇱💻 170ms | SS (#550)
+  - 🥈 🇹🇷💻 170ms | SS (#551)
+  - 🥈 🇳🇱💻 170ms | SS (#552)
+  - 🥈 🇳🇱💻 170ms | SS (#553)
+  - 🥈 🌐💻 170ms | SS (#554)
+  - 🥈 🇳🇱💻 204ms | SS (#555)
+  - 🥈 🇳🇱💻 204ms | SS (#556)
+  - 🥈 🇳🇱💻 219ms | SS (#557)
+  - 🥈 🇳🇱💻 219ms | SS (#558)
+  - 🥈 🌐💻 219ms | SS (#559)
+  - 🥈 🌐💻 223ms | SS (#560)
+  - 🥈 🇳🇱💻 223ms | SS (#561)
+  - 🥈 🇺🇸💻 230ms | SS (#562)
+  - 🥈 🇺🇸💻 230ms | SS (#563)
+  - 🥈 🇺🇸💻 230ms | SS (#564)
+  - 🥈 🇺🇸💻 230ms | SS (#565)
+  - 🥈 🇺🇸💻 230ms | SS (#566)
+  - 🥈 🇺🇸💻 230ms | SS (#567)
+  - 🥈 🇺🇸💻 230ms | SS (#568)
+  - 🥈 🇺🇸💻 230ms | SS (#569)
+  - 🥈 🇺🇸💻 230ms | SS (#570)
+  - 🥈 🇺🇸💻 230ms | SS (#571)
+  - 🥈 🇷🇺💻 230ms | SS (#572)
+  - 🥈 🇺🇸💻 230ms | SS (#573)
+  - 🥈 🇺🇸💻 230ms | SS (#574)
+  - 🥈 🇬🇧💻 231ms | SS (#575)
+  - 🥈 🇳🇱💻 231ms | SS (#576)
+  - 🥈 🇳🇱💻 231ms | SS (#577)
+  - 🥈 🇺🇸💻 231ms | SS (#578)
+  - 🥈 🇳🇱💻 231ms | SS (#579)
+  - 🥈 🌐💻 231ms | SS (#580)
+  - 🥈 🇳🇱💻 231ms | SS (#581)
+  - 🥈 🇷🇺💻 231ms | SS (#582)
+  - 🥈 🇳🇱💻 231ms | SS (#583)
+  - 🥈 🇳🇱💻 269ms | SS (#584)
+  - 🥈 🇳🇱💻 270ms | SS (#585)
+  - 🥈 🇳🇱💻 270ms | SS (#586)
+  - 🥈 🇳🇱💻 274ms | SS (#587)
+  - 🥈 🇳🇱💻 274ms | SS (#588)
+  - 🥈 🇳🇱💻 293ms | SS (#589)
+  - 🥈 🇳🇱💻 293ms | SS (#590)
+  - 🥈 🇳🇱💻 293ms | SS (#591)
+  - 🥈 🇳🇱💻 293ms | SS (#592)
+  - 🥈 🇳🇱💻 293ms | SS (#593)
+  - 🥈 🌐💻 293ms | SS (#594)
+  - 🥈 🇳🇱💻 293ms | SS (#595)
+  - 🥈 🇫🇷💻 293ms | SS (#596)
+  - 🥈 🌐💻 294ms | SS (#597)
+  - 🥈 🌐💻 294ms | SS (#598)
+  - 🥈 🇳🇱💻 294ms | SS (#599)
+  - 🥈 🇳🇱💻 294ms | SS (#600)
+  - 🥈 🇳🇱💻 294ms | SS (#601)
+  - 🥈 🇳🇱💻 294ms | SS (#602)
+  - 🥈 🌐💻 294ms | SS (#603)
+  - 🥈 🇳🇱💻 294ms | SS (#604)
+  - 🥈 🌐💻 294ms | SS (#605)
+  - 🥈 🇸🇪💻 294ms | SS (#606)
+  - 🥈 🇳🇱💻 294ms | SS (#607)
+  - 🥈 🇳🇱💻 294ms | SS (#608)
+  - 🥈 🇳🇱💻 294ms | SS (#609)
+  - 🥈 🇸🇬💻 304ms | SS (#610)
+  - 🥈 🇸🇬💻 304ms | SS (#611)
+  - 🥈 🇸🇬💻 304ms | SS (#612)
+  - 🥈 🌐💻 304ms | SS (#613)
+  - 🥈 🇸🇬💻 304ms | SS (#614)
+  - 🥈 🇸🇬💻 304ms | SS (#615)
+  - 🥈 🇸🇬💻 304ms | SS (#616)
+  - 🥈 🇺🇸💻 386ms | SS (#617)
+  - 🥈 🇸🇬💻 394ms | SS (#618)
+  - 🥈 🇸🇬💻 394ms | SS (#619)
+  - 🥈 🌐💻 396ms | SS (#620)
+  - 🥈 🌐💻 396ms | SS (#621)
+  - 🥈 🇬🇧💻 557ms | SS (#622)
+  - 🥈 🇩🇪💻 557ms | SS (#623)
+  - 🥈 🇩🇪💻 577ms | SS (#624)
+  - 🥈 🇳🇱💻 581ms | SS (#625)
+  - 🥈 🇳🇱💻 581ms | SS (#626)
+  - 🥈 🇳🇱💻 606ms | SS (#627)
+  - 🥈 🇬🇧💻 606ms | SS (#628)
+  - 🥈 🇳🇱💻 606ms | SS (#629)
+  - 🥈 🇬🇧💻 626ms | SS (#630)
+  - 🥈 🇳🇱💻 632ms | SS (#631)
+  - 🥈 🇳🇱💻 632ms | SS (#632)
+  - 🥈 🇳🇱💻 632ms | SS (#633)
+  - 🥈 🇬🇧💻 632ms | SS (#634)
+  - 🥈 🇬🇧💻 632ms | SS (#635)
+  - 🥈 🇳🇱💻 632ms | SS (#636)
+  - 🥈 🌐💻 632ms | SS (#637)
+  - 🥈 🇳🇱💻 632ms | SS (#638)
+  - 🥈 🇳🇱💻 632ms | SS (#639)
+  - 🥈 🇳🇱💻 632ms | SS (#640)
+  - 🥈 🇸🇪💻 632ms | SS (#641)
+  - 🥈 🇫🇷💻 632ms | SS (#642)
+  - 🥈 🇩🇪💻 632ms | SS (#643)
+  - 🥈 🇳🇱💻 632ms | SS (#644)
+  - 🥈 🇳🇱💻 632ms | SS (#645)
+  - 🥈 🇬🇧💻 632ms | SS (#646)
+  - 🥈 🇳🇱💻 707ms | SS (#647)
+  - 🥈 🇳🇱💻 707ms | SS (#648)
   - 🥈 🌐 999ms | SS (#649)
   - 🥈 🌐 999ms | SS (#650)
   - 🥈 🌐 999ms | SS (#651)
