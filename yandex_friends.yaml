@@ -1,0 +1,23 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+
+proxies:
+  - name: "🛡️ Никогда не вставал на колени перед MAX"
+    type: ss
+    server: 62.84.127.246  # ТВОЙ IP ЯНДЕКСА
+    port: 8443            # ПОРТ ИЗ КОНФИГА ЯНДЕКСА
+    cipher: chacha20-ietf-poly1305
+    password: "yddeJkH6WK7MN" 
+    udp: true
+
+proxy-groups:
+  - name: 🌍 GLOBAL
+    type: select
+    proxies:
+      - "🛡️ Youtube ходу,shadowsocs свободу"
+
+rules:
+  - MATCH,🌍 GLOBAL
