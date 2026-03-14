@@ -5,19 +5,25 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "🛡️ Никогда не вставал на колени перед MAX"
-    type: ss
-    server: 93.77.182.245  # ТВОЙ IP ЯНДЕКСА
-    port: 8443            # ПОРТ ИЗ КОНФИГА ЯНДЕКСА
-    cipher: chacha20-ietf-poly1305
-    password: "yddeJkH6WK7MN" 
+  - name: "🇷🇺 MAXimalno-Pohui"
+    type: vless
+    server: 93.77.182.245        # Твой IP Яндекса
+    port: 443
+    uuid: ТВОЙ_UUID              # Вставь свой UUID
     udp: true
+    tls: true
+    network: tcp
+    servername: ya.ru            # Маскировка под Яндекс
+    reality-opts:
+      public-key: "7vR3Q6P9X1S4Z2N0M3K5J7H4G2F8D9S1A0Q7W6E5R4Y=" # Тот длинный ключ
+      short-id: "1488228maxbcdvaz""               # Тот же, что в конфиге Яндекса
+    client-fingerprint: chrome
 
 proxy-groups:
   - name: 🌍 GLOBAL
     type: select
     proxies:
-      - "🛡️ Никогда не вставал на колени перед MAX"
+      - "🇷🇺 MAXimalno-Pohui"
 
 rules:
   - MATCH,🌍 GLOBAL
