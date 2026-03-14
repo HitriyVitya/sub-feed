@@ -15,8 +15,10 @@ proxies:
     network: tcp
     servername: ya.ru
     reality-opts:
-      public-key: "-UWq4sJCjgpN1-b7GKEJrReNHvy32J_HJNR5bcbA9jc"
-      short-id: "5d47cacefe9986d1"
+      # Добавил '=' в конец Public Key
+      public-key: "-UWq4sJCjgpN1-b7GKEJrReNHvy32J_HJNR5bcbA9jc="
+      # Ставим пустые кавычки. Это исправит ошибку "invalid short ID"
+      short-id: ""
     client-fingerprint: chrome
 
 proxy-groups:
