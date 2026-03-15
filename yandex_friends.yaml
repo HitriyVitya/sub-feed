@@ -1,30 +1,37 @@
-tun:
-  enable: true
-  stack: system
-  auto-route: true
-  auto-detect-interface: true
-  # 🛡️ ВОТ ОН, ФИКС СКОРОСТИ ДЛЯ МОБИЛОК
-  mtu: 1280
 port: 7890
 socks-port: 7891
 allow-lan: true
 mode: rule
 log-level: info
 
+# 🛡️ ПАТЧ ДЛЯ ПРОБИТИЯ ТСПУ МЕГАФОНА
+global-client:
+  tcp-fragment:
+    enable: true
+    size: "1-5"
+    sleep: "10-20"
+
 proxies:
-  - name: "🇷🇺 DNS-TUNNEL (Port 53)"
-    type: ss
-    server: 130.193.37.15
-    port: 80
-    cipher: chacha20-ietf-poly1305
-    password: "uTRgbXJjTcqg6"
-    udp: false
+  - name: "🇷🇺 VK-REBORN"
+    type: vless
+    server: 93.77.182.245
+    port: 443
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: vk.com
+    reality-opts:
+      public-key: "JqCggLXe5R4T66vNyPn2qEvGv4h37kPqIFfpzs_Fryw"
+      short-id: "9efa25d94bcb281d"
+    client-fingerprint: chrome
 
 proxy-groups:
   - name: 🌍 GLOBAL
     type: select
     proxies:
-      - "🇷🇺 DNS-TUNNEL (Port 53)"
+      - "🇷🇺 MONK-YANDEX-API"
 
 rules:
   - MATCH,🌍 GLOBAL
