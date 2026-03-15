@@ -4,35 +4,20 @@ allow-lan: true
 mode: rule
 log-level: info
 
-# 🛡️ ПАТЧ ДЛЯ ПРОБИТИЯ ТСПУ (Дробление)
-global-client:
-  tcp-fragment:
-    enable: true
-    # Шинкуем пакет: первые 1-5 байт, затем остальное
-    size: "1-5"
-    sleep: "10-20"
-
 proxies:
-  - name: "🇷🇺 RKN-CRUSHER (Gosuslugi)"
-    type: vless
+  - name: "🇷🇺 DNS-TUNNEL (Port 53)"
+    type: ss
     server: 93.77.182.245
-    port: 443
-    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    port: 53
+    cipher: chacha20-ietf-poly1305
+    password: "uTRgbXJjTcqg6"
     udp: true
-    tls: true
-    flow: xtls-rprx-vision
-    network: tcp
-    servername: www.gosuslugi.ru
-    reality-opts:
-      public-key: "JqCggLXe5R4T66vNyPn2qEvGv4h37kPqIFfpzs_Fryw"
-      short-id: "9efa25d94bcb281d"
-    client-fingerprint: chrome
 
 proxy-groups:
   - name: 🌍 GLOBAL
     type: select
     proxies:
-      - "🇷🇺 RKN-CRUSHER (Gosuslugi)"
+      - "🇷🇺 DNS-TUNNEL (Port 53)"
 
 rules:
   - MATCH,🌍 GLOBAL
