@@ -1,29 +1,24 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: rule
-log-level: info
-
 proxies:
-  - name: "RU MAX"
+  - name: "🇷🇺 ru MAXimalno-Pohui"
     type: vless
-    server: vktk77rfzpcedmncdfza.ru
+    server: 93.77.182.245
     port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: vktk77rfzpcedmncdfza.ru
+    servername: www.gosuslugi.ru
+    reality-opts:
+      public-key: "JqCggLXe5R4T66vNyPn2qEvGv4h37kPqIFfpzs_Fryw"
+      short-id: "9efa25d94bcb281d"
     client-fingerprint: chrome
 
 proxy-groups:
   - name: 🌍 GLOBAL
     type: select
     proxies:
-      - "RU MAX"
+      - "🇷🇺 ru MAXimalno-Pohui"
 
 rules:
   - MATCH,🌍 GLOBAL
-  
-
