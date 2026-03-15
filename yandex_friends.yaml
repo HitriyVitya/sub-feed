@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "RU ru MAXimalno-Pohui"
+  - name: "RU MAX"
     type: vless
     server: 93.77.182.245
     port: 443
@@ -24,7 +24,7 @@ proxy-groups:
   - name: 🌍 GLOBAL
     type: select
     proxies:
-      - "🇷🇺 ru MAXimalno-Pohui"
+      - "RU MAX"
 
 rules:
   - MATCH,🌍 GLOBAL
