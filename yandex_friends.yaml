@@ -5,19 +5,18 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "🇷🇺 ru MAXimalno-Pohui"
+  - name: "RU ru MAXimalno-Pohui"
     type: vless
     server: 93.77.182.245
     port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
+    flow: xtls-rprx-vision
     network: tcp
     servername: ya.ru
     reality-opts:
-      # Добавил '=' в конец Public Key
       public-key: "JqCggLXe5R4T66vNyPn2qEvGv4h37kPqIFfpzs_Fryw"
-      # Ставим пустые кавычки. Это исправит ошибку "invalid short ID"
       short-id: "9efa25d94bcb281d"
     client-fingerprint: chrome
 
