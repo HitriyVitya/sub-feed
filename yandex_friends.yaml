@@ -1,3 +1,10 @@
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  # 🛡️ ВОТ ОН, ФИКС СКОРОСТИ ДЛЯ МОБИЛОК
+  mtu: 1280
 port: 7890
 socks-port: 7891
 allow-lan: true
