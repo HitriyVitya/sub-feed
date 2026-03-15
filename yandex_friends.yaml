@@ -1,8 +1,10 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: rule
-log-level: info
+# 🛡️ ПАТЧ ДЛЯ МОБИЛЬНЫХ СЕТЕЙ (MTU ФИКС)
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  mtu: 1280
 
 # 🛡️ ПАТЧ ДЛЯ ПРОБИТИЯ ТСПУ МЕГАФОНА
 global-client:
@@ -21,7 +23,7 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: vk.com
+    servername: www.gosuslugi.ru
     reality-opts:
       public-key: "JqCggLXe5R4T66vNyPn2qEvGv4h37kPqIFfpzs_Fryw"
       short-id: "9efa25d94bcb281d"
