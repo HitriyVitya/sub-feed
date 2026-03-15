@@ -1,5 +1,19 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+
+# 🛡️ ПАТЧ ДЛЯ ПРОБИТИЯ ТСПУ (Дробление)
+global-client:
+  tcp-fragment:
+    enable: true
+    # Шинкуем пакет: первые 1-5 байт, затем остальное
+    size: "1-5"
+    sleep: "10-20"
+
 proxies:
-  - name: "🇷🇺 ru MAXimalno-Pohui"
+  - name: "🇷🇺 RKN-CRUSHER (Gosuslugi)"
     type: vless
     server: 93.77.182.245
     port: 443
@@ -18,7 +32,7 @@ proxy-groups:
   - name: 🌍 GLOBAL
     type: select
     proxies:
-      - "🇷🇺 ru MAXimalno-Pohui"
+      - "🇷🇺 RKN-CRUSHER (Gosuslugi)"
 
 rules:
   - MATCH,🌍 GLOBAL
