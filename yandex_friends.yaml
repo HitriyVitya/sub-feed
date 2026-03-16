@@ -14,7 +14,7 @@ global-client:
     sleep: "10-20"
 
 proxies:
-  # === ОСНОВНОЙ КАНАЛ (Порт 443, Маска VK) ===
+  # === 1. МАКИРОВКА VK ===
   - name: "🇷🇺 VK-443"
     type: vless
     server: 130.193.37.15
@@ -26,11 +26,11 @@ proxies:
     network: tcp
     servername: vk.com
     reality-opts:
-      public-key: "JqCggLXe5R4T66vNyPn2qEvGv4h37kPqIFfpzs_Fryw"
-      short-id: "9efa25d94bcb281d"
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
     client-fingerprint: chrome
 
-  # === РЕЗЕРВНЫЙ КАНАЛ (Порт 8443, Маска Ozon) ===
+  # === 2. МАСКИРОВКА OZON ===
   - name: "🇷🇺 OZON-8443"
     type: vless
     server: 130.193.37.15
@@ -42,8 +42,72 @@ proxies:
     network: tcp
     servername: ozon.ru
     reality-opts:
-      public-key: "JqCggLXe5R4T66vNyPn2qEvGv4h37kPqIFfpzs_Fryw"
-      short-id: "9efa25d94bcb281d"
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: chrome
+
+  # === 3. МАСКИРОВКА DZEN ===
+  - name: "🇷🇺 DZEN-2053"
+    type: vless
+    server: 130.193.37.15
+    port: 2053
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: dzen.ru
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: chrome
+
+  # === 4. МАСКИРОВКА WILDBERRIES ===
+  - name: "🇷🇺 WB-2083"
+    type: vless
+    server: 130.193.37.15
+    port: 2083
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: wildberries.ru
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: chrome
+
+  # === 5. МАСКИРОВКА AVITO ===
+  - name: "🇷🇺 AVITO-2087"
+    type: vless
+    server: 130.193.37.15
+    port: 2087
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: avito.ru
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: chrome
+
+  # === 6. МАСКИРОВКА RUTUBE ===
+  - name: "🇷🇺 RUTUBE-2096"
+    type: vless
+    server: 130.193.37.15
+    port: 2096
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: rutube.ru
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
     client-fingerprint: chrome
 
 proxy-groups:
@@ -53,6 +117,10 @@ proxy-groups:
     proxies:
       - "🇷🇺 VK-443"
       - "🇷🇺 OZON-8443"
+      - "🇷🇺 DZEN-2053"
+      - "🇷🇺 WB-2083"
+      - "🇷🇺 AVITO-2087"
+      - "🇷🇺 RUTUBE-2096"
     url: 'http://ya.ru'
     interval: 60
     timeout: 3000
@@ -64,6 +132,10 @@ proxy-groups:
       - "🔄 AUTO-SURVIVAL"
       - "🇷🇺 VK-443"
       - "🇷🇺 OZON-8443"
+      - "🇷🇺 DZEN-2053"
+      - "🇷🇺 WB-2083"
+      - "🇷🇺 AVITO-2087"
+      - "🇷🇺 RUTUBE-2096"
 
 rules:
   - MATCH,🌍 GLOBAL
