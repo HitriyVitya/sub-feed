@@ -14,7 +14,8 @@ global-client:
     sleep: "10-20"
 
 proxies:
-  - name: "🇷🇺 VK-REBORN"
+  # === ОСНОВНОЙ КАНАЛ (Порт 443, Маска VK) ===
+  - name: "🇷🇺 VK-443"
     type: vless
     server: 130.193.37.15
     port: 443
@@ -29,11 +30,40 @@ proxies:
       short-id: "9efa25d94bcb281d"
     client-fingerprint: chrome
 
+  # === РЕЗЕРВНЫЙ КАНАЛ (Порт 8443, Маска Ozon) ===
+  - name: "🇷🇺 OZON-8443"
+    type: vless
+    server: 130.193.37.15
+    port: 8443
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: ozon.ru
+    reality-opts:
+      public-key: "JqCggLXe5R4T66vNyPn2qEvGv4h37kPqIFfpzs_Fryw"
+      short-id: "9efa25d94bcb281d"
+    client-fingerprint: chrome
+
 proxy-groups:
+  # 🛡️ АВТОМАТИЧЕСКОЕ ВЫЖИВАНИЕ (Плавающая маскировка)
+  - name: "🔄 AUTO-SURVIVAL"
+    type: fallback
+    proxies:
+      - "🇷🇺 VK-443"
+      - "🇷🇺 OZON-8443"
+    url: 'http://ya.ru'
+    interval: 60
+    timeout: 3000
+
+  # Главный переключатель
   - name: 🌍 GLOBAL
     type: select
     proxies:
-      - "🇷🇺 VK-REBORN"
+      - "🔄 AUTO-SURVIVAL"
+      - "🇷🇺 VK-443"
+      - "🇷🇺 OZON-8443"
 
 rules:
   - MATCH,🌍 GLOBAL
