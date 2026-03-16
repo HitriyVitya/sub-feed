@@ -110,8 +110,55 @@ proxies:
       short-id: "778f2a5949e5918e"
     client-fingerprint: chrome
 
+    #Однокласники
+  - name: "🇷🇺 OK-2052"
+    type: vless
+    server: 130.193.37.15
+    port: 2052
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: ok.ru
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: chrome
+#Мейл ру
+  - name: "🇷🇺 MAIL-2082"
+    type: vless
+    server: 130.193.37.15
+    port: 2082
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: mail.ru
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: chrome
+    
+#КИнопоиск
+  - name: "🇷🇺 KINO-2086"
+    type: vless
+    server: 130.193.37.15
+    port: 2086
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: kinopoisk.ru
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: chrome
+    
+
 proxy-groups:
-  # 🛡️ АВТОМАТИЧЕСКОЕ ВЫЖИВАНИЕ (Плавающая маскировка)
   - name: "🔄 AUTO-SURVIVAL"
     type: fallback
     proxies:
@@ -121,6 +168,9 @@ proxy-groups:
       - "🇷🇺 WB-2083"
       - "🇷🇺 AVITO-2087"
       - "🇷🇺 RUTUBE-2096"
+      - "🇷🇺 OK-2052"
+      - "🇷🇺 MAIL-2082"
+      - "🇷🇺 KINO-2086"
     url: 'http://ya.ru'
     interval: 60
     timeout: 3000
@@ -136,6 +186,9 @@ proxy-groups:
       - "🇷🇺 WB-2083"
       - "🇷🇺 AVITO-2087"
       - "🇷🇺 RUTUBE-2096"
+      - "🇷🇺 OK-2052"
+      - "🇷🇺 MAIL-2082"
+      - "🇷🇺 KINO-2086"
 
 rules:
   - MATCH,🌍 GLOBAL
