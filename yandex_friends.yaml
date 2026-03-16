@@ -142,7 +142,7 @@ proxies:
     client-fingerprint: chrome
     
 #Яндекс
-  - name: "🇷🇺 LENTA-993"
+  - name: "🇷🇺 2GIS-993"
     type: vless
     server: 130.193.37.15
     port: 993
@@ -151,7 +151,7 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: lenta.ru
+    servername: 2gis.ru
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
@@ -170,7 +170,7 @@ proxy-groups:
       - "🇷🇺 RUTUBE-2096"
       - "🇷🇺 OK-853"
       - "🇷🇺 MEGAMARKET-4433"
-      - "🇷🇺 LENTA-993"
+      - "🇷🇺 2GIS-993"
     url: 'http://ya.ru'
     interval: 60
     timeout: 3000
@@ -188,7 +188,7 @@ proxy-groups:
       - "🇷🇺 RUTUBE-2096"
       - "🇷🇺 OK-853"
       - "🇷🇺 MEGAMARKET-4433"
-      - "🇷🇺 LENTA-993"
+      - "🇷🇺 2GIS-993"
  # 🛡️ ПАТЧ ДЛЯ МОБИЛЬНЫХ СЕТЕЙ:
     timeout: 10000  # Даем 10 секунд на прохождение двойного запроса к Яндексу
     lazy: true      # Ядро не будет проверять все 8 портов одновременно при старте
