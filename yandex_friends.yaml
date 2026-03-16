@@ -15,7 +15,7 @@ global-client:
 
 proxies:
   # === 1. МАКИРОВКА VK ===
-  - name: "🇷🇺 VK-443"
+  - name: "🇷🇺 YA-443"
     type: vless
     server: 130.193.37.15
     port: 443
@@ -24,7 +24,7 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: vk.com
+    servername: ya.ru
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
@@ -162,7 +162,7 @@ proxy-groups:
   - name: "🔄 AUTO-SURVIVAL"
     type: fallback
     proxies:
-      - "🇷🇺 VK-443"
+      - "🇷🇺 YA-443"
       - "🇷🇺 OZON-8443"
       - "🇷🇺 DZEN-2053"
       - "🇷🇺 WB-2083"
@@ -180,7 +180,7 @@ proxy-groups:
     type: select
     proxies:
       - "🔄 AUTO-SURVIVAL"
-      - "🇷🇺 VK-443"
+      - "🇷🇺 YA-443"
       - "🇷🇺 OZON-8443"
       - "🇷🇺 DZEN-2053"
       - "🇷🇺 WB-2083"
