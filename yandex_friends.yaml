@@ -6,6 +6,13 @@ tun:
   auto-detect-interface: true
   mtu: 1280
 
+global-client:
+  tcp-fragment:
+    enable: true
+    size: "8-14"
+    sleep: "10-20"
+
+
 
 proxies:
   # === 1. МАКИРОВКА VK ===
