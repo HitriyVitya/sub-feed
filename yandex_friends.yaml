@@ -6,12 +6,6 @@ tun:
   auto-detect-interface: true
   mtu: 1280
 
-# 🛡️ ПАТЧ ДЛЯ ПРОБИТИЯ ТСПУ МЕГАФОНА
-global-client:
-  tcp-fragment:
-    enable: false
-    size: "1-5"
-    sleep: "10-20"
 
 proxies:
   # === 1. МАКИРОВКА VK ===
