@@ -15,7 +15,7 @@ global-client:
 
 proxies:
   # === 1. МАКИРОВКА VK ===
-  - name: "🇷🇺 YA-443"
+  - name: "🇷🇺 VK-443"
     type: vless
     server: 130.193.37.15
     port: 443
@@ -24,7 +24,7 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: dzen.ru
+    servername: vk.com
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
@@ -34,7 +34,7 @@ proxies:
   - name: "🇷🇺 OZON-8443"
     type: vless
     server: 130.193.37.15
-    port: 8443
+    port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
@@ -50,7 +50,7 @@ proxies:
   - name: "🇷🇺 DZEN-2053"
     type: vless
     server: 130.193.37.15
-    port: 2053
+    port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
@@ -66,7 +66,7 @@ proxies:
   - name: "🇷🇺 WB-2083"
     type: vless
     server: 130.193.37.15
-    port: 2083
+    port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
@@ -82,7 +82,7 @@ proxies:
   - name: "🇷🇺 AVITO-2087"
     type: vless
     server: 130.193.37.15
-    port: 2087
+    port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
@@ -98,7 +98,7 @@ proxies:
   - name: "🇷🇺 RUTUBE-2096"
     type: vless
     server: 130.193.37.15
-    port: 2096
+    port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
@@ -114,7 +114,7 @@ proxies:
   - name: "🇷🇺 OK-2082"
     type: vless
     server: 130.193.37.15
-    port: 2082
+    port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
@@ -129,7 +129,7 @@ proxies:
   - name: "🇷🇺 MEGAMARKET-2222"
     type: vless
     server: 130.193.37.15
-    port: 2222
+    port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
@@ -145,7 +145,7 @@ proxies:
   - name: "🇷🇺 2GIS-2052"
     type: vless
     server: 130.193.37.15
-    port: 2052
+    port: 443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
@@ -162,7 +162,7 @@ proxy-groups:
   - name: "🔄 AUTO-SURVIVAL"
     type: fallback
     proxies:
-      - "🇷🇺 YA-443"
+      - "🇷🇺 VK-443"
       - "🇷🇺 OZON-8443"
       - "🇷🇺 DZEN-2053"
       - "🇷🇺 WB-2083"
@@ -180,7 +180,7 @@ proxy-groups:
     type: select
     proxies:
       - "🔄 AUTO-SURVIVAL"
-      - "🇷🇺 YA-443"
+      - "🇷🇺 VK-443"
       - "🇷🇺 OZON-8443"
       - "🇷🇺 DZEN-2053"
       - "🇷🇺 WB-2083"
