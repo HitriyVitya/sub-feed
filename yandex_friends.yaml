@@ -168,7 +168,7 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: mts.ru
+    servername: vkplay.ru
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
@@ -183,16 +183,16 @@ proxies:
     udp: true
     tls: true
     network: grpc
-    servername: digital.gov.ru
+    servername: music.vk.com
     grpc-opts:
-      grpc-service-name: "digital.gov.ru"
+      grpc-service-name: "music.vk.com"
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
     client-fingerprint: qq
 
   # 3. Финляндия (просто хороший сервер с широким каналом)
-  - name: "🇫🇮 RT"
+  - name: "🇫🇮 MAX"
     type: vless
     server: 130.193.37.15
     port: 443
@@ -201,7 +201,7 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: rt.ru
+    servername: max.ru
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
@@ -222,7 +222,7 @@ proxy-groups:
       - "🇷🇺 2GIS-2052"
       - "🇪🇪 MINC"
       - "🇷🇺 NEPAID-RU"
-      - "🇫🇮 RT"
+      - "🇫🇮 MAX"
     url: 'http://ya.ru'
     interval: 60
      # 🛡️ ПАТЧ ДЛЯ МОБИЛОК ДОЛЖЕН БЫТЬ ЗДЕСЬ:
@@ -246,7 +246,7 @@ proxy-groups:
       - "🇷🇺 2GIS-2052"
       - "🇪🇪 MINC"
       - "🇷🇺 NEPAID-RU"
-      - "🇫🇮 RT"
+      - "🇫🇮 MAX"
 rules:
   # 1. Локальный и системный трафик
   - IP-CIDR,192.168.0.0/16,DIRECT
