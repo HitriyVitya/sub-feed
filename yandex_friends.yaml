@@ -146,7 +146,7 @@ proxies:
   - name: "🇷🇺 2GIS-2052"
     type: vless
     server: 130.193.37.15
-    port: 443
+    port: 4443
     uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
     udp: true
     tls: true
@@ -158,6 +158,54 @@ proxies:
       short-id: "778f2a5949e5918e"
     client-fingerprint: chrome
     
+    # 1. Их российский транзитный узел с маскировкой под Яндекс (Украдено)
+  - name: "🇷🇺 NEPAID-RU-SWEDEN"
+    type: vless
+    server: 130.193.37.15
+    port: 4443
+    uuid: 6102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: egress.yandex.net
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: chrome
+
+  # 2. Их узел с обходом по gRPC (Украдено)
+  - name: "🇪🇪 PAID-ESTONIA-GRPC"
+    type: vless
+    server: 130.193.37.15
+    port: 444
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    network: grpc
+    servername: web.max.ru
+    grpc-opts:
+      grpc-service-name: "web.max.ru"
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: qq
+
+  # 3. Финляндия (просто хороший сервер с широким каналом)
+  - name: "🇫🇮 PAID-FINLAND"
+    type: vless
+    server: 130.193.37.15
+    port: 4443
+    uuid: 102d1bce-ab20-4cde-8a10-aa354c4ed3a0
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    servername: vk.com
+    reality-opts:
+      public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
+      short-id: "778f2a5949e5918e"
+    client-fingerprint: chrome
 
 proxy-groups:
   - name: "🔄 AUTO-SURVIVAL"
@@ -172,6 +220,9 @@ proxy-groups:
       - "🇷🇺 OK-2082"
       - "🇷🇺 MEGAMARKET-2222"
       - "🇷🇺 2GIS-2052"
+      - "🇪🇪 PAID-ESTONIA-GRPC"
+      - "🇷🇺 NEPAID-RU-SWEDEN"
+      - "🇫🇮 PAID-FINLAND"
     url: 'http://ya.ru'
     interval: 60
      # 🛡️ ПАТЧ ДЛЯ МОБИЛОК ДОЛЖЕН БЫТЬ ЗДЕСЬ:
@@ -193,6 +244,20 @@ proxy-groups:
       - "🇷🇺 OK-2082"
       - "🇷🇺 MEGAMARKET-2222"
       - "🇷🇺 2GIS-2052"
-
+      - "🇪🇪 PAID-ESTONIA-GRPC"
+      - "🇷🇺 NEPAID-RU-SWEDEN"
+      - "🇫🇮 PAID-FINLAND"
 rules:
+  # Системный и локальный трафик
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  # Российский сегмент летит мимо VPN (Скрытность + Экономия трафика)
+  - GEOSITE,ru,DIRECT
+  - GEOIP,RU,DIRECT
+  - DOMAIN-SUFFIX,ru,DIRECT
+  - DOMAIN-SUFFIX,su,DIRECT
+  - DOMAIN-SUFFIX,рф,DIRECT
+  - DOMAIN-SUFFIX,yandex.net,DIRECT
+  - DOMAIN-SUFFIX,vk.com,DIRECT
+  # Всё остальное летит в туннель
   - MATCH,🌍 GLOBAL
