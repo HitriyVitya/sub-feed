@@ -201,7 +201,7 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: vk.com
+    servername: storage.yandexcloud.net
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
@@ -248,16 +248,19 @@ proxy-groups:
       - "🇷🇺 NEPAID-RU-SWEDEN"
       - "🇫🇮 PAID-FINLAND"
 rules:
-  # Системный и локальный трафик
+  # 1. Локальный и системный трафик
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
-  # Российский сегмент летит мимо VPN (Скрытность + Экономия трафика)
-  - GEOSITE,RU,DIRECT
-  - GEOIP,RU,DIRECT
+  
+  # 2. Российский трафик (Без зависимости от базы GeoSite)
   - DOMAIN-SUFFIX,ru,DIRECT
   - DOMAIN-SUFFIX,su,DIRECT
   - DOMAIN-SUFFIX,рф,DIRECT
   - DOMAIN-SUFFIX,yandex.net,DIRECT
   - DOMAIN-SUFFIX,vk.com,DIRECT
-  # Всё остальное летит в туннель
+  
+  # Оставляем GEOIP, так как база стран (geoip.dat) стандартна везде и работает по IP
+  - GEOIP,RU,DIRECT
+  
+  # 3. Всё остальное — в туннель
   - MATCH,🌍 GLOBAL
