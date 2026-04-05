@@ -29,7 +29,7 @@ proxies:
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
 
   # === 2. МАСКИРОВКА OZON ===
   - name: "🇷🇺 OZON-8443"
@@ -45,7 +45,7 @@ proxies:
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
 
   # === 3. МАСКИРОВКА DZEN ===
   - name: "🇷🇺 DZEN-2053"
@@ -61,7 +61,7 @@ proxies:
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
 
   # === 4. МАСКИРОВКА WILDBERRIES ===
   - name: "🇷🇺 WB-2083"
@@ -77,7 +77,7 @@ proxies:
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
 
   # === 5. МАСКИРОВКА AVITO ===
   - name: "🇷🇺 AVITO-2087"
@@ -93,7 +93,7 @@ proxies:
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
 
   # === 6. МАСКИРОВКА RUTUBE ===
   - name: "🇷🇺 RUTUBE-2096"
@@ -109,7 +109,7 @@ proxies:
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
 
     #Однокласники
   - name: "🇷🇺 OK-2082"
@@ -125,7 +125,7 @@ proxies:
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
 #Мейл ру
   - name: "🇷🇺 MEGAMARKET-2222"
     type: vless
@@ -140,7 +140,7 @@ proxies:
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
     
 #Яндекс
   - name: "🇷🇺 2GIS-2052"
@@ -156,10 +156,10 @@ proxies:
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
     
-    # 1. Их российский транзитный узел с маскировкой под Яндекс (Украдено)
-  - name: "🇷🇺 NEPAID-RU"
+    
+  - name: "🇷🇺 X5 AD"
     type: vless
     server: 130.193.37.15
     port: 443
@@ -168,14 +168,14 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: vkplay.ru
+    servername: ads.x5.ru
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
 
-  # 2. Их узел с обходом по gRPC (Украдено)
-  - name: "🇪🇪 MINC"
+  # 2.  узел с обходом по gRPC (Украдено)
+  - name: "SS Yandexcloud"
     type: vless
     server: 130.193.37.15
     port: 443
@@ -183,16 +183,16 @@ proxies:
     udp: true
     tls: true
     network: grpc
-    servername: music.vk.com
+    servername: storage.yandexcloud.net
     grpc-opts:
-      grpc-service-name: "music.vk.com"
+      grpc-service-name: "storage.yandexcloud.net"
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: qq
+    client-fingerprint: random
 
-  # 3. Финляндия (просто хороший сервер с широким каналом)
-  - name: "🇫🇮 MAX"
+ 
+  - name: "🇫🇮 Icloud"
     type: vless
     server: 130.193.37.15
     port: 443
@@ -201,11 +201,11 @@ proxies:
     tls: true
     flow: xtls-rprx-vision
     network: tcp
-    servername: max.ru
+    servername: www.icloud.com
     reality-opts:
       public-key: "vRCYt9POsFnF67rq738Ok2iZqvM3VOZ7HhEzI2dlFlA"
       short-id: "778f2a5949e5918e"
-    client-fingerprint: chrome
+    client-fingerprint: random
 
 proxy-groups:
   - name: "🔄 AUTO-SURVIVAL"
@@ -220,10 +220,10 @@ proxy-groups:
       - "🇷🇺 OK-2082"
       - "🇷🇺 MEGAMARKET-2222"
       - "🇷🇺 2GIS-2052"
-      - "🇪🇪 MINC"
-      - "🇷🇺 NEPAID-RU"
-      - "🇫🇮 MAX"
-    url: 'http://max.ru'
+      - "🇷🇺 X5 AD"
+      - "SS Yandexcloud"
+      - "🇫🇮 Icloud"
+    url: 'http://ya.ru'
     interval: 60
      # 🛡️ ПАТЧ ДЛЯ МОБИЛОК ДОЛЖЕН БЫТЬ ЗДЕСЬ:
     timeout: 10000
@@ -244,9 +244,9 @@ proxy-groups:
       - "🇷🇺 OK-2082"
       - "🇷🇺 MEGAMARKET-2222"
       - "🇷🇺 2GIS-2052"
-      - "🇪🇪 MINC"
-      - "🇷🇺 NEPAID-RU"
-      - "🇫🇮 MAX"
+      - "🇷🇺 X5 AD"
+      - "SS Yandexcloud"
+      - "🇫🇮 Icloud"
 rules:
   # 1. Локальный и системный трафик
   - IP-CIDR,192.168.0.0/16,DIRECT
